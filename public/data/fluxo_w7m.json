@@ -9,20 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769284800,
-      "opponent": "PaiN Gaming",
-      "tournament": "CBLOL Cup 2026 - Day 3",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769360400,
-      "opponent": "Leviatán",
-      "tournament": "CBLOL Cup 2026 - Day 4",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769792400,
       "opponent": "FURIA",
       "tournament": "CBLOL Cup 2026 - Day 5",
@@ -35,6 +21,20 @@
       "tournament": "CBLOL Cup 2026 - Day 6",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769360400,
+      "opponent": "Leviatán",
+      "tournament": "CBLOL Cup 2026 - Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769284800,
+      "opponent": "PaiN Gaming",
+      "tournament": "CBLOL Cup 2026 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1768759200,
@@ -91,21 +91,7 @@
       "tournament": "LTA South Split 2 - Elimination Matches",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/South/Play-In#Elimination_Matches",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1746975600,
-      "opponent": "FURIA",
-      "tournament": "LTA South Split 2 - Week 6",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/South/Group_Phase#Week_6",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1746284400,
-      "opponent": "LOUD",
-      "tournament": "LTA South Split 2 - Week 5",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/South/Group_Phase#Week_5",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T18:52:03Z"
+  "generated_utc": "2026-01-27T21:26:36Z"
 }
