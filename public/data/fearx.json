@@ -1,0 +1,97 @@
+{
+  "team": {
+    "name": "FEARX",
+    "slug": "FEARX",
+    "short_name": "FOX",
+    "emoji": "🇰🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/FEARX"
+  },
+  "matches": [
+    {
+      "timestamp": 1769328000,
+      "opponent": "T1",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769673600,
+      "opponent": "SOOPers",
+      "tournament": "LCK Cup 2026 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1760227200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1660953600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2022/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1629331200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1608854400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2020",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1598140800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2020/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1588204800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2020/Summer/Promotion",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1586995200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2020/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1578182400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2019",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1566518400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2019/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1554249600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2019/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

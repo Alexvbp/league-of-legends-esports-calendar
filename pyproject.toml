@@ -3,9 +3,9 @@ requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "los-ratones-calendar"
+name = "esports-calendar"
 version = "2.0.0"
-description = "Auto-updating ICS/RSS/JSON calendar feeds for esports teams via Liquipedia"
+description = "Personalized esports calendar feeds via Liquipedia + Cloudflare Pages"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"

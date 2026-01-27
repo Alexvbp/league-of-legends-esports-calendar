@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "FlyQuest",
+    "slug": "FlyQuest",
+    "short_name": "FLY",
+    "emoji": "🇺🇸",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/FlyQuest"
+  },
+  "matches": [
+    {
+      "timestamp": 1769979600,
+      "opponent": "Disguised",
+      "tournament": "LCS 2026 Lock-In - High (1-0)",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#High_(1-0)",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1762646400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1759017600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752796800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752019200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749945600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1729382400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2024",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1725667200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1711843200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2024/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1599350400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2020/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1587254400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2020/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

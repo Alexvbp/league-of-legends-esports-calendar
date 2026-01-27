@@ -1,4 +1,4 @@
-"""Los Ratones Calendar Generator - shared data models."""
+"""Esports Calendar — shared data models."""
 
 from __future__ import annotations
 

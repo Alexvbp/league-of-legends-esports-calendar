@@ -1,0 +1,97 @@
+{
+  "team": {
+    "name": "FURIA",
+    "slug": "FURIA",
+    "short_name": "FUR",
+    "emoji": "🇧🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/FURIA"
+  },
+  "matches": [
+    {
+      "timestamp": 1769792400,
+      "opponent": "Fluxo W7M",
+      "tournament": "CBLOL Cup 2026 - Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769878800,
+      "opponent": "Keyd Stars",
+      "tournament": "CBLOL Cup 2026 - Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1752710400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1751068800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749945600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/South",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1699142400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/MEG_League_of_Legends/2023",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1680912000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1661644800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2022/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1649462400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2022/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1588464000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2020/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1566604800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2019/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1522454400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2018/Split_1",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

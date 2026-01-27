@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Sengoku Gaming",
+    "slug": "Sengoku_Gaming",
+    "short_name": "SG",
+    "emoji": "🇯🇵",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Sengoku_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1759276800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1757894400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1743292800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Storm/Open_Qualifier",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1723075200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722038400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1681516800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2023/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1662249600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2022/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1649548800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2022/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1588550400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2020/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1518912000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/CS/2018/Spring/Qualifier",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

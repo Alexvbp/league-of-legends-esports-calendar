@@ -1,0 +1,34 @@
+{
+  "team": {
+    "name": "Mila Gaming",
+    "slug": "Mila_Gaming",
+    "short_name": "MIL",
+    "emoji": "🇻🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Mila_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1749081600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746748800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Promotion",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746316800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Road_to_VCS/VIRESA_Challenge_Cup",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

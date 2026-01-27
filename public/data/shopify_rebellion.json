@@ -1,0 +1,62 @@
+{
+  "team": {
+    "name": "Shopify Rebellion",
+    "slug": "Shopify_Rebellion",
+    "short_name": "SR",
+    "emoji": "🇺🇸",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Shopify_Rebellion"
+  },
+  "matches": [
+    {
+      "timestamp": 1769990400,
+      "opponent": "Team Liquid",
+      "tournament": "LCS 2026 Lock-In - Low (0-1)",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Low_(0-1)",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1757808000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1757116800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749859200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1739059200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_1/North",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1723420800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1710115200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2024/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

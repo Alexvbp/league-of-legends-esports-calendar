@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "BRION",
+    "slug": "BRION",
+    "short_name": "BRO",
+    "emoji": "🇰🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/BRION"
+  },
+  "matches": [
+    {
+      "timestamp": 1769587200,
+      "opponent": "DRX",
+      "tournament": "LCK Cup 2026 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1738886400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2025/Cup",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1733616000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2024",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1691280000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1679184000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2023/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1647993600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2022/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1608768000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2020",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1598832000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CK/2020/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1587427200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CK/2020/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1567036800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CK/2019/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1554681600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CK/2019/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

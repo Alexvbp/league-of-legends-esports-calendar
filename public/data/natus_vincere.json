@@ -1,0 +1,111 @@
+{
+  "team": {
+    "name": "Natus Vincere",
+    "slug": "Natus_Vincere",
+    "short_name": "NAVI",
+    "emoji": "🇪🇺",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Natus_Vincere"
+  },
+  "matches": [
+    {
+      "timestamp": 1769274000,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769360400,
+      "opponent": "SK Gaming",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769457600,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769878800,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769961600,
+      "opponent": "Shifters",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1756166400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1503792000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCL/2018/Spring/Promotion",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1501372800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCL/2017/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1489968000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCL/2017/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1471046400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCL/2016/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1459555200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCL/2016/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1342742400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Champions/2012/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1337126400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1336953600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/SoloMid_Invitationals/Europe_1",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

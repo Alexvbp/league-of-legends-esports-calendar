@@ -1,0 +1,104 @@
+{
+  "team": {
+    "name": "Ninjas in Pyjamas",
+    "slug": "Ninjas_in_Pyjamas",
+    "short_name": "NIP",
+    "emoji": "🇨🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Ninjas_in_Pyjamas"
+  },
+  "matches": [
+    {
+      "timestamp": 1769598000,
+      "opponent": "EDward Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769677200,
+      "opponent": "ThunderTalk Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770282000,
+      "opponent": "ThunderTalk Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1740355200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1723680000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1712707200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2024/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1538265600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/European_Masters/2018/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1408233600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Faceit_Gamescom_Challenge",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1402876800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/DreamHack/2014/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1397865600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Copenhagen_Games/2014",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1397174400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Challenger_Series/Europe/2014/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1395964800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Challenger_Series/Europe/2014/Spring/Series_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1385251200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Intel_Extreme_Masters/Season_VIII/Cologne",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

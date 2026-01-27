@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "Nongshim RedForce",
+    "slug": "Nongshim_RedForce",
+    "short_name": "NS",
+    "emoji": "🇰🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Nongshim_RedForce"
+  },
+  "matches": [
+    {
+      "timestamp": 1769760000,
+      "opponent": "KT Rolster",
+      "tournament": "LCK Cup 2026 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1765411200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1760140800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1757203200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749340800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2025/Road_to_MSI",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1740009600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2025/Cup",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1647734400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2022/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1630454400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Regional_Finals",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1629504000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1617148800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1609545600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2020",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

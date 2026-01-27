@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Team Liquid",
+    "slug": "Team_Liquid",
+    "short_name": "TL",
+    "emoji": "🇺🇸",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Liquid"
+  },
+  "matches": [
+    {
+      "timestamp": 1742083200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/First_Stand_Tournament/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1720224000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2024",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1711843200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2024/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1643500800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2022/Lock_In",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1612051200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2021/Lock_In",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1566691200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2019/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1558224000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2019",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1555113600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2019/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1536451200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2018/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1523145600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2018/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

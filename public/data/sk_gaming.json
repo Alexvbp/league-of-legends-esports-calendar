@@ -1,0 +1,118 @@
+{
+  "team": {
+    "name": "SK Gaming",
+    "slug": "SK_Gaming",
+    "short_name": "SK",
+    "emoji": "🇪🇺",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/SK_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1769442300,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769875200,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769972400,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770051600,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770487200,
+      "opponent": "Los Ratones",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1723852800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2024/Finals",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1553904000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2019/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1429315200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/Europe/2015/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1411257600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2014",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1408147200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/Europe/2014/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1397692800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/Europe/2014/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1385683200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/DreamHack/2013/Winter",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1367107200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/Europe/2013/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1349308800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2012",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1345334400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2012/Regional_Finals/Europe",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

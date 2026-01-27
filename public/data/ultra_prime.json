@@ -1,0 +1,111 @@
+{
+  "team": {
+    "name": "Ultra Prime",
+    "slug": "Ultra_Prime",
+    "short_name": "UP",
+    "emoji": "🇨🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Ultra_Prime"
+  },
+  "matches": [
+    {
+      "timestamp": 1769497200,
+      "opponent": "LNG Esports",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769583600,
+      "opponent": "LGD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769763600,
+      "opponent": "Oh My God",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770109200,
+      "opponent": "LNG Esports",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1756684800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746921600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1739318400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722384000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1689552000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1660435200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2022/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1648166400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2022/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1640217600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2021",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1637107200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/National_Electronic_Sports_Tournament/2021",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1628380800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2021/Summer",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

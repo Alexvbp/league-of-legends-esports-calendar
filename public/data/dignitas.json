@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "Dignitas",
+    "slug": "Dignitas",
+    "short_name": "DIG",
+    "emoji": "🇺🇸",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Dignitas"
+  },
+  "matches": [
+    {
+      "timestamp": 1769904000,
+      "opponent": "Sentinels",
+      "tournament": "LCS 2026 Lock-In - Low (0-1)",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Low_(0-1)",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1504310400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1419120000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Intel_Extreme_Masters/Season_IX/Cologne",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1377993600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2013/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1349395200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2012",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1346544000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2012/Regional_Finals/North_America",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1339286400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/MLG/Pro_Circuit/2012/Anaheim",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1333843200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/IGN_ProLeague/Season_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1331337600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Intel_Extreme_Masters/Season_VI/World_Championship",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1327190400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Intel_Extreme_Masters/Season_VI/Kiev",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1318118400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/IGN_ProLeague/Season_3",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

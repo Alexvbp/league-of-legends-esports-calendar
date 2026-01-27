@@ -1,0 +1,69 @@
+{
+  "team": {
+    "name": "HELL PIGS",
+    "slug": "HELL_PIGS",
+    "short_name": "HP",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/HELL_PIGS"
+  },
+  "matches": [
+    {
+      "timestamp": 1755475200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748995200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742601600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1741737600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722124800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Summer/Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1709424000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Spring/Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1691280000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1678492800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

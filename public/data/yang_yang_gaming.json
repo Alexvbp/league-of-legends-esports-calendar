@@ -1,0 +1,62 @@
+{
+  "team": {
+    "name": "Yang Yang Gaming",
+    "slug": "Yang_Yang_Gaming",
+    "short_name": "YYG",
+    "emoji": "🇯🇵",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Yang_Yang_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1754006400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749859200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747526400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1745539200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Storm",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1743292800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Storm/Open_Qualifier",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1741219200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Forge",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1737849600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Forge/Open_Qualifier",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

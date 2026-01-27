@@ -1,0 +1,41 @@
+{
+  "team": {
+    "name": "CyberCore Esports",
+    "slug": "CyberCore_Esports",
+    "short_name": "CCE",
+    "emoji": "🇻🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/CyberCore_Esports"
+  },
+  "matches": [
+    {
+      "timestamp": 1752969600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Finals",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749859200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742601600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742601600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/1",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

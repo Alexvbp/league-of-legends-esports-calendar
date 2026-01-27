@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports Calendar</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 1.5rem;
+            background: #0f0f1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        h1 { color: #fff; margin-bottom: 0.25rem; font-size: 1.75rem; }
+        h2 { color: #ccc; margin: 1.5rem 0 0.75rem; font-size: 1.2rem; }
+        a { color: #7dd3fc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .subtitle { color: #888; margin-bottom: 1rem; }
+
+        /* Team selector columns */
+        .team-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .team-column {
+            background: #1a1a2e;
+            border-radius: 8px;
+            padding: 1rem;
+            min-height: 120px;
+        }
+        .team-column h3 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #888;
+            margin-bottom: 0.75rem;
+        }
+        .team-column.drop-active {
+            border: 2px dashed #7dd3fc;
+            background: #16213e;
+        }
+        .team-column .empty-msg {
+            color: #555;
+            font-style: italic;
+            font-size: 0.9rem;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        /* Team cards */
+        .team-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .team-card {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background: #0f0f1a;
+            border: 2px solid #2a2a4a;
+            border-radius: 8px;
+            padding: 0.5rem 0.9rem;
+            cursor: grab;
+            transition: border-color 0.15s, transform 0.15s, opacity 0.15s;
+            user-select: none;
+            font-size: 0.95rem;
+        }
+        .team-card:hover { border-color: #7dd3fc; }
+        .team-card.dragging { opacity: 0.4; transform: scale(0.95); }
+        .team-card .emoji { font-size: 1.2rem; }
+        .team-card .name { font-weight: 600; color: #e0e0e0; }
+        .team-card .game-tag {
+            font-size: 0.7rem;
+            color: #666;
+            background: #1a1a2e;
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+        }
+
+        /* Subscribe section */
+        .subscribe-section { display: none; }
+        .subscribe-section.visible { display: block; }
+        .subscribe-box {
+            background: #1a1a2e;
+            padding: 1.25rem;
+            border-radius: 8px;
+            margin: 0.75rem 0;
+        }
+        .url-box {
+            background: #0a0a16;
+            padding: 0.6rem 0.75rem;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.82rem;
+            word-break: break-all;
+            margin: 0.5rem 0;
+            color: #7dd3fc;
+        }
+        .subscribe-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: opacity 0.2s;
+            font-family: inherit;
+        }
+        .btn:hover { opacity: 0.85; text-decoration: none; }
+        .btn-webcal { background: #2563eb; color: #fff; }
+        .btn-google { background: #16a34a; color: #fff; }
+        .btn-copy { background: #374151; color: #e0e0e0; }
+        .btn-download { background: #7c3aed; color: #fff; }
+
+        .feed-links {
+            display: flex;
+            gap: 1rem;
+            margin: 0.5rem 0;
+            font-size: 0.85rem;
+        }
+        .feed-links a {
+            padding: 0.2rem 0.5rem;
+            background: #1a1a2e;
+            border-radius: 4px;
+        }
+
+        /* Match tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0.5rem 0;
+        }
+        th, td {
+            padding: 0.5rem 0.6rem;
+            text-align: left;
+            border-bottom: 1px solid #1a1a2e;
+        }
+        th {
+            background: #1a1a2e;
+            color: #888;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        tbody tr:hover { background: #16213e; }
+
+        .badge {
+            display: inline-block;
+            padding: 0.1rem 0.45rem;
+            border-radius: 9999px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-left: 0.25rem;
+        }
+        .badge-upcoming { background: #1e3a5f; color: #7dd3fc; }
+        .badge-past { background: #2a2a3a; color: #777; }
+
+        .empty-state {
+            color: #555;
+            font-style: italic;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #1a1a2e;
+            color: #555;
+            font-size: 0.8rem;
+        }
+
+        .loading { color: #888; padding: 2rem; text-align: center; }
+
+        @media (max-width: 640px) {
+            body { padding: 1rem; }
+            .team-columns { grid-template-columns: 1fr; }
+            th, td { padding: 0.4rem; font-size: 0.85rem; }
+            .subscribe-buttons { flex-direction: column; }
+            .btn { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Esports Calendar</h1>
+    <p class="subtitle">Personalized match calendar feeds. Pick your teams, get a subscribe link.</p>
+
+    <div id="loading" class="loading">Loading teams...</div>
+
+    <div id="app" style="display:none">
+        <h2>Select Teams</h2>
+        <p style="font-size:0.85rem;color:#888;margin-bottom:0.5rem">Click or drag teams to add them to your calendar.</p>
+
+        <div class="team-columns">
+            <div class="team-column" id="available-col"
+                 ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event, 'available')">
+                <h3>Available Teams</h3>
+                <div class="team-list" id="available-list"></div>
+            </div>
+            <div class="team-column" id="selected-col"
+                 ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event, 'selected')">
+                <h3>My Teams</h3>
+                <div class="team-list" id="selected-list"></div>
+            </div>
+        </div>
+
+        <div id="subscribe-section" class="subscribe-section">
+            <h2>Subscribe</h2>
+            <div class="subscribe-box">
+                <p style="font-size:0.9rem">Add this URL to your calendar app:</p>
+                <div class="url-box" id="subscribe-url"></div>
+                <div class="subscribe-buttons">
+                    <a id="btn-webcal" class="btn btn-webcal" href="#">webcal:// Subscribe</a>
+                    <a id="btn-google" class="btn btn-google" href="#" target="_blank" rel="noopener">Google Calendar</a>
+                    <button id="btn-copy" class="btn btn-copy" onclick="copyUrl()">Copy URL</button>
+                </div>
+                <p style="margin-top:0.75rem;font-size:0.78rem;color:#666">
+                    Auto-updates every few hours. Your calendar app will sync changes automatically.
+                </p>
+            </div>
+            <div class="feed-links">
+                <a id="link-rss" href="#">RSS Feed</a>
+                <a id="link-json" href="#">JSON Feed</a>
+            </div>
+        </div>
+
+        <div id="matches-section" style="display:none">
+            <h2>Upcoming Matches</h2>
+            <div id="upcoming-container"></div>
+
+            <h2>Recent Matches <span style="font-weight:normal;font-size:0.8rem;color:#666">(spoiler-free)</span></h2>
+            <div id="past-container"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p id="footer-updated"></p>
+        <p>Data sourced from <a href="https://liquipedia.net" target="_blank" rel="noopener">Liquipedia</a>.
+           Feeds available as ICS, RSS, and JSON.</p>
+    </div>
+
+    <script>
+    // State
+    let allTeams = [];
+    let selectedSlugs = JSON.parse(localStorage.getItem('selectedTeams') || '[]');
+    let teamDataCache = {};
+    let draggedSlug = null;
+
+    // --- Init ---
+    async function init() {
+        try {
+            const resp = await fetch('/data/teams.json');
+            if (!resp.ok) throw new Error('Failed to load teams');
+            const manifest = await resp.json();
+            allTeams = manifest.teams;
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('app').style.display = '';
+            // Remove any stale slugs that no longer exist
+            const validSlugs = new Set(allTeams.map(t => t.slug));
+            selectedSlugs = selectedSlugs.filter(s => validSlugs.has(s));
+            render();
+            if (manifest.generated_utc) {
+                const d = new Date(manifest.generated_utc);
+                document.getElementById('footer-updated').textContent =
+                    'Last updated: ' + d.toLocaleString();
+            }
+        } catch (e) {
+            document.getElementById('loading').textContent =
+                'Failed to load team data. Please try again later.';
+        }
+    }
+
+    // --- Rendering ---
+    function render() {
+        renderTeamLists();
+        renderSubscribeSection();
+        loadAndRenderMatches();
+        saveSelection();
+    }
+
+    function renderTeamLists() {
+        const selectedSet = new Set(selectedSlugs);
+        const available = allTeams.filter(t => !selectedSet.has(t.slug));
+        const selected = allTeams.filter(t => selectedSet.has(t.slug));
+        // Preserve selection order
+        const orderedSelected = selectedSlugs
+            .map(slug => allTeams.find(t => t.slug === slug))
+            .filter(Boolean);
+
+        document.getElementById('available-list').innerHTML =
+            available.length > 0
+                ? available.map(t => teamCardHTML(t)).join('')
+                : '<div class="empty-msg">All teams selected</div>';
+
+        document.getElementById('selected-list').innerHTML =
+            orderedSelected.length > 0
+                ? orderedSelected.map(t => teamCardHTML(t)).join('')
+                : '<div class="empty-msg">Drag or click teams here</div>';
+    }
+
+    function teamCardHTML(team) {
+        return `<div class="team-card" draggable="true"
+                     data-slug="${esc(team.slug)}"
+                     ondragstart="onDragStart(event)"
+                     ondragend="onDragEnd(event)"
+                     onclick="toggleTeam('${esc(team.slug)}')">
+            <span class="emoji">${esc(team.emoji)}</span>
+            <span class="name">${esc(team.name)}</span>
+            <span class="game-tag">${esc(team.game)}</span>
+        </div>`;
+    }
+
+    function renderSubscribeSection() {
+        const section = document.getElementById('subscribe-section');
+        const matchesSection = document.getElementById('matches-section');
+
+        if (selectedSlugs.length === 0) {
+            section.classList.remove('visible');
+            matchesSection.style.display = 'none';
+            return;
+        }
+
+        section.classList.add('visible');
+        matchesSection.style.display = '';
+
+        const base = window.location.origin;
+        const teamsParam = selectedSlugs.join(',');
+        const icsUrl = base + '/api/calendar?teams=' + encodeURIComponent(teamsParam);
+        const webcalUrl = icsUrl.replace(/^https?:/, 'webcal:');
+        const googleUrl = 'https://calendar.google.com/calendar/r?cid=' +
+            encodeURIComponent(webcalUrl);
+        const rssUrl = icsUrl + '&format=rss';
+        const jsonUrl = icsUrl + '&format=json';
+
+        document.getElementById('subscribe-url').textContent = icsUrl;
+        document.getElementById('btn-webcal').href = webcalUrl;
+        document.getElementById('btn-google').href = googleUrl;
+        document.getElementById('link-rss').href = rssUrl;
+        document.getElementById('link-json').href = jsonUrl;
+    }
+
+    async function loadAndRenderMatches() {
+        if (selectedSlugs.length === 0) return;
+
+        const allUpcoming = [];
+        const allPast = [];
+
+        for (const slug of selectedSlugs) {
+            let data = teamDataCache[slug];
+            if (!data) {
+                try {
+                    const resp = await fetch('/data/' + slug.toLowerCase() + '.json');
+                    if (resp.ok) {
+                        data = await resp.json();
+                        teamDataCache[slug] = data;
+                    }
+                } catch {}
+            }
+            if (!data) continue;
+
+            for (const m of data.matches) {
+                const entry = { ...m, team: data.team };
+                if (m.is_upcoming) allUpcoming.push(entry);
+                else allPast.push(entry);
+            }
+        }
+
+        allUpcoming.sort((a, b) => a.timestamp - b.timestamp);
+        allPast.sort((a, b) => b.timestamp - a.timestamp);
+
+        document.getElementById('upcoming-container').innerHTML =
+            allUpcoming.length > 0
+                ? matchTableHTML(allUpcoming, true)
+                : '<div class="empty-state">No upcoming matches</div>';
+
+        document.getElementById('past-container').innerHTML =
+            allPast.length > 0
+                ? matchTableHTML(allPast.slice(0, 20), false)
+                : '<div class="empty-state">No recent matches</div>';
+    }
+
+    function matchTableHTML(matches, isUpcoming) {
+        let html = '<table><thead><tr><th>Date</th><th>Time</th><th>Match</th><th>Tournament</th></tr></thead><tbody>';
+        for (const m of matches) {
+            const d = new Date(m.timestamp * 1000);
+            const dateStr = d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+            const timeStr = d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
+            const badge = isUpcoming
+                ? '<span class="badge badge-upcoming">Upcoming</span>'
+                : '<span class="badge badge-past">Played</span>';
+            const tournament = m.url
+                ? '<a href="' + esc(m.url) + '" target="_blank" rel="noopener">' + esc(m.tournament) + '</a>'
+                : esc(m.tournament);
+            html += '<tr>';
+            html += '<td>' + dateStr + '</td>';
+            html += '<td>' + timeStr + '</td>';
+            html += '<td>' + esc(m.team.emoji) + ' ' + esc(m.team.short_name) + ' vs ' + esc(m.opponent) + ' ' + badge + '</td>';
+            html += '<td>' + tournament + '</td>';
+            html += '</tr>';
+        }
+        html += '</tbody></table>';
+        return html;
+    }
+
+    // --- Team selection ---
+    function toggleTeam(slug) {
+        const idx = selectedSlugs.indexOf(slug);
+        if (idx >= 0) {
+            selectedSlugs.splice(idx, 1);
+        } else {
+            selectedSlugs.push(slug);
+        }
+        render();
+    }
+
+    function saveSelection() {
+        localStorage.setItem('selectedTeams', JSON.stringify(selectedSlugs));
+    }
+
+    // --- Drag and drop ---
+    function onDragStart(e) {
+        draggedSlug = e.target.closest('.team-card').dataset.slug;
+        e.target.closest('.team-card').classList.add('dragging');
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', draggedSlug);
+    }
+
+    function onDragEnd(e) {
+        e.target.closest('.team-card')?.classList.remove('dragging');
+        draggedSlug = null;
+        document.querySelectorAll('.team-column').forEach(c => c.classList.remove('drop-active'));
+    }
+
+    function onDragOver(e) {
+        e.preventDefault();
+        e.currentTarget.classList.add('drop-active');
+    }
+
+    function onDragLeave(e) {
+        e.currentTarget.classList.remove('drop-active');
+    }
+
+    function onDrop(e, target) {
+        e.preventDefault();
+        e.currentTarget.classList.remove('drop-active');
+        const slug = e.dataTransfer.getData('text/plain') || draggedSlug;
+        if (!slug) return;
+
+        const idx = selectedSlugs.indexOf(slug);
+        if (target === 'selected' && idx < 0) {
+            selectedSlugs.push(slug);
+        } else if (target === 'available' && idx >= 0) {
+            selectedSlugs.splice(idx, 1);
+        }
+        render();
+    }
+
+    // --- Utils ---
+    function copyUrl() {
+        const url = document.getElementById('subscribe-url').textContent;
+        navigator.clipboard.writeText(url).then(() => {
+            const btn = document.getElementById('btn-copy');
+            btn.textContent = 'Copied!';
+            setTimeout(() => { btn.textContent = 'Copy URL'; }, 2000);
+        });
+    }
+
+    function esc(text) {
+        const d = document.createElement('div');
+        d.textContent = text;
+        return d.innerHTML;
+    }
+
+    // --- Start ---
+    init();
+    </script>
+</body>
+</html>

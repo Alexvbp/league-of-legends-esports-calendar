@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Isurus Gaming",
+    "slug": "Isurus_Gaming",
+    "short_name": "ISU",
+    "emoji": "🌎",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Isurus_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1664668800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1661558400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2022/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1588377600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1567209600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1556755200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2019",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1555718400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1522454400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CLS/2018/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1503100800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CLS/2017/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1495324800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2017",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1491609600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CLS/2017/Opening",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

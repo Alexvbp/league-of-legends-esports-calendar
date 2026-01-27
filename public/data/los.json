@@ -1,0 +1,76 @@
+{
+  "team": {
+    "name": "LOS",
+    "slug": "LOS",
+    "short_name": "LOS",
+    "emoji": "🇧🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/LOS"
+  },
+  "matches": [
+    {
+      "timestamp": 1769796000,
+      "opponent": "PaiN Gaming",
+      "tournament": "CBLOL Cup 2026 - Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769886000,
+      "opponent": "RED Canids",
+      "tournament": "CBLOL Cup 2026 - Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1756771200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748908800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722124800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1712361600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1698105600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/MEG_League_of_Legends/2023",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1691280000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1680998400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_1",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

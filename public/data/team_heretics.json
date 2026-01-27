@@ -1,0 +1,118 @@
+{
+  "team": {
+    "name": "Team Heretics",
+    "slug": "Team_Heretics",
+    "short_name": "TH",
+    "emoji": "🇪🇺",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Heretics"
+  },
+  "matches": [
+    {
+      "timestamp": 1769450400,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769875200,
+      "opponent": "SK Gaming",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769965200,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770062400,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770480000,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1757030400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748736000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1740182400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Winter",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1721520000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1712361600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2024/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1707523200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2024/Winter",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1690502400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1668816000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Iberian_Cup/2022",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1664064000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/European_Masters/2022/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1660953600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LVP/Superliga/2022/Summer",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

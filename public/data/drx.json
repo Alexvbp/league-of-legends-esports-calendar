@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "DRX",
+    "slug": "DRX",
+    "short_name": "DRX",
+    "emoji": "🇰🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/DRX"
+  },
+  "matches": [
+    {
+      "timestamp": 1769587200,
+      "opponent": "BRION",
+      "tournament": "LCK Cup 2026 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1667692800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1602720000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2020",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1599264000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2020/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1590710400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Cup/2020",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1587513600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2020/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1578096000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2019",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1554595200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2019/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1534291200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2018/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1526774400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2018",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1523664000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2018/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

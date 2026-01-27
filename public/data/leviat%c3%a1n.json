@@ -1,0 +1,97 @@
+{
+  "team": {
+    "name": "Leviatán",
+    "slug": "Leviat%C3%A1n",
+    "short_name": "LEV",
+    "emoji": "🇧🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Leviat%C3%A1n"
+  },
+  "matches": [
+    {
+      "timestamp": 1769799600,
+      "opponent": "LOUD",
+      "tournament": "CBLOL Cup 2026 - Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769882400,
+      "opponent": "PaiN Gaming",
+      "tournament": "CBLOL Cup 2026 - Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1756425600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747526400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/South",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1739577600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Cross-Conference",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1738454400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_1/South",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1678320000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Division_de_Honor/2023/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1669939200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Duelo_Andino/2022",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1669852800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Master/2022/Supercopa",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1660694400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Regional_Sur/2022",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1659052800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Master/2022/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1650585600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Master/2022/Opening",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

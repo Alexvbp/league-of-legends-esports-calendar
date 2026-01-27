@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Team Flash",
+    "slug": "Team_Flash",
+    "short_name": "FL",
+    "emoji": "🇻🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Flash"
+  },
+  "matches": [
+    {
+      "timestamp": 1743292800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722988800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1692921600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2023/Dusk",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1680998400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2023/Dawn",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1617494400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2021/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1604102400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2020",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1599264000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2020/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1587168000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2020/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1568505600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2019/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1490486400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/The_Legends_Circuit/Singapore/2017/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

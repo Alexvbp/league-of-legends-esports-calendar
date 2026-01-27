@@ -1,0 +1,62 @@
+{
+  "team": {
+    "name": "Six Karma",
+    "slug": "Six_Karma",
+    "short_name": "6K",
+    "emoji": "🌎",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Six_Karma"
+  },
+  "matches": [
+    {
+      "timestamp": 1721779200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1710201600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1692057600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1681430400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1655164800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Division_de_Honor/2022/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1649203200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Division_de_Honor/2022/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1627689600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Division_de_Honor/2021/Closing",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

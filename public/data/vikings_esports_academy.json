@@ -1,0 +1,34 @@
+{
+  "team": {
+    "name": "Vikings Esports Academy",
+    "slug": "Vikings_Esports_Academy",
+    "short_name": "VEA",
+    "emoji": "🇻🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Vikings_Esports_Academy"
+  },
+  "matches": [
+    {
+      "timestamp": 1759795200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752796800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750550400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

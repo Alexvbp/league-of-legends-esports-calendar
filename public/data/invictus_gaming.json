@@ -1,0 +1,111 @@
+{
+  "team": {
+    "name": "Invictus Gaming",
+    "slug": "Invictus_Gaming",
+    "short_name": "IG",
+    "emoji": "🇨🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Invictus_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1769511600,
+      "opponent": "Anyone's Legend",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769857200,
+      "opponent": "Bilibili Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770116400,
+      "opponent": "JD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770361200,
+      "opponent": "Weibo Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1767398400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1572652800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2019",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1558051200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2019",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1555804800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2019/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1545523200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2018/Winter",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1541203200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2018",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1536883200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2018/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1511049600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/National_Electronic_Sports_Tournament/2017",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1503705600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2017/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1430265600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/International_Esports_Tournament/2015",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

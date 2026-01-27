@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "Cloud9",
+    "slug": "Cloud9",
+    "short_name": "C9",
+    "emoji": "🇺🇸",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Cloud9"
+  },
+  "matches": [
+    {
+      "timestamp": 1769893200,
+      "opponent": "LYON",
+      "tournament": "LCS 2026 Lock-In - High (1-0)",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#High_(1-0)",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1680998400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2023/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1662854400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2022/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1618099200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2021/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1587254400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2020/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1540684800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2018",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1508630400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2017",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1492905600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1476316800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2016",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1397952000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2014/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1377993600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2013/Summer",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

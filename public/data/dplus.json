@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "Dplus",
+    "slug": "Dplus",
+    "short_name": "DK",
+    "emoji": "🇰🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Dplus"
+  },
+  "matches": [
+    {
+      "timestamp": 1769846400,
+      "opponent": "T1",
+      "tournament": "LCK Cup 2026 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1760227200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1666396800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1636156800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2021",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1630108800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1621728000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2021",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1618012800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1609545600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2020",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1604102400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2020",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1599264000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2020/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1572134400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2019",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

@@ -1,0 +1,41 @@
+{
+  "team": {
+    "name": "Wangting",
+    "slug": "Wangting",
+    "short_name": "WAN",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Wangting"
+  },
+  "matches": [
+    {
+      "timestamp": 1754352000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752796800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749600000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742342400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Promotion",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

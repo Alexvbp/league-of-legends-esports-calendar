@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Infinity",
+    "slug": "Infinity",
+    "short_name": "INF",
+    "emoji": "🌎",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Infinity"
+  },
+  "matches": [
+    {
+      "timestamp": 1748908800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1724457600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1633564800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2021",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1630108800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2021/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1621728000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2021",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1618012800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2021/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1587772800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1566086400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1555718400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1538870400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2018",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

@@ -1,0 +1,118 @@
+{
+  "team": {
+    "name": "LOUD",
+    "slug": "LOUD",
+    "short_name": "LOUD",
+    "emoji": "🇧🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/LOUD"
+  },
+  "matches": [
+    {
+      "timestamp": 1769281200,
+      "opponent": "LOS",
+      "tournament": "CBLOL Cup 2026 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769356800,
+      "opponent": "RED Canids",
+      "tournament": "CBLOL Cup 2026 - Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769367600,
+      "opponent": "Keyd Stars",
+      "tournament": "CBLOL Cup 2026 - Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769799600,
+      "opponent": "Leviatán",
+      "tournament": "CBLOL Cup 2026 - Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769886000,
+      "opponent": "Fluxo W7M",
+      "tournament": "CBLOL Cup 2026 - Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1724371200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1714780800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2024",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1713571200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1697241600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2023",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1694217600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1683331200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2023",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1681516800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1664755200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1662163200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2022/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1647734400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2022/Split_1",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

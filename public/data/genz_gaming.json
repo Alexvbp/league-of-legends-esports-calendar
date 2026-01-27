@@ -1,0 +1,27 @@
+{
+  "team": {
+    "name": "GenZ Gaming",
+    "slug": "GenZ_Gaming",
+    "short_name": "GNZ",
+    "emoji": "🇻🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/GenZ_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1749081600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746835200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Promotion",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

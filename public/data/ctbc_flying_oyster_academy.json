@@ -1,0 +1,69 @@
+{
+  "team": {
+    "name": "CTBC Flying Oyster Academy",
+    "slug": "CTBC_Flying_Oyster_Academy",
+    "short_name": "CFO",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/CTBC_Flying_Oyster_Academy"
+  },
+  "matches": [
+    {
+      "timestamp": 1756252800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748995200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1740960000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1726272000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Star_Challengers_Invitational/2024",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1723161600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCL/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1713052800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCL/2024/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1695513600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCL/2023",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1694736000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Star_Challengers_Invitational/2023",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

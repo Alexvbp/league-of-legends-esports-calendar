@@ -1,0 +1,104 @@
+{
+  "team": {
+    "name": "Oh My God",
+    "slug": "Oh_My_God",
+    "short_name": "OMG",
+    "emoji": "🇨🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Oh_My_God"
+  },
+  "matches": [
+    {
+      "timestamp": 1769590800,
+      "opponent": "LNG Esports",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769763600,
+      "opponent": "Ultra Prime",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770022800,
+      "opponent": "LGD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1680912000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2023/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1503446400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2017/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1492905600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2017/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1413072000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2014",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1408838400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2014/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1400889600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2014/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1385856000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Cyber_Games/2013",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1385251200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2013/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1380067200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2013",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1371945600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2013/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

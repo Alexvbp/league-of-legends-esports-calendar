@@ -1,0 +1,118 @@
+{
+  "team": {
+    "name": "Karmine Corp",
+    "slug": "Karmine_Corp",
+    "short_name": "KC",
+    "emoji": "🇪🇺",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Karmine_Corp"
+  },
+  "matches": [
+    {
+      "timestamp": 1769453100,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769889600,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769976000,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770066000,
+      "opponent": "Shifters",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770498000,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1758844800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749254400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742083200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/First_Stand_Tournament/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1740873600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Winter",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1694131200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1691712000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LFL/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1651881600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/European_Masters/2022/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1632009600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/European_Masters/2021/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1619913600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/European_Masters/2021/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1616630400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LFL/2021/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

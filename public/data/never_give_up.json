@@ -1,0 +1,48 @@
+{
+  "team": {
+    "name": "Never Give Up",
+    "slug": "Never_Give_Up",
+    "short_name": "NGU",
+    "emoji": "🇻🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Never_Give_Up"
+  },
+  "matches": [
+    {
+      "timestamp": 1752883200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Finals",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749859200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746921600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Promotion",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1741478400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1739491200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Spring/Road_to_VCS/KOL",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

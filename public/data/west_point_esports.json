@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "West Point Esports",
+    "slug": "West_Point_Esports",
+    "short_name": "WPE",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/West_Point_Esports"
+  },
+  "matches": [
+    {
+      "timestamp": 1755561600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750118400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742947200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742601600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722988800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722124800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Summer/Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1709424000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Spring/Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1691280000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1645315200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Southeast_Asian_Games/2021/Philippines_Qualifier",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1639094400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2021",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "All Knights",
+    "slug": "All_Knights",
+    "short_name": "AK",
+    "emoji": "🌎",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/All_Knights"
+  },
+  "matches": [
+    {
+      "timestamp": 1710892800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1689811200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1679356800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1659657600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2022/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1647129600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2022/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1617408000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2021/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1598659200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1588377600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1567209600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1555718400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Opening",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

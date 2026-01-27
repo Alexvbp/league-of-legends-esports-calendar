@@ -1,137 +1,193 @@
-# Esports Match Calendar
+# Esports Calendar
 
-Auto-updating ICS, RSS, and JSON calendar feeds for esports teams, powered by [Liquipedia](https://liquipedia.net) data and GitHub Pages.
+Personalized esports match calendar feeds. Pick your teams, get a subscription URL that auto-updates.
 
-Pre-configured for [Los Ratones](https://liquipedia.net/leagueoflegends/Los_Ratones) — add any team by editing `teams.json`.
+Powered by [Liquipedia](https://liquipedia.net) data, [Cloudflare Pages](https://pages.cloudflare.com/) for hosting, and GitHub Actions for scraping.
+
+## How It Works
+
+1. **GitHub Actions** scrapes Liquipedia every 3 hours and commits JSON match data
+2. **Cloudflare Pages** auto-deploys on push — serves the web UI and API
+3. **You** pick teams on the web page and get a personalized calendar URL
+4. **Your calendar app** subscribes to the URL and auto-syncs
+
+```
+GET /api/calendar?teams=Los_Ratones,Fnatic
+→ Returns merged ICS feed for selected teams
+```
+
+Also supports `&format=json` (JSON Feed v1.1) and `&format=rss` (Atom).
 
 ## Features
 
-- ICS calendar feed (works with Google Calendar, Apple Calendar, Outlook, etc.)
-- Upcoming and past matches (spoiler-free — no scores shown)
-- RSS (Atom) and JSON feeds
-- Multi-team support via `teams.json`
-- Web interface with team selector, one-click subscribe buttons, and local timezone display
-- Pushover notifications on errors
-- Automatic caching — serves last known good calendar if a scrape fails
-- Auto-updates every 3 hours via GitHub Actions
-
-## Subscribe
-
-Once deployed, visit your GitHub Pages URL to pick a team and subscribe. Direct ICS link:
-
-```
-https://YOUR_USERNAME.github.io/los-ratones-calendar/los_ratones.ics
-```
-
-(or use my link) https://alexvbp.github.io/Los-Ratones-Calendar/los_ratones.ics
-
-Works with:
-- **Google Calendar** — Settings > Add calendar > From URL
-- **Apple Calendar** — File > New Calendar Subscription
-- **Outlook** — Add calendar > Subscribe from web
-- **Any app** that supports ICS/iCal feeds
-
-The web page also provides `webcal://` and Google Calendar one-click subscribe buttons.
+- **Auto-discovers teams** from all major LoL leagues (LEC, LCK, LPL, LCS, PCS, VCS, CBLOL, LLA, LJL)
+- Personalized calendar URLs — pick any combination of teams
+- ICS, RSS (Atom), and JSON Feed formats
+- Upcoming and past matches (spoiler-free — no scores)
+- Interactive web UI with drag-and-drop team selection
+- webcal:// and Google Calendar one-click subscribe buttons
+- Client-side local timezone display
+- Pushover error notifications (optional)
+- Automatic caching — serves last known good data on scrape failures
+- 30-minute pre-match alarm reminders
 
 ## Quick Setup
 
-### 1. Create the Repository
+### 1. Fork and Clone
 
-Fork this repo or create a new one and copy the files.
-
-### 2. Enable GitHub Pages
-
-1. Go to **Settings** > **Pages**
-2. Under "Build and deployment", select **GitHub Actions**
-3. Save
-
-### 3. (Optional) Configure Pushover Notifications
-
-To get notified when calendar generation fails:
-
-1. Create a [Pushover](https://pushover.net) account and application
-2. In your repo, go to **Settings** > **Secrets and variables** > **Actions**
-3. Add secrets: `PUSHOVER_USER_KEY` and `PUSHOVER_API_TOKEN`
-
-### 4. Run the Workflow
-
-The calendar updates automatically every 3 hours. To trigger immediately:
-
-1. Go to **Actions** tab
-2. Select "Update Calendar"
-3. Click **Run workflow**
-
-## Add More Teams
-
-Edit `teams.json`:
-
-```json
-{
-  "teams": [
-    {
-      "name": "Los Ratones",
-      "slug": "Los_Ratones",
-      "short_name": "LR",
-      "emoji": "\ud83d\udc00",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "Fnatic",
-      "slug": "Fnatic",
-      "short_name": "FNC",
-      "emoji": "\ud83d\udfe0",
-      "game": "leagueoflegends"
-    }
-  ]
-}
+```bash
+git clone https://github.com/YOUR_USERNAME/esports-calendar.git
+cd esports-calendar
 ```
 
-The `slug` must match the Liquipedia URL path (e.g., `https://liquipedia.net/leagueoflegends/Fnatic` uses slug `Fnatic`).
+### 2. Connect to Cloudflare Pages
+
+1. Sign up or log in at [Cloudflare Dashboard](https://dash.cloudflare.com/)
+2. Go to **Workers & Pages** in the sidebar
+3. Click **Create** > **Pages** > **Connect to Git**
+4. Select your GitHub account and pick this repository
+5. Configure build settings:
+   - **Production branch:** `main`
+   - **Build command:** (leave empty — no build step needed)
+   - **Build output directory:** `public`
+6. Click **Save and Deploy**
+
+Cloudflare auto-deploys on every push to `main`. Your site will be available at `https://<project-name>.pages.dev`.
+
+**Custom domain (optional):**
+1. In Cloudflare Pages > your project > **Custom domains**
+2. Click **Set up a custom domain** and follow the DNS instructions
+
+**How it works:** GitHub Actions scrapes Liquipedia and commits JSON data to `public/data/`. Each push triggers a Cloudflare Pages deploy. The Pages Function at `functions/api/calendar.ts` dynamically generates ICS/RSS/JSON feeds from that data.
+
+### 3. Configure GitHub Actions
+
+The workflow runs automatically every 3 hours. It also runs on push to `main` when relevant files change (teams.json, leagues.json, src/, generate_data.py, scrape_teams.py).
+
+**GitHub Actions needs write access** to push data commits back to the repo. This is already configured in the workflow file (`permissions: contents: write`), but you need to make sure your repo allows it:
+
+1. Go to your repo on GitHub
+2. Navigate to **Settings** > **Actions** > **General**
+3. Scroll to **Workflow permissions**
+4. Select **Read and write permissions**
+5. Click **Save**
+
+### 4. Configure Pushover Notifications (Optional)
+
+Get notified on your phone when scraping fails or encounters errors.
+
+**Step 1 — Create a Pushover account:**
+1. Go to [pushover.net](https://pushover.net/) and sign up ($5 one-time purchase after 30-day free trial)
+2. Install the Pushover app on your phone (iOS/Android)
+3. After login, note your **User Key** shown on the main dashboard page
+
+**Step 2 — Create an application:**
+1. Go to [pushover.net/apps/build](https://pushover.net/apps/build)
+2. Name it `Esports Calendar` (or anything you like)
+3. Click **Create Application**
+4. Note the **API Token/Key** shown on the next page
+
+**Step 3 — Add secrets to GitHub:**
+1. Go to your repo on GitHub
+2. Navigate to **Settings** > **Secrets and variables** > **Actions**
+3. Click **New repository secret**
+4. Add secret name: `PUSHOVER_USER_KEY` — paste your User Key as the value
+5. Click **Add secret**
+6. Click **New repository secret** again
+7. Add secret name: `PUSHOVER_API_TOKEN` — paste your API Token as the value
+8. Click **Add secret**
+
+You should now see both secrets listed (values are hidden). The workflow reads these via `${{ secrets.PUSHOVER_USER_KEY }}` and `${{ secrets.PUSHOVER_API_TOKEN }}`.
+
+If these secrets aren't set, notifications are silently skipped — nothing breaks.
+
+### 5. Run First Data Scrape
+
+1. Go to your repo on GitHub
+2. Click the **Actions** tab
+3. Select **Update Match Data** from the left sidebar
+4. Click **Run workflow** > **Run workflow** (on the `main` branch)
+5. Wait for the workflow to complete (takes a few minutes)
+
+This scrapes all teams and match data, then commits it to `public/data/`. The commit triggers a Cloudflare Pages deploy, and your site goes live.
+
+## Teams
+
+Teams are **auto-discovered** from all major LoL leagues. The GitHub Actions workflow runs `scrape_teams.py` before each data update, which:
+
+1. Reads `leagues.json` for the list of leagues to scan (LEC, LCK, LPL, LCS, PCS, VCS, CBLOL, LLA, LJL)
+2. Scrapes each league's Liquipedia page for participating teams
+3. Merges into `teams.json`, preserving any manual overrides (short names, emojis)
+
+### Add a league
+
+Edit `leagues.json` to add more leagues or games.
+
+### Manual overrides
+
+Edit `teams.json` directly to override auto-generated short names or emojis. The scraper preserves manual changes for existing teams.
+
+### Run locally
+
+```bash
+python scrape_teams.py              # Scrape and write teams.json
+python scrape_teams.py --dry-run    # Preview without writing
+```
 
 ## Local Development
 
 ```bash
-# Install
+# Python: install and generate data
 pip install -e ".[dev]"
+python generate_data.py
+# → public/data/*.json
 
-# Generate feeds
-python generate_calendar.py
-# Output in ./public/
+# Node: run local Cloudflare dev server
+npm install
+npm run dev
+# → http://localhost:8788
 
-# Run tests
+# Tests
 pytest
 ```
 
 ## Project Structure
 
 ```
-.github/workflows/update-calendar.yml   # GitHub Actions (3h cron + manual)
+functions/api/calendar.ts          Cloudflare Pages Function (dynamic ICS/RSS/JSON)
+public/
+  index.html                       Interactive web UI
+  data/teams.json                  Team manifest (generated)
+  data/{slug}.json                 Per-team match data (generated)
 src/
-  __init__.py          # Data models (TeamConfig, Match)
-  scraper.py           # Liquipedia scraping (upcoming + past)
-  calendar_gen.py      # ICS generation
-  feeds.py             # RSS (Atom) + JSON Feed generation
-  html_gen.py          # Web page with team selector
-  notify.py            # Pushover error notifications
-  cache.py             # Calendar caching / fallback
+  __init__.py                      Data models (TeamConfig, Match)
+  scraper.py                       Liquipedia scraping (upcoming + past)
+  calendar_gen.py                  ICS generation (local dev / tests)
+  feeds.py                         RSS + JSON feeds (local dev / tests)
+  notify.py                        Pushover error notifications
+  cache.py                         Data caching / fallback
 tests/
-  fixtures/            # Saved HTML for offline testing
-  test_scraper.py      # Tests for scraping, calendar, feeds, cache
-teams.json             # Team configuration
-generate_calendar.py   # Entry point
-pyproject.toml         # Python project config
+  fixtures/                        Saved HTML for offline testing
+  test_scraper.py                  Python tests
+.github/workflows/update-data.yml  Scrape + commit data (3h cron)
+leagues.json                       League configuration (which leagues to scan)
+teams.json                         Auto-generated team roster (from leagues)
+scrape_teams.py                    Team discovery from league pages
+generate_data.py                   Match data generation (JSON output)
+wrangler.toml                      Cloudflare Pages config
+package.json                       Node dev dependencies
+pyproject.toml                     Python project config
 ```
 
-## Output Feeds
+## API
 
-For each team in `teams.json`, the build produces:
-
-| File | Format | Use |
-|------|--------|-----|
-| `{slug}.ics` | iCalendar | Calendar app subscription |
-| `{slug}.xml` | Atom RSS | RSS reader subscription |
-| `{slug}.json` | JSON Feed | Programmatic access |
-| `index.html` | HTML | Web interface |
+| Endpoint | Description |
+|----------|-------------|
+| `GET /api/calendar?teams=LR,FNC` | Merged ICS calendar (default) |
+| `GET /api/calendar?teams=LR&format=json` | JSON Feed v1.1 |
+| `GET /api/calendar?teams=LR&format=rss` | Atom RSS feed |
+| `GET /data/teams.json` | Team manifest |
+| `GET /data/{slug}.json` | Per-team match data |
 
 ## License
 

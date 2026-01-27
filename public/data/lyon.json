@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "LYON",
+    "slug": "LYON",
+    "short_name": "LYN",
+    "emoji": "🇺🇸",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/LYON"
+  },
+  "matches": [
+    {
+      "timestamp": 1769893200,
+      "opponent": "Cloud9",
+      "tournament": "LCS 2026 Lock-In - High (1-0)",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#High_(1-0)",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1724457600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1711411200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1693008000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1681430400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1598659200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1555718400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1495324800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2017",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1437004800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LAN/2015/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1427846400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LAN/2015/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1375488000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

@@ -1,0 +1,111 @@
+{
+  "team": {
+    "name": "Deep Cross Gaming",
+    "slug": "Deep_Cross_Gaming",
+    "short_name": "DCG",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Deep_Cross_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1769666400,
+      "opponent": "MVK Esports",
+      "tournament": "LCP 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769839200,
+      "opponent": "CTBC Flying Oyster",
+      "tournament": "LCP 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770280200,
+      "opponent": "DetonatioN FocusMe",
+      "tournament": "LCP 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770444000,
+      "opponent": "GAM Esports",
+      "tournament": "LCP 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1759449600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756598400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750204800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742947200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1724198400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1711584000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1692403200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1680307200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1662076800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2022/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1649980800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2022/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

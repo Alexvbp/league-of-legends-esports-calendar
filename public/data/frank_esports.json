@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Frank Esports",
+    "slug": "Frank_Esports",
+    "short_name": "FE",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Frank_Esports"
+  },
+  "matches": [
+    {
+      "timestamp": 1756598400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750204800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742860800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1725062400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1711843200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1709424000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Spring/Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1693008000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1680998400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1661558400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2022/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1649548800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2022/Spring",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

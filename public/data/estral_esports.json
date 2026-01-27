@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Estral Esports",
+    "slug": "Estral_Esports",
+    "short_name": "EST",
+    "emoji": "🌎",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Estral_Esports"
+  },
+  "matches": [
+    {
+      "timestamp": 1757289600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1714780800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2024",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1712361600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1693008000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1680566400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1661558400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2022/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1650067200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2022/Opening",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1630108800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2021/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1598400000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Division_de_Honor/2020/Closing",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1574640000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Supercopa_Norte/2019",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

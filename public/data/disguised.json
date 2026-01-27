@@ -1,0 +1,76 @@
+{
+  "team": {
+    "name": "Disguised",
+    "slug": "Disguised",
+    "short_name": "DSG",
+    "emoji": "🇺🇸",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Disguised"
+  },
+  "matches": [
+    {
+      "timestamp": 1769979600,
+      "opponent": "FlyQuest",
+      "tournament": "LCS 2026 Lock-In - High (1-0)",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#High_(1-0)",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1760227200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/North/Promotion_Tournament",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756425600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747526400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1738454400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_1/North",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1724630400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/North_American_Challengers_League/2024/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1711238400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/North_American_Challengers_League/2024/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1691539200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/North_American_Challengers_League/2023/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1685577600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Disguised_vs_Delta_Fox_Showmatch",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

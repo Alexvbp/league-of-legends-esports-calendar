@@ -1,0 +1,111 @@
+{
+  "team": {
+    "name": "LGD Gaming",
+    "slug": "LGD_Gaming",
+    "short_name": "LGD",
+    "emoji": "🇨🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/LGD_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1769151600,
+      "opponent": "Oh My God",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769583600,
+      "opponent": "Ultra Prime",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769936400,
+      "opponent": "LNG Esports",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770022800,
+      "opponent": "Oh My God",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1767312000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1602288000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2020",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1598313600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2020/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1479600000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/National_Electronic_Sports_Tournament/2016",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1444435200,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2015",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1440288000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2015/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1430006400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2015/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1408838400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2014/Summer",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1400976000,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2014/Spring",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1384905600,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/Tencent_Games_Arena/City_Hero_Tournament/Season_5",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}

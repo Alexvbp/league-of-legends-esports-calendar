@@ -1,0 +1,34 @@
+{
+  "team": {
+    "name": "Apex Predator",
+    "slug": "Apex_Predator",
+    "short_name": "APX",
+    "emoji": "🇻🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Apex_Predator"
+  },
+  "matches": [
+    {
+      "timestamp": 1746748800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Promotion",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746316800,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Road_to_VCS/VIRESA_Challenge_Cup",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1744502400,
+      "opponent": "TBD",
+      "tournament": "Match",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Road_to_VCS/Online/VPS_Pro_League",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-27T12:41:16Z"
+}
