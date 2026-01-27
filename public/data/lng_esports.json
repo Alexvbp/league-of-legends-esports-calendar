@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769497200,
-      "opponent": "Ultra Prime",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769590800,
       "opponent": "Oh My God",
       "tournament": "LPL 2026 Split 1 - Week 3",
@@ -35,6 +28,13 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769497200,
+      "opponent": "Ultra Prime",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1768986000,
@@ -98,14 +98,7 @@
       "tournament": "Demacia Cup 2025 - Stage 1 Day 3",
       "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_3",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1765886400,
-      "opponent": "FRK",
-      "tournament": "Demacia Cup 2025 - Stage 1 Day 2",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_2",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T15:37:35Z"
+  "generated_utc": "2026-01-27T18:52:03Z"
 }

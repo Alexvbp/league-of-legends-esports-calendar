@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769450400,
-      "opponent": "Team Heretics",
-      "tournament": "LEC 2026 Versus - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769886000,
       "opponent": "Karmine Corp Blue",
       "tournament": "LEC 2026 Versus - Week 3",
@@ -42,6 +35,20 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1770584400,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769451900,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769371500,
@@ -105,14 +112,7 @@
       "tournament": "Worlds 2025 - Knockout Stage",
       "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1761127200,
-      "opponent": "FlyQuest",
-      "tournament": "Worlds 2025 - High (2-1)",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#High_(2-1)",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T15:37:35Z"
+  "generated_utc": "2026-01-27T18:52:03Z"
 }
