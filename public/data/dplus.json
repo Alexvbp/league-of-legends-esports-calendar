@@ -16,75 +16,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1760227200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025",
+      "timestamp": 1769253000,
+      "opponent": "Gen.G Esports",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1666396800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "timestamp": 1768982400,
+      "opponent": "Nongshim RedForce",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1636156800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2021",
+      "timestamp": 1768550400,
+      "opponent": "SOOPers",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1630108800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Summer",
+      "timestamp": 1768388700,
+      "opponent": "BRION",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1621728000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2021",
+      "timestamp": 1765612800,
+      "opponent": "T1",
+      "tournament": "KeSPA Cup 2025 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Finals#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1618012800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Spring",
+      "timestamp": 1765526400,
+      "opponent": "Hanwha Life Esports",
+      "tournament": "KeSPA Cup 2025 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Finals#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1609545600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2020",
+      "timestamp": 1765432800,
+      "opponent": "Nongshim RedForce",
+      "tournament": "KeSPA Cup 2025 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Finals#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1604102400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2020",
+      "timestamp": 1765192500,
+      "opponent": "KT Rolster",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1599264000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2020/Summer",
+      "timestamp": 1765100700,
+      "opponent": "DRX",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1572134400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2019",
+      "timestamp": 1765092600,
+      "opponent": "BRION",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

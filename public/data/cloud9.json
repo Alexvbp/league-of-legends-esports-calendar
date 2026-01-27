@@ -16,75 +16,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1680998400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCS/2023/Spring",
+      "timestamp": 1769288400,
+      "opponent": "Team Liquid",
+      "tournament": "LCS 2026 Lock-In - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Round_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1662854400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCS/2022/Summer",
+      "timestamp": 1765268100,
+      "opponent": "Freecs",
+      "tournament": "KeSPA Cup 2025 - Last Chance Qualifier",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Last_Chance_Qualifier#Last_Chance_Qualifier",
       "is_upcoming": false
     },
     {
-      "timestamp": 1618099200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCS/2021/Spring",
+      "timestamp": 1765260000,
+      "opponent": "Nongshim RedForce",
+      "tournament": "KeSPA Cup 2025 - Last Chance Qualifier",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Last_Chance_Qualifier#Last_Chance_Qualifier",
       "is_upcoming": false
     },
     {
-      "timestamp": 1587254400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCS/2020/Spring",
+      "timestamp": 1765181700,
+      "opponent": "FEARX",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1540684800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2018",
+      "timestamp": 1765095300,
+      "opponent": "Team Vietnam",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1508630400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2017",
+      "timestamp": 1765008900,
+      "opponent": "Hanwha Life Esports",
+      "tournament": "KeSPA Cup 2025 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1492905600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Spring",
+      "timestamp": 1765000800,
+      "opponent": "Gen.G Esports",
+      "tournament": "KeSPA Cup 2025 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1476316800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2016",
+      "timestamp": 1757102400,
+      "opponent": "100 Thieves",
+      "tournament": "LTA North 2025 Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Elimination_Phase_-_Part_2#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1397952000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2014/Spring",
+      "timestamp": 1756497600,
+      "opponent": "Disguised",
+      "tournament": "LTA North 2025 Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Elimination_Phase_-_Part_2#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1377993600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2013/Summer",
+      "timestamp": 1755374400,
+      "opponent": "Shopify Rebellion",
+      "tournament": "LTA North 2025 Split 3 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Elimination_Phase_-_Part_1#Week_4",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

@@ -128,7 +128,6 @@
         .btn-webcal { background: #2563eb; color: #fff; }
         .btn-google { background: #16a34a; color: #fff; }
         .btn-copy { background: #374151; color: #e0e0e0; }
-        .btn-download { background: #7c3aed; color: #fff; }
 
         .feed-links {
             display: flex;
@@ -142,11 +141,77 @@
             border-radius: 4px;
         }
 
+        /* Tournament filter */
+        .tournament-filter {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin: 0.75rem 0;
+        }
+        .tournament-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.3rem 0.7rem;
+            border-radius: 9999px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            border: 1px solid #2a2a4a;
+            background: #1a1a2e;
+            color: #aaa;
+            transition: all 0.15s;
+        }
+        .tournament-tag:hover { border-color: #7dd3fc; color: #e0e0e0; }
+        .tournament-tag.active { background: #1e3a5f; border-color: #7dd3fc; color: #7dd3fc; }
+        .tournament-tag .count {
+            font-size: 0.65rem;
+            background: #0f0f1a;
+            padding: 0.05rem 0.35rem;
+            border-radius: 9999px;
+            color: #666;
+        }
+        .tournament-tag.active .count { background: #16213e; color: #7dd3fc; }
+
+        /* Tournament group headers */
+        .tournament-group {
+            margin: 1rem 0;
+        }
+        .tournament-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            background: #16213e;
+            border-radius: 6px;
+            cursor: pointer;
+            user-select: none;
+            margin-bottom: 0.25rem;
+        }
+        .tournament-header:hover { background: #1a2540; }
+        .tournament-header .arrow {
+            color: #555;
+            font-size: 0.7rem;
+            transition: transform 0.15s;
+        }
+        .tournament-header.collapsed .arrow { transform: rotate(-90deg); }
+        .tournament-header .tournament-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #e0e0e0;
+        }
+        .tournament-header .match-count {
+            font-size: 0.75rem;
+            color: #666;
+            margin-left: auto;
+        }
+        .tournament-body { }
+        .tournament-body.hidden { display: none; }
+
         /* Match tables */
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 0.5rem 0;
+            margin: 0;
         }
         th, td {
             padding: 0.5rem 0.6rem;
@@ -235,6 +300,14 @@
                 <p style="margin-top:0.75rem;font-size:0.78rem;color:#666">
                     Auto-updates every few hours. Your calendar app will sync changes automatically.
                 </p>
+                <div id="tournament-subscribe" style="display:none;margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid #2a2a4a">
+                    <p style="font-size:0.82rem;color:#999;margin-bottom:0.4rem">Filtered to: <strong id="tournament-filter-label" style="color:#7dd3fc"></strong></p>
+                    <div class="url-box" id="subscribe-url-filtered" style="font-size:0.78rem"></div>
+                    <div class="subscribe-buttons">
+                        <a id="btn-webcal-filtered" class="btn btn-webcal" href="#" style="font-size:0.8rem;padding:0.4rem 0.8rem">webcal:// (filtered)</a>
+                        <button class="btn btn-copy" onclick="copyFilteredUrl()" style="font-size:0.8rem;padding:0.4rem 0.8rem" id="btn-copy-filtered">Copy filtered URL</button>
+                    </div>
+                </div>
             </div>
             <div class="feed-links">
                 <a id="link-rss" href="#">RSS Feed</a>
@@ -244,9 +317,11 @@
 
         <div id="matches-section" style="display:none">
             <h2>Upcoming Matches</h2>
+            <div id="tournament-filter-upcoming" class="tournament-filter"></div>
             <div id="upcoming-container"></div>
 
             <h2>Recent Matches <span style="font-weight:normal;font-size:0.8rem;color:#666">(spoiler-free)</span></h2>
+            <div id="tournament-filter-past" class="tournament-filter"></div>
             <div id="past-container"></div>
         </div>
     </div>
@@ -263,6 +338,7 @@
     let selectedSlugs = JSON.parse(localStorage.getItem('selectedTeams') || '[]');
     let teamDataCache = {};
     let draggedSlug = null;
+    let activeTournamentFilter = { upcoming: null, past: null };
 
     // --- Init ---
     async function init() {
@@ -273,7 +349,6 @@
             allTeams = manifest.teams;
             document.getElementById('loading').style.display = 'none';
             document.getElementById('app').style.display = '';
-            // Remove any stale slugs that no longer exist
             const validSlugs = new Set(allTeams.map(t => t.slug));
             selectedSlugs = selectedSlugs.filter(s => validSlugs.has(s));
             render();
@@ -299,8 +374,6 @@
     function renderTeamLists() {
         const selectedSet = new Set(selectedSlugs);
         const available = allTeams.filter(t => !selectedSet.has(t.slug));
-        const selected = allTeams.filter(t => selectedSet.has(t.slug));
-        // Preserve selection order
         const orderedSelected = selectedSlugs
             .map(slug => allTeams.find(t => t.slug === slug))
             .filter(Boolean);
@@ -355,6 +428,29 @@
         document.getElementById('btn-google').href = googleUrl;
         document.getElementById('link-rss').href = rssUrl;
         document.getElementById('link-json').href = jsonUrl;
+
+        updateFilteredSubscribe();
+    }
+
+    function updateFilteredSubscribe() {
+        const filterDiv = document.getElementById('tournament-subscribe');
+        const activeFilter = activeTournamentFilter.upcoming || activeTournamentFilter.past;
+
+        if (!activeFilter) {
+            filterDiv.style.display = 'none';
+            return;
+        }
+
+        filterDiv.style.display = '';
+        const base = window.location.origin;
+        const teamsParam = selectedSlugs.join(',');
+        const filteredUrl = base + '/api/calendar?teams=' + encodeURIComponent(teamsParam) +
+            '&tournament=' + encodeURIComponent(activeFilter);
+        const webcalFiltered = filteredUrl.replace(/^https?:/, 'webcal:');
+
+        document.getElementById('tournament-filter-label').textContent = activeFilter;
+        document.getElementById('subscribe-url-filtered').textContent = filteredUrl;
+        document.getElementById('btn-webcal-filtered').href = webcalFiltered;
     }
 
     async function loadAndRenderMatches() {
@@ -386,15 +482,87 @@
         allUpcoming.sort((a, b) => a.timestamp - b.timestamp);
         allPast.sort((a, b) => b.timestamp - a.timestamp);
 
-        document.getElementById('upcoming-container').innerHTML =
-            allUpcoming.length > 0
-                ? matchTableHTML(allUpcoming, true)
-                : '<div class="empty-state">No upcoming matches</div>';
+        renderMatchSection('upcoming', allUpcoming, true);
+        renderMatchSection('past', allPast.slice(0, 30), false);
+    }
 
-        document.getElementById('past-container').innerHTML =
-            allPast.length > 0
-                ? matchTableHTML(allPast.slice(0, 20), false)
-                : '<div class="empty-state">No recent matches</div>';
+    function renderMatchSection(type, matches, isUpcoming) {
+        const filterContainer = document.getElementById('tournament-filter-' + type);
+        const matchContainer = document.getElementById(type + '-container');
+
+        if (matches.length === 0) {
+            filterContainer.innerHTML = '';
+            matchContainer.innerHTML = '<div class="empty-state">No ' +
+                (isUpcoming ? 'upcoming' : 'recent') + ' matches</div>';
+            return;
+        }
+
+        // Extract tournaments and counts
+        const tournamentCounts = {};
+        for (const m of matches) {
+            // Normalize tournament name: strip "- Week X" suffix for grouping
+            const baseTournament = normalizeTournament(m.tournament);
+            tournamentCounts[baseTournament] = (tournamentCounts[baseTournament] || 0) + 1;
+        }
+        const tournaments = Object.keys(tournamentCounts).sort();
+
+        // Render filter tags
+        const activeFilter = activeTournamentFilter[type];
+        let filterHTML = '';
+        if (tournaments.length > 1) {
+            filterHTML += `<span class="tournament-tag${!activeFilter ? ' active' : ''}"
+                onclick="setTournamentFilter('${type}', null)">All
+                <span class="count">${matches.length}</span></span>`;
+            for (const t of tournaments) {
+                const isActive = activeFilter === t;
+                filterHTML += `<span class="tournament-tag${isActive ? ' active' : ''}"
+                    onclick="setTournamentFilter('${type}', '${esc(t.replace(/'/g, "\\'"))}')">${esc(t)}
+                    <span class="count">${tournamentCounts[t]}</span></span>`;
+            }
+        }
+        filterContainer.innerHTML = filterHTML;
+
+        // Filter matches
+        const filtered = activeFilter
+            ? matches.filter(m => normalizeTournament(m.tournament) === activeFilter)
+            : matches;
+
+        // Group by tournament
+        const groups = {};
+        for (const m of filtered) {
+            const key = m.tournament;
+            if (!groups[key]) groups[key] = [];
+            groups[key].push(m);
+        }
+
+        // Render grouped
+        let html = '';
+        const groupKeys = Object.keys(groups);
+        if (groupKeys.length === 1) {
+            // Single tournament — no group header needed
+            html = matchTableHTML(groups[groupKeys[0]], isUpcoming);
+        } else {
+            for (const tournament of groupKeys) {
+                const groupMatches = groups[tournament];
+                const groupId = type + '-' + tournament.replace(/[^a-zA-Z0-9]/g, '_');
+                html += `<div class="tournament-group">
+                    <div class="tournament-header" onclick="toggleGroup('${groupId}')">
+                        <span class="arrow">&#9660;</span>
+                        <span class="tournament-name">${esc(tournament)}</span>
+                        <span class="match-count">${groupMatches.length} match${groupMatches.length !== 1 ? 'es' : ''}</span>
+                    </div>
+                    <div class="tournament-body" id="${groupId}">
+                        ${matchTableHTML(groupMatches, isUpcoming)}
+                    </div>
+                </div>`;
+            }
+        }
+        matchContainer.innerHTML = html;
+    }
+
+    function normalizeTournament(name) {
+        // Strip week/day suffixes for grouping: "LEC 2026 Versus - Week 3" → "LEC 2026 Versus"
+        return name.replace(/\s*-\s*(Week|Day|Round|Match\s*Day)\s*\d+.*$/i, '').trim();
     }
 
     function matchTableHTML(matches, isUpcoming) {
@@ -420,6 +588,20 @@
         return html;
     }
 
+    // --- Tournament filter ---
+    function setTournamentFilter(type, tournament) {
+        activeTournamentFilter[type] = tournament;
+        loadAndRenderMatches();
+        updateFilteredSubscribe();
+    }
+
+    function toggleGroup(groupId) {
+        const body = document.getElementById(groupId);
+        const header = body.previousElementSibling;
+        body.classList.toggle('hidden');
+        header.classList.toggle('collapsed');
+    }
+
     // --- Team selection ---
     function toggleTeam(slug) {
         const idx = selectedSlugs.indexOf(slug);
@@ -428,6 +610,8 @@
         } else {
             selectedSlugs.push(slug);
         }
+        // Clear caches and filters on team change
+        activeTournamentFilter = { upcoming: null, past: null };
         render();
     }
 
@@ -470,6 +654,7 @@
         } else if (target === 'available' && idx >= 0) {
             selectedSlugs.splice(idx, 1);
         }
+        activeTournamentFilter = { upcoming: null, past: null };
         render();
     }
 
@@ -480,6 +665,15 @@
             const btn = document.getElementById('btn-copy');
             btn.textContent = 'Copied!';
             setTimeout(() => { btn.textContent = 'Copy URL'; }, 2000);
+        });
+    }
+
+    function copyFilteredUrl() {
+        const url = document.getElementById('subscribe-url-filtered').textContent;
+        navigator.clipboard.writeText(url).then(() => {
+            const btn = document.getElementById('btn-copy-filtered');
+            btn.textContent = 'Copied!';
+            setTimeout(() => { btn.textContent = 'Copy filtered URL'; }, 2000);
         });
     }
 

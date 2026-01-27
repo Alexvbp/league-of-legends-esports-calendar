@@ -16,75 +16,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1761609600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025",
+      "timestamp": 1769241600,
+      "opponent": "SOOPers",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1759017600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2025",
+      "timestamp": 1769068800,
+      "opponent": "BRION",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1752710400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2025",
+      "timestamp": 1768723200,
+      "opponent": "Nongshim RedForce",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1742083200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/First_Stand_Tournament/2025",
+      "timestamp": 1768557060,
+      "opponent": "T1",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1729209600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2024",
+      "timestamp": 1765699200,
+      "opponent": "T1",
+      "tournament": "KeSPA Cup 2025 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Finals#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1725753600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2024/Summer",
+      "timestamp": 1765526400,
+      "opponent": "Dplus",
+      "tournament": "KeSPA Cup 2025 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Finals#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1712966400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2024/Spring",
+      "timestamp": 1765443900,
+      "opponent": "T1",
+      "tournament": "KeSPA Cup 2025 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Finals#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1691884800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2023/Summer",
+      "timestamp": 1765176300,
+      "opponent": "Gen.G Esports",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1634860800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2021",
+      "timestamp": 1765106100,
+      "opponent": "Team Vietnam",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1617408000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2021/Spring",
+      "timestamp": 1765017000,
+      "opponent": "FEARX",
+      "tournament": "KeSPA Cup 2025 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

@@ -16,75 +16,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1761955200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025",
+      "timestamp": 1769253000,
+      "opponent": "Dplus",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1759017600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2025",
+      "timestamp": 1769079600,
+      "opponent": "FEARX",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1752969600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2025",
+      "timestamp": 1768647300,
+      "opponent": "KT Rolster",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1752364800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2025",
+      "timestamp": 1768464000,
+      "opponent": "DRX",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1713052800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2024/Spring",
+      "timestamp": 1765176300,
+      "opponent": "Hanwha Life Esports",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1692489600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2023/Summer",
+      "timestamp": 1765087200,
+      "opponent": "FEARX",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1680998400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2023/Spring",
+      "timestamp": 1765006200,
+      "opponent": "Team Vietnam",
+      "tournament": "KeSPA Cup 2025 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1667088000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "timestamp": 1765000800,
+      "opponent": "Cloud9",
+      "tournament": "KeSPA Cup 2025 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1661644800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2022/Summer",
+      "timestamp": 1761980400,
+      "opponent": "KT Rolster",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1635638400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2021",
+      "timestamp": 1761634800,
+      "opponent": "Hanwha Life Esports",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

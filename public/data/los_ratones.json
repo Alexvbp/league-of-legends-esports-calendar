@@ -44,54 +44,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1760918400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer",
+      "timestamp": 1769445000,
+      "opponent": "Shifters",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1756512000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/NLC/2025/Summer",
+      "timestamp": 1769362200,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1750464000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Spring",
+      "timestamp": 1769269500,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1748736000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/NLC/2025/Spring",
+      "timestamp": 1768852800,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1742688000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Winter",
+      "timestamp": 1768755600,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1740873600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/NLC/2025/Winter",
+      "timestamp": 1768665600,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1733616000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/NNO_Cup/Season_2",
+      "timestamp": 1764442800,
+      "opponent": "T1",
+      "tournament": "RB League of Its Own '25 - Sixth Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#Sixth_Showmatch",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1764428400,
+      "opponent": "Karmine Corp",
+      "tournament": "RB League of Its Own '25 - Second Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#Second_Showmatch",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1760976000,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1760716800,
+      "opponent": "Galions",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

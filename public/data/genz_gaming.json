@@ -9,19 +9,47 @@
   },
   "matches": [
     {
-      "timestamp": 1749081600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer",
+      "timestamp": 1749042000,
+      "opponent": "Mila Gaming",
+      "tournament": "VCS Summer - Round 3",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Swiss_Stage#Round_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1746835200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Promotion",
+      "timestamp": 1748523600,
+      "opponent": "CyberCore Esports",
+      "tournament": "VCS Summer - Round 2",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Swiss_Stage#Round_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748340000,
+      "opponent": "Saigon Secret",
+      "tournament": "VCS Summer - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Swiss_Stage#Round_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746871200,
+      "opponent": "Never Give Up",
+      "tournament": "VCS Summer Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Promotion#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746784800,
+      "opponent": "Mila Gaming",
+      "tournament": "VCS Summer Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Promotion#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746709200,
+      "opponent": "Venus Gaming",
+      "tournament": "VCS Summer Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Promotion#Results",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

@@ -9,75 +9,75 @@
   },
   "matches": [
     {
-      "timestamp": 1664668800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "timestamp": 1759939200,
+      "opponent": "Alpha7 Esports",
+      "tournament": "LTA South 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/South/Promotion_Tournament#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1661558400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2022/Closing",
+      "timestamp": 1759507200,
+      "opponent": "Alpha7 Esports",
+      "tournament": "LTA South 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/South/Promotion_Tournament#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1588377600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Opening",
+      "timestamp": 1759420800,
+      "opponent": "Flamengo Esports",
+      "tournament": "LTA South 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/South/Promotion_Tournament#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1567209600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Closing",
+      "timestamp": 1756051200,
+      "opponent": "Leviatán",
+      "tournament": "LTA South Split 3 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_1#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1556755200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2019",
+      "timestamp": 1754762400,
+      "opponent": "LOUD",
+      "tournament": "LTA South Split 3 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1555718400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Opening",
+      "timestamp": 1754157600,
+      "opponent": "Fluxo W7M",
+      "tournament": "LTA South Split 3 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1522454400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CLS/2018/Opening",
+      "timestamp": 1753628400,
+      "opponent": "RED Canids",
+      "tournament": "LTA South Split 3 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1503100800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CLS/2017/Closing",
+      "timestamp": 1723582800,
+      "opponent": "Infinity",
+      "tournament": "LLA Closing 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1495324800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2017",
+      "timestamp": 1722978000,
+      "opponent": "Rainbow7",
+      "tournament": "LLA Closing 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1491609600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CLS/2017/Opening",
+      "timestamp": 1722459600,
+      "opponent": "Infinity",
+      "tournament": "LLA Closing 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Playoffs#Results",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

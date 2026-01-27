@@ -37,75 +37,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1762646400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025",
+      "timestamp": 1768759200,
+      "opponent": "Fluxo W7M",
+      "tournament": "CBLOL Cup 2026 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1759017600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship",
+      "timestamp": 1768676400,
+      "opponent": "LOS",
+      "tournament": "CBLOL Cup 2026 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1749254400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/South",
+      "timestamp": 1768665600,
+      "opponent": "PaiN Gaming",
+      "tournament": "CBLOL Cup 2026 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1725667200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_2",
+      "timestamp": 1761292800,
+      "opponent": "Bilibili Gaming",
+      "tournament": "Worlds 2025 - Low (1-2)",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Low_(1-2)",
       "is_upcoming": false
     },
     {
-      "timestamp": 1713052800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_1",
+      "timestamp": 1760869800,
+      "opponent": "PSG Talon",
+      "tournament": "Worlds 2025 - Low (0-2)",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Low_(0-2)",
       "is_upcoming": false
     },
     {
-      "timestamp": 1523059200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2018/Split_1",
+      "timestamp": 1760590800,
+      "opponent": "FlyQuest",
+      "tournament": "Worlds 2025 - Low (0-1)",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Low_(0-1)",
       "is_upcoming": false
     },
     {
-      "timestamp": 1491609600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2017/Split_1",
+      "timestamp": 1760504400,
+      "opponent": "Secret Whales",
+      "tournament": "Worlds 2025 - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Round_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1459555200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2016/Split_1",
+      "timestamp": 1759089600,
+      "opponent": "FlyQuest",
+      "tournament": "LTA 2025 Championship",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1429315200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2015/Split_1",
+      "timestamp": 1759003200,
+      "opponent": "100 Thieves",
+      "tournament": "LTA 2025 Championship",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1402185600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2014",
+      "timestamp": 1758398400,
+      "opponent": "FlyQuest",
+      "tournament": "LTA 2025 Championship",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship#Results",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

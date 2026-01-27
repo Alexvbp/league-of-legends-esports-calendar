@@ -37,75 +37,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1699747200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2023",
+      "timestamp": 1769425800,
+      "opponent": "Bilibili Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1691193600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2023/Summer",
+      "timestamp": 1769256000,
+      "opponent": "Weibo Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1684627200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2023",
+      "timestamp": 1769173800,
+      "opponent": "Bilibili Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1681516800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2023/Spring",
+      "timestamp": 1768734600,
+      "opponent": "Anyone's Legend",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1667001600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "timestamp": 1768651500,
+      "opponent": "Invictus Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1661990400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2022/Summer",
+      "timestamp": 1768393800,
+      "opponent": "Top Esports",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1598486400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2020/Summer",
+      "timestamp": 1767430800,
+      "opponent": "Invictus Gaming",
+      "tournament": "Demacia Cup 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1588377600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2020/Spring",
+      "timestamp": 1767344400,
+      "opponent": "LGD Gaming",
+      "tournament": "Demacia Cup 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1555804800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2019/Spring",
+      "timestamp": 1766826000,
+      "opponent": "EDward Gaming",
+      "tournament": "Demacia Cup 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1542499200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/National_Electronic_Sports_Tournament/2018",
+      "timestamp": 1766574000,
+      "opponent": "Bilibili Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_6",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

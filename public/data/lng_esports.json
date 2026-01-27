@@ -37,75 +37,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1767225600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025",
+      "timestamp": 1768986000,
+      "opponent": "LGD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1746921600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_2",
+      "timestamp": 1768554000,
+      "opponent": "Oh My God",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1739491200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_1",
+      "timestamp": 1767258000,
+      "opponent": "Invictus Gaming",
+      "tournament": "Demacia Cup 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1734998400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2024",
+      "timestamp": 1766912400,
+      "opponent": "Oh My God",
+      "tournament": "Demacia Cup 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1729123200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2024",
+      "timestamp": 1766559600,
+      "opponent": "Oh My God",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_6",
       "is_upcoming": false
     },
     {
-      "timestamp": 1724284800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2024/Summer",
+      "timestamp": 1766487600,
+      "opponent": "Weibo Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1712102400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2024/Spring",
+      "timestamp": 1766401200,
+      "opponent": "Bilibili Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1699142400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2023",
+      "timestamp": 1766307600,
+      "opponent": "JD Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1634515200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2021",
+      "timestamp": 1765972800,
+      "opponent": "Team WE",
+      "tournament": "Demacia Cup 2025 - Stage 1 Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1617321600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2021/Spring",
+      "timestamp": 1765886400,
+      "opponent": "FRK",
+      "tournament": "Demacia Cup 2025 - Stage 1 Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_2",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

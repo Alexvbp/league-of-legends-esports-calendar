@@ -44,68 +44,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1756166400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer",
+      "timestamp": 1768838400,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1503792000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCL/2018/Spring/Promotion",
+      "timestamp": 1768759200,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1501372800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCL/2017/Summer",
+      "timestamp": 1768672800,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1489968000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCL/2017/Spring",
+      "timestamp": 1756227600,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2025 Summer - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1471046400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCL/2016/Summer",
+      "timestamp": 1755442800,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2025 Summer - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1459555200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCL/2016/Spring",
+      "timestamp": 1755356400,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2025 Summer - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1342742400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Champions/2012/Summer",
+      "timestamp": 1754146800,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2025 Summer - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1337126400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "",
+      "timestamp": 1503838800,
+      "opponent": "Tricksters",
+      "tournament": "Spring 2018 - Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LCL/2018/Spring/Promotion#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1336953600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/SoloMid_Invitationals/Europe_1",
+      "timestamp": 1502024400,
+      "opponent": "RoX",
+      "tournament": "LCL Summer 2017 - Group Stage - Tiebreaker",
+      "url": "https://liquipedia.net/leagueoflegends/LCL/2017/Summer/Group_Stage#Tiebreaker",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1501423200,
+      "opponent": "M19",
+      "tournament": "LCL Summer 2017 - Group Stage - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LCL/2017/Summer/Group_Stage#Week_5",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

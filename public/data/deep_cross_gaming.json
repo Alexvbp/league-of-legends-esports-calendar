@@ -37,75 +37,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1759449600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion",
+      "timestamp": 1769234400,
+      "opponent": "Secret Whales",
+      "tournament": "LCP 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1756598400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3",
+      "timestamp": 1768716000,
+      "opponent": "Ground Zero Gaming",
+      "tournament": "LCP 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1750204800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2",
+      "timestamp": 1768552200,
+      "opponent": "Fukuoka SoftBank HAWKS gaming",
+      "tournament": "LCP 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1742947200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_1",
+      "timestamp": 1759917600,
+      "opponent": "KT Rolster Challengers",
+      "tournament": "Asia Masters 2025 - Group B",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Group_Stage#Group_B",
       "is_upcoming": false
     },
     {
-      "timestamp": 1724198400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Summer",
+      "timestamp": 1759824000,
+      "opponent": "EDward Gaming Youth Team",
+      "tournament": "Asia Masters 2025 - Group B",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Group_Stage#Group_B",
       "is_upcoming": false
     },
     {
-      "timestamp": 1711584000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Spring",
+      "timestamp": 1759730400,
+      "opponent": "Freecs Challengers",
+      "tournament": "Asia Masters 2025 - Group B",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Group_Stage#Group_B",
       "is_upcoming": false
     },
     {
-      "timestamp": 1692403200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Summer",
+      "timestamp": 1759483800,
+      "opponent": "Chiefs Esports Club",
+      "tournament": "LCP 2026 Promotion - Free-for-All",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion#Free-for-All",
       "is_upcoming": false
     },
     {
-      "timestamp": 1680307200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2023/Spring",
+      "timestamp": 1759397400,
+      "opponent": "Inferno Esports (Filipino team)",
+      "tournament": "LCP 2026 Promotion - Free-for-All",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion#Free-for-All",
       "is_upcoming": false
     },
     {
-      "timestamp": 1662076800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2022/Summer",
+      "timestamp": 1759294800,
+      "opponent": "QT DIG",
+      "tournament": "LCP 2026 Promotion - Free-for-All",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion#Free-for-All",
       "is_upcoming": false
     },
     {
-      "timestamp": 1649980800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2022/Spring",
+      "timestamp": 1756630800,
+      "opponent": "Frank Esports",
+      "tournament": "PCS 2025 Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Playoffs#Playoffs",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

@@ -9,54 +9,75 @@
   },
   "matches": [
     {
-      "timestamp": 1721779200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing",
+      "timestamp": 1721775600,
+      "opponent": "Infinity",
+      "tournament": "LLA Closing 2024 - Week 6",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_6",
       "is_upcoming": false
     },
     {
-      "timestamp": 1710201600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening",
+      "timestamp": 1721264400,
+      "opponent": "Isurus",
+      "tournament": "LLA Closing 2024 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1692057600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Closing",
+      "timestamp": 1721170800,
+      "opponent": "Estral Esports",
+      "tournament": "LLA Closing 2024 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1681430400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Opening",
+      "timestamp": 1720645200,
+      "opponent": "Rainbow7",
+      "tournament": "LLA Closing 2024 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1655164800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Division_de_Honor/2022/Closing",
+      "timestamp": 1720558800,
+      "opponent": "Leviatán",
+      "tournament": "LLA Closing 2024 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1649203200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Division_de_Honor/2022/Opening",
+      "timestamp": 1719363600,
+      "opponent": "Infinity",
+      "tournament": "LLA Closing 2024 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1627689600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Division_de_Honor/2021/Closing",
+      "timestamp": 1718830800,
+      "opponent": "Isurus",
+      "tournament": "LLA Closing 2024 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1718758800,
+      "opponent": "Estral Esports",
+      "tournament": "LLA Closing 2024 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1718233200,
+      "opponent": "Rainbow7",
+      "tournament": "LLA Closing 2024 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1718154000,
+      "opponent": "Leviatán",
+      "tournament": "LLA Closing 2024 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Group_Stage#Week_1",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

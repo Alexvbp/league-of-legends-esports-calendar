@@ -50,6 +50,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   const url = new URL(context.request.url);
   const teamsParam = url.searchParams.get("teams") || "";
   const format = url.searchParams.get("format") || "ics";
+  const tournamentFilter = url.searchParams.get("tournament") || "";
 
   const slugs = teamsParam
     .split(",")
@@ -93,6 +94,16 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     return corsResponse(
       new Response("No data found for the requested teams", { status: 404 })
     );
+  }
+
+  // Filter by tournament if specified (case-insensitive substring match)
+  if (tournamentFilter) {
+    const filter = tournamentFilter.toLowerCase();
+    for (const teamData of teamDataList) {
+      teamData.matches = teamData.matches.filter((m) =>
+        m.tournament.toLowerCase().includes(filter)
+      );
+    }
   }
 
   switch (format) {

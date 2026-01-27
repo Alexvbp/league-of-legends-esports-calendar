@@ -44,75 +44,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1762041600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025",
+      "timestamp": 1768997700,
+      "opponent": "Invictus Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1758412800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3",
+      "timestamp": 1768813200,
+      "opponent": "Weibo Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1720310400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2024",
+      "timestamp": 1768726800,
+      "opponent": "Bilibili Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1713571200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2024/Spring",
+      "timestamp": 1768393800,
+      "opponent": "JD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1661990400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2022/Summer",
+      "timestamp": 1766739600,
+      "opponent": "Invictus Gaming",
+      "tournament": "Demacia Cup 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1650672000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2022/Spring",
+      "timestamp": 1762066800,
+      "opponent": "T1",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1603584000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2020",
+      "timestamp": 1761807600,
+      "opponent": "G2 Esports",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1598486400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2020/Summer",
+      "timestamp": 1761377400,
+      "opponent": "Bilibili Gaming",
+      "tournament": "Worlds 2025 - Round 5",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Round_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1590883200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Cup/2020",
+      "timestamp": 1761217200,
+      "opponent": "Gen.G Esports",
+      "tournament": "Worlds 2025 - High (2-1)",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#High_(2-1)",
       "is_upcoming": false
     },
     {
-      "timestamp": 1588377600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2020/Spring",
+      "timestamp": 1760688000,
+      "opponent": "KT Rolster",
+      "tournament": "Worlds 2025 - High (2-0)",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#High_(2-0)",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

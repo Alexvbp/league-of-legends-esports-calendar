@@ -16,75 +16,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1724457600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing",
+      "timestamp": 1769385600,
+      "opponent": "Dignitas",
+      "tournament": "LCS 2026 Lock-In - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Round_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1711411200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening",
+      "timestamp": 1756065600,
+      "opponent": "100 Thieves",
+      "tournament": "LTA North 2025 Split 3 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Elimination_Phase_-_Part_1#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1693008000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Closing",
+      "timestamp": 1754778600,
+      "opponent": "FlyQuest",
+      "tournament": "LTA North 2025 Split 3 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Pick_%26_Play_Phase#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1681430400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Opening",
+      "timestamp": 1754171400,
+      "opponent": "Team Liquid",
+      "tournament": "LTA North 2025 Split 3 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Pick_%26_Play_Phase#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1598659200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Closing",
+      "timestamp": 1753566300,
+      "opponent": "Cloud9",
+      "tournament": "LTA North 2025 Split 3 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Pick_%26_Play_Phase#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1555718400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Opening",
+      "timestamp": 1747522800,
+      "opponent": "Dignitas",
+      "tournament": "LTA North 2025 Split 2 - Elimination Matches",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Play-In#Elimination_Matches",
       "is_upcoming": false
     },
     {
-      "timestamp": 1495324800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2017",
+      "timestamp": 1747004400,
+      "opponent": "Disguised",
+      "tournament": "LTA North 2025 Split 2 - Week 6",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Group_Phase#Week_6",
       "is_upcoming": false
     },
     {
-      "timestamp": 1437004800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LAN/2015/Closing",
+      "timestamp": 1746399600,
+      "opponent": "Cloud9",
+      "tournament": "LTA North 2025 Split 2 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Group_Phase#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1427846400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LAN/2015/Opening",
+      "timestamp": 1745708400,
+      "opponent": "Team Liquid",
+      "tournament": "LTA North 2025 Split 2 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Group_Phase#Week_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1375488000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "",
+      "timestamp": 1745269200,
+      "opponent": "Cloud9",
+      "tournament": "LTA North 2025 Split 2 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Positioning_Phase#Week_3",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

@@ -9,75 +9,75 @@
   },
   "matches": [
     {
-      "timestamp": 1743292800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Spring",
+      "timestamp": 1752832800,
+      "opponent": "CyberCore Esports",
+      "tournament": "VCS Finals",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Finals#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1722988800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2024/Summer",
+      "timestamp": 1750910400,
+      "opponent": "DetonatioN FocusMe Academy",
+      "tournament": "Asia Masters Swiss 2 - Low (0-3)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(0-3)",
       "is_upcoming": false
     },
     {
-      "timestamp": 1692921600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2023/Dusk",
+      "timestamp": 1750752000,
+      "opponent": "REJECT",
+      "tournament": "Asia Masters Swiss 2 - Low (0-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(0-2)",
       "is_upcoming": false
     },
     {
-      "timestamp": 1680998400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2023/Dawn",
+      "timestamp": 1750654800,
+      "opponent": "Saigon Secret",
+      "tournament": "Asia Masters Swiss 2 - Low (0-1)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(0-1)",
       "is_upcoming": false
     },
     {
-      "timestamp": 1617494400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2021/Spring",
+      "timestamp": 1750561200,
+      "opponent": "Gen.G Global Academy",
+      "tournament": "Asia Masters Swiss 2 - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Round_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1604102400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2020",
+      "timestamp": 1750500000,
+      "opponent": "Saigon Dino",
+      "tournament": "VCS Summer - Playoffs Results",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Playoffs#Playoffs_Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1599264000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2020/Summer",
+      "timestamp": 1749981600,
+      "opponent": "Vikings Esports Academy",
+      "tournament": "VCS Summer - Playoffs Results",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Playoffs#Playoffs_Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1587168000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2020/Spring",
+      "timestamp": 1749808800,
+      "opponent": "CyberCore Esports",
+      "tournament": "VCS Summer - Playoffs Results",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Playoffs#Playoffs_Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1568505600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2019/Summer",
+      "timestamp": 1748437200,
+      "opponent": "Vikings Esports Academy",
+      "tournament": "VCS Summer - Round 2",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Swiss_Stage#Round_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1490486400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/The_Legends_Circuit/Singapore/2017/Spring",
+      "timestamp": 1748343600,
+      "opponent": "CyberCore Esports",
+      "tournament": "VCS Summer - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Swiss_Stage#Round_1",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

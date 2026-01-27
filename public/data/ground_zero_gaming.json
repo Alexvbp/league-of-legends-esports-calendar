@@ -37,75 +37,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1754265600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3",
+      "timestamp": 1769243400,
+      "opponent": "Fukuoka SoftBank HAWKS gaming",
+      "tournament": "LCP 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1748995200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2",
+      "timestamp": 1768716000,
+      "opponent": "Deep Cross Gaming",
+      "tournament": "LCP 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1742342400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Promotion",
+      "timestamp": 1768543200,
+      "opponent": "Secret Whales",
+      "tournament": "LCP 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1740960000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_1",
+      "timestamp": 1754298000,
+      "opponent": "PSG Talon Academy",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
       "is_upcoming": false
     },
     {
-      "timestamp": 1723334400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Summer",
+      "timestamp": 1753174800,
+      "opponent": "West Point Esports",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
       "is_upcoming": false
     },
     {
-      "timestamp": 1721606400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCO/2024/Split_2",
+      "timestamp": 1748948400,
+      "opponent": "CTBC Flying Oyster Academy",
+      "tournament": "PCS 2025 Split 2 - Week 9",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_9",
       "is_upcoming": false
     },
     {
-      "timestamp": 1714262400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCO/2024/Split_1",
+      "timestamp": 1748869200,
+      "opponent": "Wangting",
+      "tournament": "PCS 2025 Split 2 - Week 9",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_9",
       "is_upcoming": false
     },
     {
-      "timestamp": 1710547200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2024/Spring",
+      "timestamp": 1748343600,
+      "opponent": "HELL PIGS",
+      "tournament": "PCS 2025 Split 2 - Week 8",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_8",
       "is_upcoming": false
     },
     {
-      "timestamp": 1689033600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCO/2023/Split_2",
+      "timestamp": 1747825200,
+      "opponent": "Frank Esports",
+      "tournament": "PCS 2025 Split 2 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
       "is_upcoming": false
     },
     {
-      "timestamp": 1682726400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCO/2023/Split_1",
+      "timestamp": 1747645200,
+      "opponent": "West Point Esports",
+      "tournament": "PCS 2025 Split 2 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

@@ -44,75 +44,68 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1758844800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer",
+      "timestamp": 1769371500,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1749254400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Spring",
+      "timestamp": 1769282100,
+      "opponent": "SK Gaming",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1742083200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/First_Stand_Tournament/2025",
+      "timestamp": 1768852800,
+      "opponent": "Los Ratones",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1740873600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Winter",
+      "timestamp": 1768770000,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1694131200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2023/Summer",
+      "timestamp": 1764432000,
+      "opponent": "G2 Esports",
+      "tournament": "RB League of Its Own '25 - Third & Fourth Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#Third_&_Fourth_Showmatch",
       "is_upcoming": false
     },
     {
-      "timestamp": 1691712000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LFL/2023/Summer",
+      "timestamp": 1764428400,
+      "opponent": "Los Ratones",
+      "tournament": "RB League of Its Own '25 - Second Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#Second_Showmatch",
       "is_upcoming": false
     },
     {
-      "timestamp": 1651881600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/European_Masters/2022/Spring",
+      "timestamp": 1758898800,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2025 Summer - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1632009600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/European_Masters/2021/Summer",
+      "timestamp": 1757775600,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2025 Summer - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1619913600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/European_Masters/2021/Spring",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1616630400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LFL/2021/Spring",
+      "timestamp": 1757257200,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2025 Summer - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

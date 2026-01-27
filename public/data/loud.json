@@ -44,75 +44,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1724371200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_2",
+      "timestamp": 1768762800,
+      "opponent": "PaiN Gaming",
+      "tournament": "CBLOL Cup 2026 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1714780800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2024",
+      "timestamp": 1768672800,
+      "opponent": "FURIA",
+      "tournament": "CBLOL Cup 2026 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1713571200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_1",
+      "timestamp": 1757088000,
+      "opponent": "RED Canids",
+      "tournament": "LTA South Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_2#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1697241600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2023",
+      "timestamp": 1756569600,
+      "opponent": "FURIA",
+      "tournament": "LTA South Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_2#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1694217600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_2",
+      "timestamp": 1755964800,
+      "opponent": "Fluxo W7M",
+      "tournament": "LTA South Split 3 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_1#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1683331200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Mid-Season_Invitational/2023",
+      "timestamp": 1754762400,
+      "opponent": "Isurus Gaming",
+      "tournament": "LTA South Split 3 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1681516800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_1",
+      "timestamp": 1754244000,
+      "opponent": "RED Canids",
+      "tournament": "LTA South Split 3 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1664755200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2022",
+      "timestamp": 1753639200,
+      "opponent": "Keyd Stars",
+      "tournament": "LTA South Split 3 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1662163200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2022/Split_2",
+      "timestamp": 1748703600,
+      "opponent": "Isurus Estral",
+      "tournament": "LTA South Split 2",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/South/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1647734400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2022/Split_1",
+      "timestamp": 1748098800,
+      "opponent": "PaiN Gaming",
+      "tournament": "LTA South Split 2",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/South/Playoffs#Results",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

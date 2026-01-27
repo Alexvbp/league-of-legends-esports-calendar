@@ -44,75 +44,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1724371200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2024/Finals",
+      "timestamp": 1769445000,
+      "opponent": "Los Ratones",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1722038400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2024/Summer",
+      "timestamp": 1769355900,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1712966400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2024/Spring",
+      "timestamp": 1769278500,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1708128000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2024/Winter",
+      "timestamp": 1768849200,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1700352000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2023",
+      "timestamp": 1768752000,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1696809600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2023/Qualifying_Series",
+      "timestamp": 1768669200,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1693612800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2023/Finals",
+      "timestamp": 1757170800,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2025 Summer - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1690070400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2023/Summer",
+      "timestamp": 1756140000,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2025 Summer - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1682208000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2023/Spring",
+      "timestamp": 1755539700,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2025 Summer - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1625356800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Lyon_e-Sport/2021",
+      "timestamp": 1754838000,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2025 Summer - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_2",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

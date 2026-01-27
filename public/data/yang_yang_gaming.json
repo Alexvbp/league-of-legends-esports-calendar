@@ -9,54 +9,75 @@
   },
   "matches": [
     {
-      "timestamp": 1754006400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals",
+      "timestamp": 1754038800,
+      "opponent": "Burning Core Toyama",
+      "tournament": "LJL 2025 Finals",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1749859200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite",
+      "timestamp": 1749888000,
+      "opponent": "DetonatioN FocusMe Academy",
+      "tournament": "LJL 2025 Ignite",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1747526400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier",
+      "timestamp": 1749124800,
+      "opponent": "VARREL Youth",
+      "tournament": "LJL 2025 Ignite - Round 6",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_6",
       "is_upcoming": false
     },
     {
-      "timestamp": 1745539200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Storm",
+      "timestamp": 1749038400,
+      "opponent": "Dream in 24",
+      "tournament": "LJL 2025 Ignite - Round 5",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1743292800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Storm/Open_Qualifier",
+      "timestamp": 1748520000,
+      "opponent": "Clocks",
+      "tournament": "LJL 2025 Ignite - Round 4",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1741219200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Forge",
+      "timestamp": 1748437200,
+      "opponent": "Clocks",
+      "tournament": "LJL 2025 Ignite - Round 3",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1737849600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Forge/Open_Qualifier",
+      "timestamp": 1747915200,
+      "opponent": "Vortex",
+      "tournament": "LJL 2025 Ignite - Round 2",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747825200,
+      "opponent": "Burning Core Toyama",
+      "tournament": "LJL 2025 Ignite - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747555200,
+      "opponent": "Clocks",
+      "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier/Round_Two#Group_A_-_Matches",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747551600,
+      "opponent": "V3 Esports",
+      "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier/Round_Two#Group_A_-_Matches",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

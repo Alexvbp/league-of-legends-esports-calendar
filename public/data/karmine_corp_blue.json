@@ -44,75 +44,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1762041600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer",
+      "timestamp": 1769365800,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1757635200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LFL/2025/Summer",
+      "timestamp": 1769272200,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1750291200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Spring",
+      "timestamp": 1768842000,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1742515200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Winter",
+      "timestamp": 1768755600,
+      "opponent": "Los Ratones",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1740614400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LFL/2025/Winter",
+      "timestamp": 1768680000,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1727654400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LFL/2024/Coupe_de_France",
+      "timestamp": 1762106400,
+      "opponent": "Los Heretics",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1724025600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2024/Summer",
+      "timestamp": 1760976000,
+      "opponent": "Los Ratones",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1722643200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LFL/2024/Summer",
+      "timestamp": 1760630400,
+      "opponent": "Misa Esports",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1713830400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2024/Spring",
+      "timestamp": 1760198400,
+      "opponent": "Verdant",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1712275200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LFL/2024/Spring",
+      "timestamp": 1759842000,
+      "opponent": "Partizan Sangal",
+      "tournament": "EMEA Masters Summer - High (3-2)",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Swiss_Stage#High_(3-2)",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

@@ -99,49 +99,68 @@ def _extract_opponent(item: Tag, team: TeamConfig) -> str | None:
 def _parse_past_matches(soup: BeautifulSoup, team: TeamConfig) -> list[Match]:
     """Parse past/recent matches from results tables.
 
-    Liquipedia team pages typically have a 'Results' section with a wikitable.
-    We extract date, tournament, and opponent — intentionally skipping scores
-    to avoid spoilers.
-    """
-    matches: list[Match] = []
+    Liquipedia team pages have two kinds of tables:
+    - Tournament results (Date, Place, Tier, Tournament, Result, Prize) — no opponents
+    - Match history (Date, Tier, Tournament, Score, vs. Opponent) — what we want
 
-    # Strategy 1: Find tables under a "Results" heading
-    results_table = _find_results_table(soup)
-    if results_table:
-        matches = _parse_results_table(results_table, team)
+    We prioritize tables with an opponent column, then fall back to other strategies.
+    """
+    # Strategy 1: Find a table with an opponent column (match history)
+    match_table = _find_match_history_table(soup)
+    if match_table:
+        matches = _parse_results_table(match_table, team)
+        if matches:
+            return matches
 
     # Strategy 2: Look for recent-matches-list or match-row elements
-    if not matches:
-        matches = _parse_recent_matches_list(soup, team)
+    matches = _parse_recent_matches_list(soup, team)
+    if matches:
+        return matches
 
-    return matches
+    return []
 
 
-def _find_results_table(soup: BeautifulSoup) -> Tag | None:
-    """Find the results table on the page."""
-    # Look for heading containing "Results"
-    for heading in soup.find_all(["h2", "h3"]):
-        heading_text = heading.get_text(strip=True)
-        if "results" in heading_text.lower() or "recent" in heading_text.lower():
-            # Find the next table after this heading
-            sibling = heading.find_next_sibling()
-            while sibling:
-                if sibling.name == "table":
-                    return sibling
-                # Also check inside wrapper divs
-                if sibling.name == "div":
-                    table = sibling.find("table")
-                    if table:
-                        return table
-                # Stop if we hit another heading
-                if sibling.name in ("h2", "h3"):
-                    break
-                sibling = sibling.find_next_sibling()
+def _find_match_history_table(soup: BeautifulSoup) -> Tag | None:
+    """Find a table with match-by-match data (has an opponent column).
 
-    # Fallback: look for any wikitable with match-like columns
+    Liquipedia team pages typically have both a tournament results table
+    (no opponent column) and a match history table (with 'vs. Opponent').
+    We need the match history one.
+    """
+    opponent_keywords = ("opponent", "vs.", "vs. opponent", "vs")
+
+    # First pass: find any wikitable with an opponent column
     for table in soup.find_all("table", class_="wikitable"):
         headers = [th.get_text(strip=True).lower() for th in table.find_all("th")]
-        if any(h in headers for h in ("date", "opponent", "vs", "vs.")):
+        if any(kw in h for h in headers for kw in opponent_keywords):
+            return table
+
+    # Second pass: look for tables under Results/Data/Recent headings that
+    # have an opponent column
+    for heading in soup.find_all(["h2", "h3"]):
+        heading_text = heading.get_text(strip=True).lower()
+        if any(kw in heading_text for kw in ("results", "recent", "data", "match")):
+            sibling = heading.find_next_sibling()
+            while sibling:
+                tables = []
+                if sibling.name == "table":
+                    tables.append(sibling)
+                elif sibling.name == "div":
+                    tables.extend(sibling.find_all("table"))
+                if sibling.name in ("h2", "h3"):
+                    break
+                for t in tables:
+                    headers = [th.get_text(strip=True).lower() for th in t.find_all("th")]
+                    if any(kw in h for h in headers for kw in opponent_keywords):
+                        return t
+                sibling = sibling.find_next_sibling() if isinstance(sibling, Tag) else None
+
+    # Third pass: any table with both a date and opponent-like column
+    for table in soup.find_all("table"):
+        headers = [th.get_text(strip=True).lower() for th in table.find_all("th")]
+        has_date = any("date" in h for h in headers)
+        has_opponent = any(kw in h for h in headers for kw in opponent_keywords)
+        if has_date and has_opponent:
             return table
 
     return None

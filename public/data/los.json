@@ -23,54 +23,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1756771200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2",
+      "timestamp": 1769371200,
+      "opponent": "FURIA",
+      "tournament": "CBLOL Cup 2026 - Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1748908800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_1",
+      "timestamp": 1769281200,
+      "opponent": "LOUD",
+      "tournament": "CBLOL Cup 2026 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1722124800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_2",
+      "timestamp": 1769270400,
+      "opponent": "Leviatán",
+      "tournament": "CBLOL Cup 2026 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1712361600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2024/Split_1",
+      "timestamp": 1768752000,
+      "opponent": "Fluxo W7M",
+      "tournament": "CBLOL Cup 2026 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1698105600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/MEG_League_of_Legends/2023",
+      "timestamp": 1768676400,
+      "opponent": "Keyd Stars",
+      "tournament": "CBLOL Cup 2026 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1691280000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_2",
+      "timestamp": 1756843200,
+      "opponent": "KaBuM! IDL",
+      "tournament": "CD 2025 Split 2 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2/Playoffs#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1680998400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2023/Split_1",
+      "timestamp": 1756767600,
+      "opponent": "Keyd Stars Academy",
+      "tournament": "CD 2025 Split 2 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2/Playoffs#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1755640800,
+      "opponent": "Flamengo Esports",
+      "tournament": "CD 2025 Split 2 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2/Playoffs#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1755043200,
+      "opponent": "E-Champ Gaming",
+      "tournament": "CD 2025 Split 2 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2/Regular_Season#Week_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754942400,
+      "opponent": "Alpha7 Esports",
+      "tournament": "CD 2025 Split 2 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2/Regular_Season#Week_4",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

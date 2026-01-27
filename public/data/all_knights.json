@@ -9,75 +9,75 @@
   },
   "matches": [
     {
-      "timestamp": 1710892800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening",
+      "timestamp": 1710972000,
+      "opponent": "Isurus",
+      "tournament": "LLA Opening 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1689811200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Closing",
+      "timestamp": 1710363600,
+      "opponent": "Leviatán",
+      "tournament": "LLA Opening 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1679356800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2023/Opening",
+      "timestamp": 1710277200,
+      "opponent": "Six Karma",
+      "tournament": "LLA Opening 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Playoffs#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1659657600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2022/Closing",
+      "timestamp": 1709157600,
+      "opponent": "Isurus",
+      "tournament": "LLA Opening 2024 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Group_Stage#Week_7",
       "is_upcoming": false
     },
     {
-      "timestamp": 1647129600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2022/Opening",
+      "timestamp": 1709071200,
+      "opponent": "Estral Esports",
+      "tournament": "LLA Opening 2024 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Group_Stage#Week_7",
       "is_upcoming": false
     },
     {
-      "timestamp": 1617408000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2021/Opening",
+      "timestamp": 1708639200,
+      "opponent": "Infinity",
+      "tournament": "LLA Opening 2024 - Week 6",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Group_Stage#Week_6",
       "is_upcoming": false
     },
     {
-      "timestamp": 1598659200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Closing",
+      "timestamp": 1708563600,
+      "opponent": "Rainbow7",
+      "tournament": "LLA Opening 2024 - Week 6",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Group_Stage#Week_6",
       "is_upcoming": false
     },
     {
-      "timestamp": 1588377600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2020/Opening",
+      "timestamp": 1707958800,
+      "opponent": "Six Karma",
+      "tournament": "LLA Opening 2024 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Group_Stage#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1567209600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Closing",
+      "timestamp": 1707440400,
+      "opponent": "Leviatán",
+      "tournament": "LLA Opening 2024 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Group_Stage#Week_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1555718400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LLA/2019/Opening",
+      "timestamp": 1707256800,
+      "opponent": "Isurus",
+      "tournament": "LLA Opening 2024 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Opening/Group_Stage#Week_4",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

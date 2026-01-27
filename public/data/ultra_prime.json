@@ -37,75 +37,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1756684800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3",
+      "timestamp": 1769065200,
+      "opponent": "Oh My God",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1746921600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_2",
+      "timestamp": 1768460400,
+      "opponent": "LGD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1739318400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_1",
+      "timestamp": 1766041200,
+      "opponent": "Team WE",
+      "tournament": "Demacia Cup 2025 - Stage 1 Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_4",
       "is_upcoming": false
     },
     {
-      "timestamp": 1722384000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2024/Summer",
+      "timestamp": 1765965300,
+      "opponent": "FRK",
+      "tournament": "Demacia Cup 2025 - Stage 1 Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1689552000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2023/Summer",
+      "timestamp": 1765807200,
+      "opponent": "LNG Esports",
+      "tournament": "Demacia Cup 2025 - Stage 1 Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1660435200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2022/Summer",
+      "timestamp": 1756717200,
+      "opponent": "Weibo Gaming",
+      "tournament": "LPL Split 3 - Knights Rivals",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Playoffs#Knights_Rivals",
       "is_upcoming": false
     },
     {
-      "timestamp": 1648166400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2022/Spring",
+      "timestamp": 1756112400,
+      "opponent": "LGD Gaming",
+      "tournament": "LPL Split 3 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_7",
       "is_upcoming": false
     },
     {
-      "timestamp": 1640217600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2021",
+      "timestamp": 1755766800,
+      "opponent": "EDward Gaming",
+      "tournament": "LPL Split 3 - Week 6",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_6",
       "is_upcoming": false
     },
     {
-      "timestamp": 1637107200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/National_Electronic_Sports_Tournament/2021",
+      "timestamp": 1755338100,
+      "opponent": "ThunderTalk Gaming",
+      "tournament": "LPL Split 3 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1628380800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2021/Summer",
+      "timestamp": 1754902800,
+      "opponent": "Ninjas in Pyjamas",
+      "tournament": "LPL Split 3 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_5",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

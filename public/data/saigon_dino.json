@@ -9,40 +9,75 @@
   },
   "matches": [
     {
-      "timestamp": 1759536000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion",
+      "timestamp": 1759570200,
+      "opponent": "Vikings Esports",
+      "tournament": "LCP 2026 Promotion - Regional Merit",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion#Regional_Merit",
       "is_upcoming": false
     },
     {
-      "timestamp": 1752969600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Finals",
+      "timestamp": 1753005600,
+      "opponent": "CyberCore Esports",
+      "tournament": "VCS Finals",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Finals#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1752796800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2",
+      "timestamp": 1752919200,
+      "opponent": "Never Give Up",
+      "tournament": "VCS Finals",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Finals#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1750550400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer",
+      "timestamp": 1752814800,
+      "opponent": "Hanwha Life Esports Challengers",
+      "tournament": "Asia Masters Swiss 2 - Middle (3-3)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(3-3)",
       "is_upcoming": false
     },
     {
-      "timestamp": 1743120000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Spring",
+      "timestamp": 1752728400,
+      "opponent": "FEARX Youth",
+      "tournament": "Asia Masters Swiss 2 - High (3-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#High_(3-2)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752390000,
+      "opponent": "REJECT",
+      "tournament": "Asia Masters Swiss 2 - Middle (2-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(2-2)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750845600,
+      "opponent": "T1 Esports Academy",
+      "tournament": "Asia Masters Swiss 2 - Middle (2-1)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(2-1)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750737600,
+      "opponent": "EDward Gaming Youth Team",
+      "tournament": "Asia Masters Swiss 2 - Middle (1-1)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(1-1)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750669200,
+      "opponent": "DetonatioN FocusMe Academy",
+      "tournament": "Asia Masters Swiss 2 - Low (0-1)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(0-1)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750586400,
+      "opponent": "Vikings Esports Academy",
+      "tournament": "VCS Summer - Playoffs Results",
+      "url": "https://liquipedia.net/leagueoflegends/VCS/2025/Summer/Playoffs#Playoffs_Results",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

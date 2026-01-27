@@ -16,61 +16,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1760227200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/North/Promotion_Tournament",
+      "timestamp": 1769296500,
+      "opponent": "Sentinels",
+      "tournament": "LCS 2026 Lock-In - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Round_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1756425600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North",
+      "timestamp": 1760299200,
+      "opponent": "Luminosity Gaming",
+      "tournament": "LTA North 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/North/Promotion_Tournament#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1747526400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North",
+      "timestamp": 1759953600,
+      "opponent": "Luminosity Gaming",
+      "tournament": "LTA North 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/North/Promotion_Tournament#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1738454400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_1/North",
+      "timestamp": 1759780800,
+      "opponent": "Estral Esports",
+      "tournament": "LTA North 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/North/Promotion_Tournament#Results",
       "is_upcoming": false
     },
     {
-      "timestamp": 1724630400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/North_American_Challengers_League/2024/Summer",
+      "timestamp": 1756497600,
+      "opponent": "Cloud9",
+      "tournament": "LTA North 2025 Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Elimination_Phase_-_Part_2#Playoffs",
       "is_upcoming": false
     },
     {
-      "timestamp": 1711238400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/North_American_Challengers_League/2024/Spring",
+      "timestamp": 1755979200,
+      "opponent": "Dignitas",
+      "tournament": "LTA North 2025 Split 3 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Elimination_Phase_-_Part_1#Week_5",
       "is_upcoming": false
     },
     {
-      "timestamp": 1691539200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/North_American_Challengers_League/2023/Summer",
+      "timestamp": 1754863200,
+      "opponent": "Dignitas",
+      "tournament": "LTA North 2025 Split 3 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Pick_%26_Play_Phase#Week_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1685577600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/Disguised_vs_Delta_Fox_Showmatch",
+      "timestamp": 1754257800,
+      "opponent": "Shopify Rebellion",
+      "tournament": "LTA North 2025 Split 3 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Pick_%26_Play_Phase#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1753560000,
+      "opponent": "FlyQuest",
+      "tournament": "LTA North 2025 Split 3 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Pick_%26_Play_Phase#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747604700,
+      "opponent": "100 Thieves",
+      "tournament": "LTA North 2025 Split 2 - Elimination Matches",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Play-In#Elimination_Matches",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }

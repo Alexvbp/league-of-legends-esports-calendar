@@ -16,75 +16,75 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1762646400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025",
+      "timestamp": 1769339580,
+      "opponent": "BRION",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1758931200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2025",
+      "timestamp": 1769155200,
+      "opponent": "T1",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1699056000,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2023",
+      "timestamp": 1768647300,
+      "opponent": "Gen.G Esports",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1539993600,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2018",
+      "timestamp": 1768377600,
+      "opponent": "SOOPers",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1536364800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2018/Summer",
+      "timestamp": 1765192500,
+      "opponent": "Dplus",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
       "is_upcoming": false
     },
     {
-      "timestamp": 1512172800,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2017",
+      "timestamp": 1765098000,
+      "opponent": "BRION",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1492819200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2017/Spring",
+      "timestamp": 1765089900,
+      "opponent": "DRX",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
     },
     {
-      "timestamp": 1471651200,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2016/Summer",
+      "timestamp": 1765019700,
+      "opponent": "Freecs",
+      "tournament": "KeSPA Cup 2025 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
       "is_upcoming": false
     },
     {
-      "timestamp": 1445126400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2015",
+      "timestamp": 1762672800,
+      "opponent": "T1",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     },
     {
-      "timestamp": 1440806400,
-      "opponent": "TBD",
-      "tournament": "Match",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2015/Summer",
+      "timestamp": 1761980400,
+      "opponent": "Gen.G Esports",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T12:55:56Z"
+  "generated_utc": "2026-01-27T13:30:39Z"
 }
