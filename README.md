@@ -23,6 +23,8 @@ Once deployed, visit your GitHub Pages URL to pick a team and subscribe. Direct 
 https://YOUR_USERNAME.github.io/los-ratones-calendar/los_ratones.ics
 ```
 
+(or use my link) https://alexvbp.github.io/Los-Ratones-Calendar/los_ratones.ics
+
 Works with:
 - **Google Calendar** — Settings > Add calendar > From URL
 - **Apple Calendar** — File > New Calendar Subscription
