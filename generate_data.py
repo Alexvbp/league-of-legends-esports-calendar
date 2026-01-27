@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -48,8 +49,12 @@ def main() -> int:
     team_manifest: list[dict] = []
     errors: list[str] = []
 
-    for team in teams:
+    for i, team in enumerate(teams):
         print(f"\n{team.emoji} Fetching {team.name} matches from Liquipedia...")
+
+        # Be respectful to Liquipedia — 2 second delay between requests
+        if i > 0:
+            time.sleep(2)
 
         try:
             matches = fetch_team_matches(team)
@@ -111,6 +116,7 @@ def main() -> int:
                 print(f"    {dt.strftime('%Y-%m-%d %H:%M UTC')} vs {m.opponent}")
 
         except Exception as e:
+            time.sleep(2)  # Be respectful to Liquipedia even on errors
             error_msg = f"Failed to fetch {team.name}: {e}"
             print(f"  ERROR: {error_msg}")
             errors.append(error_msg)
