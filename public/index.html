@@ -54,6 +54,45 @@
             text-align: center;
         }
 
+        /* Team search and region filter */
+        .team-filter-bar {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .team-search {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            border: 1px solid #2a2a4a;
+            background: #0f0f1a;
+            color: #e0e0e0;
+            font-size: 0.9rem;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.15s;
+        }
+        .team-search:focus { border-color: #7dd3fc; }
+        .team-search::placeholder { color: #555; }
+        .region-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+        }
+        .region-tag {
+            padding: 0.2rem 0.55rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            border: 1px solid #2a2a4a;
+            background: #0f0f1a;
+            color: #888;
+            transition: all 0.15s;
+        }
+        .region-tag:hover { border-color: #7dd3fc; color: #e0e0e0; }
+        .region-tag.active { background: #1e3a5f; border-color: #7dd3fc; color: #7dd3fc; }
+
         /* Team cards */
         .team-list {
             display: flex;
@@ -278,6 +317,11 @@
             <div class="team-column" id="available-col"
                  ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event, 'available')">
                 <h3>Available Teams</h3>
+                <div class="team-filter-bar">
+                    <input type="text" class="team-search" id="team-search"
+                           placeholder="Search teams..." oninput="onTeamSearch()">
+                    <div class="region-filters" id="region-filters"></div>
+                </div>
                 <div class="team-list" id="available-list"></div>
             </div>
             <div class="team-column" id="selected-col"
@@ -339,6 +383,22 @@
     let teamDataCache = {};
     let draggedSlug = null;
     let activeTournamentFilter = { upcoming: null, past: null };
+    let teamSearchQuery = '';
+    let activeRegionFilter = null;
+
+    // Emoji → region label mapping
+    const EMOJI_REGIONS = {
+        '\u{1F1EA}\u{1F1FA}': 'Europe',
+        '\u{1F1F0}\u{1F1F7}': 'Korea',
+        '\u{1F1E8}\u{1F1F3}': 'China',
+        '\u{1F1FA}\u{1F1F8}': 'NA',
+        '\u{1F1E7}\u{1F1F7}': 'Brazil',
+        '\u{1F1FB}\u{1F1F3}': 'Vietnam',
+        '\u{1F1EF}\u{1F1F5}': 'Japan',
+        '\u{1F30F}': 'Pacific',
+        '\u{1F30E}': 'LATAM',
+        '\u{1F400}': 'Europe',  // Los Ratones rat emoji → Europe
+    };
 
     // --- Init ---
     async function init() {
@@ -378,10 +438,43 @@
             .map(slug => allTeams.find(t => t.slug === slug))
             .filter(Boolean);
 
+        // Build region filter pills from available teams
+        const regionCounts = {};
+        for (const t of available) {
+            const region = EMOJI_REGIONS[t.emoji] || 'Other';
+            regionCounts[region] = (regionCounts[region] || 0) + 1;
+        }
+        const regions = Object.keys(regionCounts).sort();
+        let regionHTML = `<span class="region-tag${!activeRegionFilter ? ' active' : ''}"
+            onclick="setRegionFilter(null)">All</span>`;
+        for (const r of regions) {
+            regionHTML += `<span class="region-tag${activeRegionFilter === r ? ' active' : ''}"
+                onclick="setRegionFilter('${r}')">${r} (${regionCounts[r]})</span>`;
+        }
+        document.getElementById('region-filters').innerHTML = regionHTML;
+
+        // Apply search + region filters to available teams
+        let filtered = available;
+        if (teamSearchQuery) {
+            const q = teamSearchQuery.toLowerCase();
+            filtered = filtered.filter(t =>
+                t.name.toLowerCase().includes(q) ||
+                t.short_name.toLowerCase().includes(q) ||
+                t.slug.toLowerCase().includes(q)
+            );
+        }
+        if (activeRegionFilter) {
+            filtered = filtered.filter(t =>
+                (EMOJI_REGIONS[t.emoji] || 'Other') === activeRegionFilter
+            );
+        }
+
         document.getElementById('available-list').innerHTML =
-            available.length > 0
-                ? available.map(t => teamCardHTML(t)).join('')
-                : '<div class="empty-msg">All teams selected</div>';
+            available.length === 0
+                ? '<div class="empty-msg">All teams selected</div>'
+                : filtered.length > 0
+                    ? filtered.map(t => teamCardHTML(t)).join('')
+                    : '<div class="empty-msg">No teams match your filter</div>';
 
         document.getElementById('selected-list').innerHTML =
             orderedSelected.length > 0
@@ -600,6 +693,17 @@
         const header = body.previousElementSibling;
         body.classList.toggle('hidden');
         header.classList.toggle('collapsed');
+    }
+
+    // --- Team search and region filter ---
+    function onTeamSearch() {
+        teamSearchQuery = document.getElementById('team-search').value;
+        renderTeamLists();
+    }
+
+    function setRegionFilter(region) {
+        activeRegionFilter = region;
+        renderTeamLists();
     }
 
     // --- Team selection ---
