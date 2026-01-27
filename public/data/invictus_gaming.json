@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769511600,
-      "opponent": "Anyone's Legend",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769857200,
       "opponent": "Bilibili Gaming",
       "tournament": "LPL 2026 Split 1 - Week 3",
@@ -35,6 +28,13 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769514000,
+      "opponent": "Anyone's Legend",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769343900,
@@ -98,14 +98,7 @@
       "tournament": "Demacia Cup 2025 - Knockout Stage",
       "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1766653200,
-      "opponent": "Ninjas in Pyjamas",
-      "tournament": "Demacia Cup 2025 - Stage 2 Day 7",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_7",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T14:23:16Z"
+  "generated_utc": "2026-01-27T15:37:35Z"
 }
