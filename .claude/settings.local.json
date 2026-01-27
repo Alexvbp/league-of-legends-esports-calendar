@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:liquipedia.net)",
+      "WebSearch",
+      "Bash(pip install:*)",
+      "Bash(python3 -m venv:*)",
+      "Bash(. .venv/bin/activate)",
+      "Bash(pytest:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

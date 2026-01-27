@@ -1,0 +1,11 @@
+{
+  "teams": [
+    {
+      "name": "Los Ratones",
+      "slug": "Los_Ratones",
+      "short_name": "LR",
+      "emoji": "\ud83d\udc00",
+      "game": "leagueoflegends"
+    }
+  ]
+}
