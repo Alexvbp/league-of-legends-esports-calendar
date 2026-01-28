@@ -13,7 +13,7 @@
       "opponent": "BRION",
       "tournament": "LCK Cup 2026 - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769163540,
@@ -77,14 +77,7 @@
       "tournament": "LCK 2025 - Week 15",
       "url": "https://liquipedia.net/leagueoflegends/LCK/2025/Rounds_3-5#Week_15",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1756454400,
-      "opponent": "FEARX",
-      "tournament": "LCK 2025 - Week 15",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2025/Rounds_3-5#Week_15",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T09:41:45Z"
+  "generated_utc": "2026-01-28T13:07:46Z"
 }
