@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769504400,
-      "opponent": "Top Esports",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769684400,
       "opponent": "JD Gaming",
       "tournament": "LPL 2026 Split 1 - Week 3",
@@ -42,6 +35,13 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769504400,
+      "opponent": "Top Esports",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769256000,
@@ -105,14 +105,7 @@
       "tournament": "Demacia Cup 2025 - Stage 2 Day 1",
       "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_1",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1760173200,
-      "opponent": "FEARX",
-      "tournament": "ASI 2025 - Knockout Stage",
-      "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025/Knockout_Stage#Knockout_Stage",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T13:07:46Z"
+  "generated_utc": "2026-01-28T15:40:59Z"
 }
