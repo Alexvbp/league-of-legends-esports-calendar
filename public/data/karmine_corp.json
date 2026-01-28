@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769453100,
-      "opponent": "Natus Vincere",
-      "tournament": "LEC 2026 Versus - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769889600,
       "opponent": "Team Vitality",
       "tournament": "LEC 2026 Versus - Week 3",
@@ -42,6 +35,20 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1770580800,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769454900,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769371500,
@@ -98,14 +105,7 @@
       "tournament": "LEC 2025 Summer - Playoffs",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1757257200,
-      "opponent": "G2 Esports",
-      "tournament": "LEC 2025 Summer - Playoffs",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T21:26:36Z"
+  "generated_utc": "2026-01-28T02:24:39Z"
 }

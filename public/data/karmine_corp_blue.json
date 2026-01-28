@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769442300,
-      "opponent": "SK Gaming",
-      "tournament": "LEC 2026 Versus - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769886000,
       "opponent": "G2 Esports",
       "tournament": "LEC 2026 Versus - Week 3",
@@ -42,6 +35,20 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1770570000,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769442300,
+      "opponent": "SK Gaming",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769365800,
@@ -105,14 +112,7 @@
       "tournament": "EMEA Masters Summer",
       "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1759842000,
-      "opponent": "Partizan Sangal",
-      "tournament": "EMEA Masters Summer - High (3-2)",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Swiss_Stage#High_(3-2)",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-27T21:26:36Z"
+  "generated_utc": "2026-01-28T02:24:39Z"
 }
