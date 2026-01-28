@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769442300,
-      "opponent": "Karmine Corp Blue",
-      "tournament": "LEC 2026 Versus - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769875200,
       "opponent": "Team Heretics",
       "tournament": "LEC 2026 Versus - Week 3",
@@ -42,6 +35,20 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1770573600,
+      "opponent": "Shifters",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769442300,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769359200,
@@ -105,14 +112,7 @@
       "tournament": "LEC 2025 Summer - Week 1",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_1",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1753545600,
-      "opponent": "Team Vitality",
-      "tournament": "NNO Cup Season 3 - Knockout Stage",
-      "url": "https://liquipedia.net/leagueoflegends/NNO_Cup/Season_3#Knockout_Stage",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }

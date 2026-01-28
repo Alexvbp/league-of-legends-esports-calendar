@@ -9,18 +9,18 @@
   },
   "matches": [
     {
-      "timestamp": 1769601000,
-      "opponent": "Ninjas in Pyjamas",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1770195600,
       "opponent": "Team WE",
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769601000,
+      "opponent": "Ninjas in Pyjamas",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769162400,
@@ -84,14 +84,7 @@
       "tournament": "Demacia Cup 2025 - Stage 2 Day 1",
       "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_1",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1757581200,
-      "opponent": "JD Gaming",
-      "tournament": "LPL Split 3 - Season Playoffs",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Playoffs#Season_Playoffs",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }

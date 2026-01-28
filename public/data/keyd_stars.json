@@ -9,20 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769277600,
-      "opponent": "Leviatán",
-      "tournament": "CBLOL Cup 2026 - Day 3",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769367600,
-      "opponent": "LOUD",
-      "tournament": "CBLOL Cup 2026 - Day 4",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769788800,
       "opponent": "RED Canids",
       "tournament": "CBLOL Cup 2026 - Day 5",
@@ -35,6 +21,20 @@
       "tournament": "CBLOL Cup 2026 - Day 6",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769367600,
+      "opponent": "LOUD",
+      "tournament": "CBLOL Cup 2026 - Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769277600,
+      "opponent": "Leviatán",
+      "tournament": "CBLOL Cup 2026 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1768759200,
@@ -91,21 +91,7 @@
       "tournament": "LTA 2025 Championship",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship#Results",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1759003200,
-      "opponent": "100 Thieves",
-      "tournament": "LTA 2025 Championship",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship#Results",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1758398400,
-      "opponent": "FlyQuest",
-      "tournament": "LTA 2025 Championship",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship#Results",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }

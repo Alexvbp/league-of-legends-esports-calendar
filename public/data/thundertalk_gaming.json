@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769410800,
-      "opponent": "Team WE",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769677200,
       "opponent": "Ninjas in Pyjamas",
       "tournament": "LPL 2026 Split 1 - Week 3",
@@ -28,6 +21,13 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769418000,
+      "opponent": "Team WE",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769162400,
@@ -91,14 +91,7 @@
       "tournament": "LPL Split 3 - Week 5",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_5",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1754816400,
-      "opponent": "EDward Gaming",
-      "tournament": "LPL Split 3 - Week 4",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_4",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }

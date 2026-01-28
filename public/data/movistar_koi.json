@@ -9,20 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769365800,
-      "opponent": "Karmine Corp Blue",
-      "tournament": "LEC 2026 Versus - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769460300,
-      "opponent": "GIANTX",
-      "tournament": "LEC 2026 Versus - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769893200,
       "opponent": "Los Ratones",
       "tournament": "LEC 2026 Versus - Week 3",
@@ -42,6 +28,34 @@
       "tournament": "LEC 2026 Versus - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1770494400,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770577200,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769457900,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769365800,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769285700,
@@ -98,21 +112,7 @@
       "tournament": "Worlds 2025 - Low (0-1)",
       "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Low_(0-1)",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1760511600,
-      "opponent": "KT Rolster",
-      "tournament": "Worlds 2025 - Round 1",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Round_1",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1759071600,
-      "opponent": "G2 Esports",
-      "tournament": "LEC 2025 Summer - Playoffs",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }

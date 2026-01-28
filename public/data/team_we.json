@@ -9,18 +9,18 @@
   },
   "matches": [
     {
-      "timestamp": 1769410800,
-      "opponent": "ThunderTalk Gaming",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1770195600,
       "opponent": "EDward Gaming",
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769418000,
+      "opponent": "ThunderTalk Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769331600,
@@ -84,14 +84,7 @@
       "tournament": "Demacia Cup 2025 - Stage 1 Day 4",
       "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_4",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1765972800,
-      "opponent": "LNG Esports",
-      "tournament": "Demacia Cup 2025 - Stage 1 Day 3",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_3",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }

@@ -9,20 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769151600,
-      "opponent": "Oh My God",
-      "tournament": "LPL 2026 Split 1 - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769583600,
-      "opponent": "Ultra Prime",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769936400,
       "opponent": "LNG Esports",
       "tournament": "LPL 2026 Split 1 - Week 3",
@@ -35,6 +21,20 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769583600,
+      "opponent": "Ultra Prime",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769151600,
+      "opponent": "Oh My God",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
     },
     {
       "timestamp": 1768986000,
@@ -91,21 +91,7 @@
       "tournament": "Demacia Cup 2025 - Stage 2 Day 2",
       "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_2",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1766049900,
-      "opponent": "Oh My God",
-      "tournament": "Demacia Cup 2025 - Stage 1 Day 4",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_4",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1765868400,
-      "opponent": "ThunderTalk Gaming",
-      "tournament": "Demacia Cup 2025 - Stage 1 Day 2",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_2",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }

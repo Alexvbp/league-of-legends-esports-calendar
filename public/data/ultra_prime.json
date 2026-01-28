@@ -9,20 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769497200,
-      "opponent": "LNG Esports",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769583600,
-      "opponent": "LGD Gaming",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769763600,
       "opponent": "Oh My God",
       "tournament": "LPL 2026 Split 1 - Week 3",
@@ -35,6 +21,20 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769583600,
+      "opponent": "LGD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769497200,
+      "opponent": "LNG Esports",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769065200,
@@ -91,21 +91,7 @@
       "tournament": "LPL Split 3 - Week 6",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_6",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1755338100,
-      "opponent": "ThunderTalk Gaming",
-      "tournament": "LPL Split 3 - Week 5",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_5",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1754902800,
-      "opponent": "Ninjas in Pyjamas",
-      "tournament": "LPL Split 3 - Week 5",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2025/Split_3/Rumble_Stage/Week_4-7#Week_5",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }

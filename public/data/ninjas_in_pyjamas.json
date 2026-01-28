@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769601000,
-      "opponent": "EDward Gaming",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769677200,
       "opponent": "ThunderTalk Gaming",
       "tournament": "LPL 2026 Split 1 - Week 3",
@@ -28,6 +21,13 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769601000,
+      "opponent": "EDward Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769331600,
@@ -91,14 +91,7 @@
       "tournament": "ASI 2025 - GS Day 3",
       "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025/Group_Stage#GS_Day_3",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1759820400,
-      "opponent": "FEARX",
-      "tournament": "ASI 2025 - GS Day 2",
-      "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025/Group_Stage#GS_Day_2",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-28T18:48:13Z"
+  "generated_utc": "2026-01-28T21:37:21Z"
 }
