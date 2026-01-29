@@ -4,6 +4,8 @@ Personalized esports match calendar feeds. Pick your teams, get a subscription U
 
 Powered by [Liquipedia](https://liquipedia.net) data, [Cloudflare Pages](https://pages.cloudflare.com/) for hosting, and GitHub Actions for scraping.
 
+Public instance: https://league-esports-calendar.pages.dev/
+
 ## How It Works
 
 1. **GitHub Actions** scrapes Liquipedia every 3 hours, commits JSON match data to the repo
@@ -207,3 +209,4 @@ The `tournament` parameter filters matches by tournament name (case-insensitive 
 ## License
 
 MIT
+

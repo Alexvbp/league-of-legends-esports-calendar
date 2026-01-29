@@ -22,6 +22,9 @@ node_modules/
 *.swp
 *.swo
 
+# Generated data (committed only by GitHub Actions, not locally)
+public/data/
+
 # Cache (persisted by GitHub Actions, not committed)
 cache/
 
