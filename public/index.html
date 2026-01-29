@@ -446,10 +446,10 @@
         }
         const regions = Object.keys(regionCounts).sort();
         let regionHTML = `<span class="region-tag${!activeRegionFilter ? ' active' : ''}"
-            onclick="setRegionFilter(null)">All</span>`;
+            data-region="">All</span>`;
         for (const r of regions) {
             regionHTML += `<span class="region-tag${activeRegionFilter === r ? ' active' : ''}"
-                onclick="setRegionFilter('${r}')">${r} (${regionCounts[r]})</span>`;
+                data-region="${esc(r)}">${esc(r)} (${regionCounts[r]})</span>`;
         }
         document.getElementById('region-filters').innerHTML = regionHTML;
 
@@ -484,10 +484,7 @@
 
     function teamCardHTML(team) {
         return `<div class="team-card" draggable="true"
-                     data-slug="${esc(team.slug)}"
-                     ondragstart="onDragStart(event)"
-                     ondragend="onDragEnd(event)"
-                     onclick="toggleTeam('${esc(team.slug)}')">
+                     data-slug="${esc(team.slug)}">
             <span class="emoji">${esc(team.emoji)}</span>
             <span class="name">${esc(team.name)}</span>
             <span class="game-tag">${esc(team.game)}</span>
@@ -604,12 +601,12 @@
         let filterHTML = '';
         if (tournaments.length > 1) {
             filterHTML += `<span class="tournament-tag${!activeFilter ? ' active' : ''}"
-                onclick="setTournamentFilter('${type}', null)">All
+                data-filter-type="${type}" data-tournament="">All
                 <span class="count">${matches.length}</span></span>`;
             for (const t of tournaments) {
                 const isActive = activeFilter === t;
                 filterHTML += `<span class="tournament-tag${isActive ? ' active' : ''}"
-                    onclick="setTournamentFilter('${type}', '${esc(t.replace(/'/g, "\\'"))}')">${esc(t)}
+                    data-filter-type="${type}" data-tournament="${esc(t)}">${esc(t)}
                     <span class="count">${tournamentCounts[t]}</span></span>`;
             }
         }
@@ -639,12 +636,12 @@
                 const groupMatches = groups[tournament];
                 const groupId = type + '-' + tournament.replace(/[^a-zA-Z0-9]/g, '_');
                 html += `<div class="tournament-group">
-                    <div class="tournament-header" onclick="toggleGroup('${groupId}')">
+                    <div class="tournament-header" data-group="${esc(groupId)}">
                         <span class="arrow">&#9660;</span>
                         <span class="tournament-name">${esc(tournament)}</span>
                         <span class="match-count">${groupMatches.length} match${groupMatches.length !== 1 ? 'es' : ''}</span>
                     </div>
-                    <div class="tournament-body" id="${groupId}">
+                    <div class="tournament-body" id="${esc(groupId)}">
                         ${matchTableHTML(groupMatches, isUpcoming)}
                     </div>
                 </div>`;
@@ -786,6 +783,48 @@
         d.textContent = text;
         return d.innerHTML;
     }
+
+    // --- Event delegation (avoids inline onclick with interpolated strings) ---
+    document.addEventListener('dragstart', function(e) {
+        const card = e.target.closest('.team-card');
+        if (card) { onDragStart(e); }
+    });
+    document.addEventListener('dragend', function(e) {
+        const card = e.target.closest('.team-card');
+        if (card) { onDragEnd(e); }
+    });
+
+    document.addEventListener('click', function(e) {
+        // Team card click
+        const card = e.target.closest('.team-card');
+        if (card && card.dataset.slug) {
+            toggleTeam(card.dataset.slug);
+            return;
+        }
+
+        // Region filter click
+        const regionTag = e.target.closest('.region-tag');
+        if (regionTag && regionTag.dataset.region !== undefined) {
+            setRegionFilter(regionTag.dataset.region || null);
+            return;
+        }
+
+        // Tournament filter click
+        const tournamentTag = e.target.closest('.tournament-tag');
+        if (tournamentTag && tournamentTag.dataset.filterType !== undefined) {
+            const type = tournamentTag.dataset.filterType;
+            const tournament = tournamentTag.dataset.tournament || null;
+            setTournamentFilter(type, tournament);
+            return;
+        }
+
+        // Tournament group header click
+        const groupHeader = e.target.closest('.tournament-header');
+        if (groupHeader && groupHeader.dataset.group) {
+            toggleGroup(groupHeader.dataset.group);
+            return;
+        }
+    });
 
     // --- Start ---
     init();
