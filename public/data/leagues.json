@@ -1,0 +1,58 @@
+{
+  "leagues": [
+    {
+      "name": "LEC",
+      "region": "Europe",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/LEC"
+    },
+    {
+      "name": "LCK",
+      "region": "Korea",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/LCK"
+    },
+    {
+      "name": "LPL",
+      "region": "China",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/LPL"
+    },
+    {
+      "name": "LCS",
+      "region": "North America",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/LCS"
+    },
+    {
+      "name": "PCS",
+      "region": "Pacific",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/PCS"
+    },
+    {
+      "name": "VCS",
+      "region": "Vietnam",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/VCS"
+    },
+    {
+      "name": "CBLOL",
+      "region": "Brazil",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL"
+    },
+    {
+      "name": "LLA",
+      "region": "Latin America",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/LLA"
+    },
+    {
+      "name": "LJL",
+      "region": "Japan",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/LJL"
+    }
+  ]
+}
