@@ -1,0 +1,111 @@
+{
+  "team": {
+    "name": "Ground Zero Gaming",
+    "slug": "Ground_Zero_Gaming",
+    "short_name": "GZG",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Ground_Zero_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1769761800,
+      "opponent": "GAM Esports",
+      "tournament": "LCP 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769934600,
+      "opponent": "DetonatioN FocusMe",
+      "tournament": "LCP 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770366600,
+      "opponent": "CTBC Flying Oyster",
+      "tournament": "LCP 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770539400,
+      "opponent": "MVK Esports",
+      "tournament": "LCP 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769243400,
+      "opponent": "Fukuoka SoftBank HAWKS gaming",
+      "tournament": "LCP 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768716000,
+      "opponent": "Deep Cross Gaming",
+      "tournament": "LCP 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768543200,
+      "opponent": "Secret Whales",
+      "tournament": "LCP 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754298000,
+      "opponent": "PSG Talon Academy",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1753174800,
+      "opponent": "West Point Esports",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748948400,
+      "opponent": "CTBC Flying Oyster Academy",
+      "tournament": "PCS 2025 Split 2 - Week 9",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_9",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748869200,
+      "opponent": "Wangting",
+      "tournament": "PCS 2025 Split 2 - Week 9",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_9",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748343600,
+      "opponent": "HELL PIGS",
+      "tournament": "PCS 2025 Split 2 - Week 8",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_8",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747825200,
+      "opponent": "Frank Esports",
+      "tournament": "PCS 2025 Split 2 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747645200,
+      "opponent": "West Point Esports",
+      "tournament": "PCS 2025 Split 2 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

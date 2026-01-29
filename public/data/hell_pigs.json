@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "HELL PIGS",
+    "slug": "HELL_PIGS",
+    "short_name": "HP",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/HELL_PIGS"
+  },
+  "matches": [
+    {
+      "timestamp": 1755507600,
+      "opponent": "PSG Talon Academy",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754989200,
+      "opponent": "Frank Esports",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1753779600,
+      "opponent": "Wangting",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749027600,
+      "opponent": "TALON Academy",
+      "tournament": "PCS 2025 Split 2 - Week 9",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_9",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748854800,
+      "opponent": "Frank Esports",
+      "tournament": "PCS 2025 Split 2 - Week 9",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_9",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748343600,
+      "opponent": "Ground Zero Gaming",
+      "tournament": "PCS 2025 Split 2 - Week 8",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_8",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748264400,
+      "opponent": "Deep Cross Gaming",
+      "tournament": "PCS 2025 Split 2 - Week 8",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_8",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747818000,
+      "opponent": "CTBC Flying Oyster Academy",
+      "tournament": "PCS 2025 Split 2 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747652400,
+      "opponent": "Wangting",
+      "tournament": "PCS 2025 Split 2 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747134000,
+      "opponent": "West Point Esports",
+      "tournament": "PCS 2025 Split 2 - Week 6",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_6",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

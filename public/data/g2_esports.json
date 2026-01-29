@@ -1,0 +1,118 @@
+{
+  "team": {
+    "name": "G2 Esports",
+    "slug": "G2_Esports",
+    "short_name": "G2",
+    "emoji": "🇪🇺",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/G2_Esports"
+  },
+  "matches": [
+    {
+      "timestamp": 1769886000,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769979600,
+      "opponent": "Los Ratones",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770058800,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770490800,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770584400,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769451900,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769371500,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769278500,
+      "opponent": "Shifters",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768856400,
+      "opponent": "SK Gaming",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768766400,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768683600,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1764435600,
+      "opponent": "T1",
+      "tournament": "RB League of Its Own '25 - Third & Fourth Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#Third_&_Fourth_Showmatch",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1764432000,
+      "opponent": "Karmine Corp",
+      "tournament": "RB League of Its Own '25 - Third & Fourth Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#Third_&_Fourth_Showmatch",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1764425700,
+      "opponent": "NNO Old",
+      "tournament": "RB League of Its Own '25 - First Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#First_Showmatch",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1761807600,
+      "opponent": "Top Esports",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

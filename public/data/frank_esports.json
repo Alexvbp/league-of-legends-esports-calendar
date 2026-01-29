@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Frank Esports",
+    "slug": "Frank_Esports",
+    "short_name": "FE",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Frank_Esports"
+  },
+  "matches": [
+    {
+      "timestamp": 1756630800,
+      "opponent": "Deep Cross Gaming",
+      "tournament": "PCS 2025 Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Playoffs#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756458000,
+      "opponent": "PSG Talon Academy",
+      "tournament": "PCS 2025 Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Playoffs#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756112400,
+      "opponent": "CTBC Flying Oyster Academy",
+      "tournament": "PCS 2025 Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Playoffs#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1755680400,
+      "opponent": "Deep Cross Gaming",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754989200,
+      "opponent": "HELL PIGS",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1753693200,
+      "opponent": "CTBC Flying Oyster Academy",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752829200,
+      "opponent": "Dplus Challengers",
+      "tournament": "Asia Masters Swiss 2 - Middle (3-3)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(3-3)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752642000,
+      "opponent": "QT DIG",
+      "tournament": "Asia Masters Swiss 2 - Low (2-3)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(2-3)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752400800,
+      "opponent": "Team WE Academy",
+      "tournament": "Asia Masters Swiss 2 - Middle (2-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(2-2)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750831200,
+      "opponent": "Saigon Secret",
+      "tournament": "Asia Masters Swiss 2 - Middle (1-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(1-2)",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

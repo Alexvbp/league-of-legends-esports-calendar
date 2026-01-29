@@ -1,0 +1,104 @@
+{
+  "team": {
+    "name": "Top Esports",
+    "slug": "Top_Esports",
+    "short_name": "TES",
+    "emoji": "🇨🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Top_Esports"
+  },
+  "matches": [
+    {
+      "timestamp": 1769770800,
+      "opponent": "Bilibili Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769943600,
+      "opponent": "Anyone's Legend",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770289200,
+      "opponent": "JD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769504400,
+      "opponent": "Weibo Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769343900,
+      "opponent": "Invictus Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769245200,
+      "opponent": "Anyone's Legend",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768997700,
+      "opponent": "Invictus Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768813200,
+      "opponent": "Weibo Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768726800,
+      "opponent": "Bilibili Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768393800,
+      "opponent": "JD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766739600,
+      "opponent": "Invictus Gaming",
+      "tournament": "Demacia Cup 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1762066800,
+      "opponent": "T1",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1761807600,
+      "opponent": "G2 Esports",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

@@ -1,0 +1,118 @@
+{
+  "team": {
+    "name": "SK Gaming",
+    "slug": "SK_Gaming",
+    "short_name": "SK",
+    "emoji": "🇪🇺",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/SK_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1769875200,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769972400,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770051600,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770487200,
+      "opponent": "Los Ratones",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770573600,
+      "opponent": "Shifters",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769442300,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769359200,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769282100,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768856400,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768762800,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768676400,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756134000,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2025 Summer - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1755363600,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2025 Summer - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754319600,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2025 Summer - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754233200,
+      "opponent": "Team BDS",
+      "tournament": "LEC 2025 Summer - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_1",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

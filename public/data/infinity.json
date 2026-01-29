@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Infinity",
+    "slug": "Infinity",
+    "short_name": "INF",
+    "emoji": "🌎",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Infinity"
+  },
+  "matches": [
+    {
+      "timestamp": 1748980800,
+      "opponent": "Fuego",
+      "tournament": "LRN 2025 Split 1",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748289600,
+      "opponent": "Zeu5 Esports",
+      "tournament": "LRN 2025 Split 1",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747252800,
+      "opponent": "Fuego",
+      "tournament": "LRN 2025 Split 1",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1746388800,
+      "opponent": "Fuego",
+      "tournament": "LRN 2025 Split 1 - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Regular_Season#Week_7",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1745265600,
+      "opponent": "PÊEK Gaming",
+      "tournament": "LRN 2025 Split 1 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Regular_Season#Week_5",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1745179200,
+      "opponent": "Zeu5 Esports",
+      "tournament": "LRN 2025 Split 1 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Regular_Season#Week_5",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1744585200,
+      "opponent": "ICON Esports",
+      "tournament": "LRN 2025 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Regular_Season#Week_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1744066800,
+      "opponent": "LYON Academy",
+      "tournament": "LRN 2025 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1743463800,
+      "opponent": "SDM Tigres",
+      "tournament": "LRN 2025 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1742857200,
+      "opponent": "ODD Esports",
+      "tournament": "LRN 2025 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/Liga_Regional_Norte/2025/Split_1/Regular_Season#Week_1",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

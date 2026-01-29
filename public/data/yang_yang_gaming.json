@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Yang Yang Gaming",
+    "slug": "Yang_Yang_Gaming",
+    "short_name": "YYG",
+    "emoji": "🇯🇵",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Yang_Yang_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1754038800,
+      "opponent": "Burning Core Toyama",
+      "tournament": "LJL 2025 Finals",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749888000,
+      "opponent": "DetonatioN FocusMe Academy",
+      "tournament": "LJL 2025 Ignite",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749124800,
+      "opponent": "VARREL Youth",
+      "tournament": "LJL 2025 Ignite - Round 6",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_6",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749038400,
+      "opponent": "Dream in 24",
+      "tournament": "LJL 2025 Ignite - Round 5",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_5",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748520000,
+      "opponent": "Clocks",
+      "tournament": "LJL 2025 Ignite - Round 4",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1748437200,
+      "opponent": "Clocks",
+      "tournament": "LJL 2025 Ignite - Round 3",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747915200,
+      "opponent": "Vortex",
+      "tournament": "LJL 2025 Ignite - Round 2",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747825200,
+      "opponent": "Burning Core Toyama",
+      "tournament": "LJL 2025 Ignite - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747555200,
+      "opponent": "Clocks",
+      "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier/Round_Two#Group_A_-_Matches",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1747551600,
+      "opponent": "V3 Esports",
+      "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier/Round_Two#Group_A_-_Matches",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

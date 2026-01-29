@@ -1,0 +1,118 @@
+{
+  "team": {
+    "name": "Karmine Corp Blue",
+    "slug": "Karmine_Corp_Blue",
+    "short_name": "KCB",
+    "emoji": "🇪🇺",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Karmine_Corp_Blue"
+  },
+  "matches": [
+    {
+      "timestamp": 1769886000,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769965200,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770048000,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770483600,
+      "opponent": "Shifters",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770570000,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769442300,
+      "opponent": "SK Gaming",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769365800,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769272200,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768842000,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768755600,
+      "opponent": "Los Ratones",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768680000,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1762106400,
+      "opponent": "Los Heretics",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1760976000,
+      "opponent": "Los Ratones",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1760630400,
+      "opponent": "Misa Esports",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1760198400,
+      "opponent": "Verdant",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "Sentinels",
+    "slug": "Sentinels",
+    "short_name": "SEN",
+    "emoji": "🇺🇸",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Sentinels"
+  },
+  "matches": [
+    {
+      "timestamp": 1769904000,
+      "opponent": "Dignitas",
+      "tournament": "LCS 2026 Lock-In - Low (0-1)",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Low_(0-1)",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769296500,
+      "opponent": "Disguised",
+      "tournament": "LCS 2026 Lock-In - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Round_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1502650800,
+      "opponent": "EUnited",
+      "tournament": "NA LCS 2018 Spring Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2018/Spring/Promotion#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1502564400,
+      "opponent": "Team Liquid",
+      "tournament": "NA LCS 2018 Spring Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2018/Spring/Promotion#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1502478000,
+      "opponent": "Gold Coin United",
+      "tournament": "NA LCS 2018 Spring Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2018/Spring/Promotion#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1502046000,
+      "opponent": "FlyQuest",
+      "tournament": "NA LCS 2017 Spring - Week 9",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Summer/Group_Stage#Week_9",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1501959600,
+      "opponent": "Team SoloMid",
+      "tournament": "NA LCS 2017 Spring - Week 9",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Summer/Group_Stage#Week_9",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1501441200,
+      "opponent": "Counter Logic Gaming",
+      "tournament": "NA LCS 2017 Spring - Week 8",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Summer/Group_Stage#Week_8",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1501279200,
+      "opponent": "Echo Fox",
+      "tournament": "NA LCS 2017 Spring - Week 8",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Summer/Group_Stage#Week_8",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1500760800,
+      "opponent": "Team Liquid",
+      "tournament": "NA LCS 2017 Spring - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Summer/Group_Stage#Week_7",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1500674400,
+      "opponent": "Cloud9",
+      "tournament": "NA LCS 2017 Spring - Week 7",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/North_America/2017/Summer/Group_Stage#Week_7",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

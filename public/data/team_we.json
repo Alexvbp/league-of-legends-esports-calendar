@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "Team WE",
+    "slug": "Team_WE",
+    "short_name": "WE",
+    "emoji": "🇨🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_WE"
+  },
+  "matches": [
+    {
+      "timestamp": 1770195600,
+      "opponent": "EDward Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769418000,
+      "opponent": "ThunderTalk Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769331600,
+      "opponent": "Ninjas in Pyjamas",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769079600,
+      "opponent": "Ninjas in Pyjamas",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768806000,
+      "opponent": "ThunderTalk Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768561200,
+      "opponent": "EDward Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766646000,
+      "opponent": "LGD Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 7",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_7",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766566800,
+      "opponent": "EDward Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_6",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766473200,
+      "opponent": "Invictus Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_5",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766314800,
+      "opponent": "Ninjas in Pyjamas",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766041200,
+      "opponent": "Ultra Prime",
+      "tournament": "Demacia Cup 2025 - Stage 1 Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_4",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

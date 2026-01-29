@@ -1,0 +1,537 @@
+{
+  "teams": [
+    {
+      "name": "All Knights",
+      "slug": "All_Knights",
+      "short_name": "AK",
+      "emoji": "🌎",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Apex Predator",
+      "slug": "Apex_Predator",
+      "short_name": "APX",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "BRION",
+      "slug": "BRION",
+      "short_name": "BRO",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Bilibili Gaming",
+      "slug": "Bilibili_Gaming",
+      "short_name": "BLG",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "CTBC Flying Oyster Academy",
+      "slug": "CTBC_Flying_Oyster_Academy",
+      "short_name": "CFO",
+      "emoji": "🌏",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Clocks",
+      "slug": "Clocks",
+      "short_name": "CLK",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Cloud9",
+      "slug": "Cloud9",
+      "short_name": "C9",
+      "emoji": "🇺🇸",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "CyberCore Esports",
+      "slug": "CyberCore_Esports",
+      "short_name": "CCE",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "DRX",
+      "slug": "DRX",
+      "short_name": "DRX",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Deep Cross Gaming",
+      "slug": "Deep_Cross_Gaming",
+      "short_name": "DCG",
+      "emoji": "🌏",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Dignitas",
+      "slug": "Dignitas",
+      "short_name": "DIG",
+      "emoji": "🇺🇸",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Disguised",
+      "slug": "Disguised",
+      "short_name": "DSG",
+      "emoji": "🇺🇸",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Dplus",
+      "slug": "Dplus",
+      "short_name": "DK",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "EDward Gaming",
+      "slug": "EDward_Gaming",
+      "short_name": "EDG",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Estral Esports",
+      "slug": "Estral_Esports",
+      "short_name": "EST",
+      "emoji": "🌎",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "FEARX",
+      "slug": "FEARX",
+      "short_name": "FOX",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "FURIA",
+      "slug": "FURIA",
+      "short_name": "FUR",
+      "emoji": "🇧🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Fluxo W7M",
+      "slug": "Fluxo_W7M",
+      "short_name": "FW7",
+      "emoji": "🇧🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "FlyQuest",
+      "slug": "FlyQuest",
+      "short_name": "FLY",
+      "emoji": "🇺🇸",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Fnatic",
+      "slug": "Fnatic",
+      "short_name": "FNC",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Frank Esports",
+      "slug": "Frank_Esports",
+      "short_name": "FE",
+      "emoji": "🌏",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "G2 Esports",
+      "slug": "G2_Esports",
+      "short_name": "G2",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "GIANTX",
+      "slug": "GIANTX",
+      "short_name": "GX",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Gen.G Esports",
+      "slug": "Gen.G_Esports",
+      "short_name": "GEN",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "GenZ Gaming",
+      "slug": "GenZ_Gaming",
+      "short_name": "GNZ",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Ground Zero Gaming",
+      "slug": "Ground_Zero_Gaming",
+      "short_name": "GZG",
+      "emoji": "🌏",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "HELL PIGS",
+      "slug": "HELL_PIGS",
+      "short_name": "HP",
+      "emoji": "🌏",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Hanwha Life Esports",
+      "slug": "Hanwha_Life_Esports",
+      "short_name": "HLE",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Infinity",
+      "slug": "Infinity",
+      "short_name": "INF",
+      "emoji": "🌎",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Invictus Gaming",
+      "slug": "Invictus_Gaming",
+      "short_name": "IG",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Isurus Gaming",
+      "slug": "Isurus_Gaming",
+      "short_name": "ISU",
+      "emoji": "🌎",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "JD Gaming",
+      "slug": "JD_Gaming",
+      "short_name": "JDG",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "KT Rolster",
+      "slug": "KT_Rolster",
+      "short_name": "KT",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Karmine Corp",
+      "slug": "Karmine_Corp",
+      "short_name": "KC",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Karmine Corp Blue",
+      "slug": "Karmine_Corp_Blue",
+      "short_name": "KCB",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Keyd Stars",
+      "slug": "Keyd_Stars",
+      "short_name": "KYS",
+      "emoji": "🇧🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "LGD Gaming",
+      "slug": "LGD_Gaming",
+      "short_name": "LGD",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "LNG Esports",
+      "slug": "LNG_Esports",
+      "short_name": "LNG",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "LOS",
+      "slug": "LOS",
+      "short_name": "LOS",
+      "emoji": "🇧🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "LOUD",
+      "slug": "LOUD",
+      "short_name": "LOUD",
+      "emoji": "🇧🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "LYON",
+      "slug": "LYON",
+      "short_name": "LYN",
+      "emoji": "🇺🇸",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Leviatán",
+      "slug": "Leviat%C3%A1n",
+      "short_name": "LEV",
+      "emoji": "🇧🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Los Ratones",
+      "slug": "Los_Ratones",
+      "short_name": "LR",
+      "emoji": "🐀",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Mila Gaming",
+      "slug": "Mila_Gaming",
+      "short_name": "MIL",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Movistar KOI",
+      "slug": "Movistar_KOI",
+      "short_name": "KOI",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Natus Vincere",
+      "slug": "Natus_Vincere",
+      "short_name": "NAVI",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Never Give Up",
+      "slug": "Never_Give_Up",
+      "short_name": "NGU",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Ninjas in Pyjamas",
+      "slug": "Ninjas_in_Pyjamas",
+      "short_name": "NIP",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Nongshim RedForce",
+      "slug": "Nongshim_RedForce",
+      "short_name": "NS",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Oh My God",
+      "slug": "Oh_My_God",
+      "short_name": "OMG",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "PSG Talon Academy",
+      "slug": "PSG_Talon_Academy",
+      "short_name": "PTA",
+      "emoji": "🌏",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "PaiN Gaming",
+      "slug": "PaiN_Gaming",
+      "short_name": "PNG",
+      "emoji": "🇧🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "RED Canids",
+      "slug": "RED_Canids",
+      "short_name": "RED",
+      "emoji": "🇧🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "SK Gaming",
+      "slug": "SK_Gaming",
+      "short_name": "SK",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "SOOPers",
+      "slug": "SOOPers",
+      "short_name": "SP",
+      "emoji": "🇰🇷",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Saigon Dino",
+      "slug": "Saigon_Dino",
+      "short_name": "SGD",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Saigon Secret",
+      "slug": "Saigon_Secret",
+      "short_name": "SS",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Sengoku Gaming",
+      "slug": "Sengoku_Gaming",
+      "short_name": "SG",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Sentinels",
+      "slug": "Sentinels",
+      "short_name": "SEN",
+      "emoji": "🇺🇸",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Shifters",
+      "slug": "Shifters",
+      "short_name": "SFT",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Shopify Rebellion",
+      "slug": "Shopify_Rebellion",
+      "short_name": "SR",
+      "emoji": "🇺🇸",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Six Karma",
+      "slug": "Six_Karma",
+      "short_name": "6K",
+      "emoji": "🌎",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Team Flash",
+      "slug": "Team_Flash",
+      "short_name": "FL",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Team Heretics",
+      "slug": "Team_Heretics",
+      "short_name": "TH",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Team Liquid",
+      "slug": "Team_Liquid",
+      "short_name": "TL",
+      "emoji": "🇺🇸",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Team Vitality",
+      "slug": "Team_Vitality",
+      "short_name": "VIT",
+      "emoji": "🇪🇺",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Team WE",
+      "slug": "Team_WE",
+      "short_name": "WE",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "ThunderTalk Gaming",
+      "slug": "ThunderTalk_Gaming",
+      "short_name": "TT",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Top Esports",
+      "slug": "Top_Esports",
+      "short_name": "TES",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Ultra Prime",
+      "slug": "Ultra_Prime",
+      "short_name": "UP",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "V3 Esports",
+      "slug": "V3_Esports",
+      "short_name": "V3",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Vikings Esports Academy",
+      "slug": "Vikings_Esports_Academy",
+      "short_name": "VEA",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Wangting",
+      "slug": "Wangting",
+      "short_name": "WAN",
+      "emoji": "🌏",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Weibo Gaming",
+      "slug": "Weibo_Gaming",
+      "short_name": "WBG",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "West Point Esports",
+      "slug": "West_Point_Esports",
+      "short_name": "WPE",
+      "emoji": "🌏",
+      "game": "leagueoflegends"
+    },
+    {
+      "name": "Yang Yang Gaming",
+      "slug": "Yang_Yang_Gaming",
+      "short_name": "YYG",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends"
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

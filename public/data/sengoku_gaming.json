@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Sengoku Gaming",
+    "slug": "Sengoku_Gaming",
+    "short_name": "SG",
+    "emoji": "🇯🇵",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Sengoku_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1759294800,
+      "opponent": "Deep Cross Gaming",
+      "tournament": "LCP 2026 Promotion - Free-for-All",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Promotion#Free-for-All",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1757923200,
+      "opponent": "REJECT",
+      "tournament": "LJL 2025 Finals",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756544400,
+      "opponent": "DetonatioN FocusMe Academy",
+      "tournament": "LJL 2025 Finals",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1755162000,
+      "opponent": "Burning Core Toyama",
+      "tournament": "LJL 2025 Finals",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1753434000,
+      "opponent": "VARREL Youth",
+      "tournament": "LJL 2025 Finals",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752915600,
+      "opponent": "REJECT",
+      "tournament": "LJL 2025 Finals",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Finals#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752642000,
+      "opponent": "Frank Esports",
+      "tournament": "Asia Masters Swiss 2 - Low (2-3)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(2-3)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752476400,
+      "opponent": "DetonatioN FocusMe Academy",
+      "tournament": "Asia Masters Swiss 2 - Low (1-3)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(1-3)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750838400,
+      "opponent": "Burning Core Toyama",
+      "tournament": "Asia Masters Swiss 2 - Middle (1-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(1-2)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750744800,
+      "opponent": "Weibo Gaming Youth Team",
+      "tournament": "Asia Masters Swiss 2 - Low (0-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(0-2)",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

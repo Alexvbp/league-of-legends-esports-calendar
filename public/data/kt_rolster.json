@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "KT Rolster",
+    "slug": "KT_Rolster",
+    "short_name": "KT",
+    "emoji": "🇰🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/KT_Rolster"
+  },
+  "matches": [
+    {
+      "timestamp": 1769760000,
+      "opponent": "Nongshim RedForce",
+      "tournament": "LCK Cup 2026 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769339580,
+      "opponent": "BRION",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769155200,
+      "opponent": "T1",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768647300,
+      "opponent": "Gen.G Esports",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768377600,
+      "opponent": "SOOPers",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765192500,
+      "opponent": "Dplus",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765098000,
+      "opponent": "BRION",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765089900,
+      "opponent": "DRX",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765019700,
+      "opponent": "Freecs",
+      "tournament": "KeSPA Cup 2025 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1762672800,
+      "opponent": "T1",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1761980400,
+      "opponent": "Gen.G Esports",
+      "tournament": "Worlds 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

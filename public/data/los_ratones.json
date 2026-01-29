@@ -1,0 +1,118 @@
+{
+  "team": {
+    "name": "Los Ratones",
+    "slug": "Los_Ratones",
+    "short_name": "LR",
+    "emoji": "🐀",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Los_Ratones"
+  },
+  "matches": [
+    {
+      "timestamp": 1769893200,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769979600,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770055200,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770487200,
+      "opponent": "SK Gaming",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770566400,
+      "opponent": "Team Vitality",
+      "tournament": "LEC 2026 Versus - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769445000,
+      "opponent": "Shifters",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769362200,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769269500,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768852800,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768755600,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768665600,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1764442800,
+      "opponent": "T1",
+      "tournament": "RB League of Its Own '25 - Sixth Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#Sixth_Showmatch",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1764428400,
+      "opponent": "Karmine Corp",
+      "tournament": "RB League of Its Own '25 - Second Showmatch",
+      "url": "https://liquipedia.net/leagueoflegends/Red_Bull_League_of_Its_Own/2025#Second_Showmatch",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1760976000,
+      "opponent": "Karmine Corp Blue",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1760716800,
+      "opponent": "Galions",
+      "tournament": "EMEA Masters Summer",
+      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

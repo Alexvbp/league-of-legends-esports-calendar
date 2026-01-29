@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Isurus Gaming",
+    "slug": "Isurus_Gaming",
+    "short_name": "ISU",
+    "emoji": "🌎",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Isurus_Gaming"
+  },
+  "matches": [
+    {
+      "timestamp": 1759939200,
+      "opponent": "Alpha7 Esports",
+      "tournament": "LTA South 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/South/Promotion_Tournament#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1759507200,
+      "opponent": "Alpha7 Esports",
+      "tournament": "LTA South 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/South/Promotion_Tournament#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1759420800,
+      "opponent": "Flamengo Esports",
+      "tournament": "LTA South 2026 Promotion",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2026/South/Promotion_Tournament#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756051200,
+      "opponent": "Leviatán",
+      "tournament": "LTA South Split 3 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_1#Week_5",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754762400,
+      "opponent": "LOUD",
+      "tournament": "LTA South Split 3 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754157600,
+      "opponent": "Fluxo W7M",
+      "tournament": "LTA South Split 3 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1753628400,
+      "opponent": "RED Canids",
+      "tournament": "LTA South Split 3 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1723582800,
+      "opponent": "Infinity",
+      "tournament": "LLA Closing 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722978000,
+      "opponent": "Rainbow7",
+      "tournament": "LLA Closing 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Playoffs#Results",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1722459600,
+      "opponent": "Infinity",
+      "tournament": "LLA Closing 2024",
+      "url": "https://liquipedia.net/leagueoflegends/LLA/2024/Closing/Playoffs#Results",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

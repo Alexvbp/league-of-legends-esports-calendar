@@ -1,0 +1,97 @@
+{
+  "team": {
+    "name": "Oh My God",
+    "slug": "Oh_My_God",
+    "short_name": "OMG",
+    "emoji": "🇨🇳",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Oh_My_God"
+  },
+  "matches": [
+    {
+      "timestamp": 1769763600,
+      "opponent": "Ultra Prime",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1770022800,
+      "opponent": "LGD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 4",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769593800,
+      "opponent": "LNG Esports",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769151600,
+      "opponent": "LGD Gaming",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769065200,
+      "opponent": "Ultra Prime",
+      "tournament": "LPL 2026 Split 1 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768554000,
+      "opponent": "LNG Esports",
+      "tournament": "LPL 2026 Split 1 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766912400,
+      "opponent": "LNG Esports",
+      "tournament": "Demacia Cup 2025 - Knockout Stage",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766559600,
+      "opponent": "LNG Esports",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_6",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766480400,
+      "opponent": "Bilibili Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_5",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766386800,
+      "opponent": "JD Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766221200,
+      "opponent": "Weibo Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 2 Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1766049900,
+      "opponent": "LGD Gaming",
+      "tournament": "Demacia Cup 2025 - Stage 1 Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_1_Day_4",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

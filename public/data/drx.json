@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "DRX",
+    "slug": "DRX",
+    "short_name": "DRX",
+    "emoji": "🇰🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/DRX"
+  },
+  "matches": [
+    {
+      "timestamp": 1769587200,
+      "opponent": "BRION",
+      "tournament": "LCK Cup 2026 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769163540,
+      "opponent": "Nongshim RedForce",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768992600,
+      "opponent": "SOOPers",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768730700,
+      "opponent": "T1",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768464000,
+      "opponent": "Gen.G Esports",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765187100,
+      "opponent": "Freecs",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765100700,
+      "opponent": "Dplus",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765089900,
+      "opponent": "KT Rolster",
+      "tournament": "KeSPA Cup 2025 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765003500,
+      "opponent": "BRION",
+      "tournament": "KeSPA Cup 2025 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756628100,
+      "opponent": "BRION",
+      "tournament": "LCK 2025 - Week 15",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2025/Rounds_3-5#Week_15",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

@@ -1,0 +1,83 @@
+{
+  "team": {
+    "name": "Wangting",
+    "slug": "Wangting",
+    "short_name": "WAN",
+    "emoji": "🌏",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Wangting"
+  },
+  "matches": [
+    {
+      "timestamp": 1754384400,
+      "opponent": "CTBC Flying Oyster Academy",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1753779600,
+      "opponent": "HELL PIGS",
+      "tournament": "PCS 2025 Split 3 - Regular Season",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_3/Regular_Season#Regular_Season",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752822000,
+      "opponent": "LNG Esports Academy",
+      "tournament": "Asia Masters Swiss 2 - Middle (3-3)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(3-3)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752735600,
+      "opponent": "Team WE Academy",
+      "tournament": "Asia Masters Swiss 2 - High (3-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#High_(3-2)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1752393600,
+      "opponent": "Deep Cross Gaming",
+      "tournament": "Asia Masters Swiss 2 - Middle (2-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(2-2)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750849200,
+      "opponent": "TT Gaming Young",
+      "tournament": "Asia Masters Swiss 2 - Middle (1-2)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(1-2)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750759200,
+      "opponent": "Oh My God Academy",
+      "tournament": "Asia Masters Swiss 2 - Middle (1-1)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Middle_(1-1)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750651200,
+      "opponent": "West Point Esports",
+      "tournament": "Asia Masters Swiss 2 - Low (0-1)",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Low_(0-1)",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1750568400,
+      "opponent": "KT Rolster Challengers",
+      "tournament": "Asia Masters Swiss 2 - Round 1",
+      "url": "https://liquipedia.net/leagueoflegends/Asia_Masters/2025/Swiss_Stage/2#Round_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1749632400,
+      "opponent": "Deep Cross Gaming",
+      "tournament": "PCS 2025 Split 2",
+      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Playoffs#Results",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

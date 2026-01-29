@@ -1,0 +1,97 @@
+{
+  "team": {
+    "name": "LOUD",
+    "slug": "LOUD",
+    "short_name": "LOUD",
+    "emoji": "🇧🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/LOUD"
+  },
+  "matches": [
+    {
+      "timestamp": 1769799600,
+      "opponent": "Leviatán",
+      "tournament": "CBLOL Cup 2026 - Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769886000,
+      "opponent": "Fluxo W7M",
+      "tournament": "CBLOL Cup 2026 - Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769367600,
+      "opponent": "Keyd Stars",
+      "tournament": "CBLOL Cup 2026 - Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769356800,
+      "opponent": "RED Canids",
+      "tournament": "CBLOL Cup 2026 - Day 4",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_4",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769281200,
+      "opponent": "LOS",
+      "tournament": "CBLOL Cup 2026 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768762800,
+      "opponent": "PaiN Gaming",
+      "tournament": "CBLOL Cup 2026 - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768672800,
+      "opponent": "FURIA",
+      "tournament": "CBLOL Cup 2026 - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1757088000,
+      "opponent": "RED Canids",
+      "tournament": "LTA South Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_2#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1756569600,
+      "opponent": "FURIA",
+      "tournament": "LTA South Split 3 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_2#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1755964800,
+      "opponent": "Fluxo W7M",
+      "tournament": "LTA South Split 3 - Week 5",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_1#Week_5",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754762400,
+      "opponent": "Isurus Gaming",
+      "tournament": "LTA South Split 3 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1754244000,
+      "opponent": "RED Canids",
+      "tournament": "LTA South Split 3 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_2",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}

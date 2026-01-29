@@ -1,0 +1,90 @@
+{
+  "team": {
+    "name": "Nongshim RedForce",
+    "slug": "Nongshim_RedForce",
+    "short_name": "NS",
+    "emoji": "🇰🇷",
+    "game": "leagueoflegends",
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Nongshim_RedForce"
+  },
+  "matches": [
+    {
+      "timestamp": 1769760000,
+      "opponent": "KT Rolster",
+      "tournament": "LCK Cup 2026 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769163540,
+      "opponent": "DRX",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768982400,
+      "opponent": "Dplus",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768723200,
+      "opponent": "Hanwha Life Esports",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1768470780,
+      "opponent": "FEARX",
+      "tournament": "LCK Cup 2026 - Week 1",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765454400,
+      "opponent": "T1",
+      "tournament": "KeSPA Cup 2025 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Finals#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765432800,
+      "opponent": "Dplus",
+      "tournament": "KeSPA Cup 2025 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Finals#Playoffs",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765276200,
+      "opponent": "Freecs",
+      "tournament": "KeSPA Cup 2025 - Last Chance Qualifier",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Last_Chance_Qualifier#Last_Chance_Qualifier",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765260000,
+      "opponent": "Cloud9",
+      "tournament": "KeSPA Cup 2025 - Last Chance Qualifier",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Last_Chance_Qualifier#Last_Chance_Qualifier",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765179000,
+      "opponent": "Japan",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1765173600,
+      "opponent": "T1",
+      "tournament": "KeSPA Cup 2025 - Day 3",
+      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_3",
+      "is_upcoming": false
+    }
+  ],
+  "generated_utc": "2026-01-29T15:17:06Z"
+}
