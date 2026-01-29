@@ -1100,17 +1100,24 @@ const REGION_TO_LEAGUE = {
 // =====================================================================
 async function init() {
     try {
-        const [teamsResp, leaguesResp] = await Promise.all([
-            fetch('/data/teams.json'),
-            fetch('/leagues.json')
-        ]);
+        const teamsResp = await fetch('/data/teams.json');
         if (!teamsResp.ok) throw new Error('Failed to load teams');
         const manifest = await teamsResp.json();
         allTeams = manifest.teams;
 
-        if (leaguesResp.ok) {
-            const leaguesData = await leaguesResp.json();
-            leagues = leaguesData.leagues || [];
+        // Leagues fetch is best-effort — if it fails (e.g. file not in public/),
+        // we fall back to building leagues from emoji→region mapping alone.
+        try {
+            const leaguesResp = await fetch('/data/leagues.json');
+            if (leaguesResp.ok) {
+                const ct = leaguesResp.headers.get('content-type') || '';
+                if (ct.includes('json')) {
+                    const leaguesData = await leaguesResp.json();
+                    leagues = leaguesData.leagues || [];
+                }
+            }
+        } catch (_) {
+            // leagues stays empty — buildLeagueMapping handles this
         }
 
         // Build league→teams mapping
@@ -1139,6 +1146,14 @@ function buildLeagueMapping() {
     // Map each team to a league based on emoji → region → league
     leagueTeamMap = {};
     teamLeagueMap = {};
+
+    // If leagues.json didn't load, use hardcoded league order
+    if (leagues.length === 0) {
+        leagues = [
+            { name: 'LEC' }, { name: 'LCK' }, { name: 'LPL' }, { name: 'LCS' },
+            { name: 'PCS' }, { name: 'VCS' }, { name: 'CBLOL' }, { name: 'LLA' }, { name: 'LJL' }
+        ];
+    }
 
     for (const league of leagues) {
         leagueTeamMap[league.name] = [];

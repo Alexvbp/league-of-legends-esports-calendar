@@ -151,6 +151,13 @@ def main() -> int:
     )
     print(f"\nSaved {manifest_path} ({len(team_manifest)} teams)")
 
+    # Copy leagues.json into public/data/ so the frontend can fetch it
+    leagues_src = Path("leagues.json")
+    if leagues_src.exists():
+        leagues_dst = output_dir / "leagues.json"
+        leagues_dst.write_text(leagues_src.read_text(encoding="utf-8"), encoding="utf-8")
+        print(f"Copied {leagues_src} → {leagues_dst}")
+
     # Summary
     if errors:
         print(f"\nErrors encountered: {len(errors)}")
