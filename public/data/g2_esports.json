@@ -9,21 +9,21 @@
   },
   "matches": [
     {
-      "timestamp": 1769886000,
+      "timestamp": 1769882400,
       "opponent": "Karmine Corp Blue",
       "tournament": "LEC 2026 Versus - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
       "is_upcoming": true
     },
     {
-      "timestamp": 1769979600,
+      "timestamp": 1769974200,
       "opponent": "Los Ratones",
       "tournament": "LEC 2026 Versus - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
       "is_upcoming": true
     },
     {
-      "timestamp": 1770058800,
+      "timestamp": 1770055200,
       "opponent": "Team Vitality",
       "tournament": "LEC 2026 Versus - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
@@ -114,5 +114,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-30T07:01:03Z"
+  "generated_utc": "2026-01-30T09:50:06Z"
 }
