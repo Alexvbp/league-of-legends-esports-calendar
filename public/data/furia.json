@@ -9,14 +9,14 @@
   },
   "matches": [
     {
-      "timestamp": 1769792400,
+      "timestamp": 1769878800,
       "opponent": "Fluxo W7M",
       "tournament": "CBLOL Cup 2026 - Day 5",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
       "is_upcoming": true
     },
     {
-      "timestamp": 1769878800,
+      "timestamp": 1769965200,
       "opponent": "Keyd Stars",
       "tournament": "CBLOL Cup 2026 - Day 6",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
@@ -93,5 +93,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-30T02:42:17Z"
+  "generated_utc": "2026-01-30T04:46:58Z"
 }
