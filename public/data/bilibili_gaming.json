@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769770800,
-      "opponent": "Top Esports",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769857200,
       "opponent": "Invictus Gaming",
       "tournament": "LPL 2026 Split 1 - Week 3",
@@ -35,6 +28,13 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769770800,
+      "opponent": "Top Esports",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769425800,
@@ -98,14 +98,7 @@
       "tournament": "Demacia Cup 2025 - Stage 2 Day 5",
       "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_5",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1766401200,
-      "opponent": "LNG Esports",
-      "tournament": "Demacia Cup 2025 - Stage 2 Day 4",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Group_Stage#Stage_2_Day_4",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-30T13:13:45Z"
+  "generated_utc": "2026-01-30T15:43:22Z"
 }
