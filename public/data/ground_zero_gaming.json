@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769761800,
-      "opponent": "GAM Esports",
-      "tournament": "LCP 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769934600,
       "opponent": "DetonatioN FocusMe",
       "tournament": "LCP 2026 Split 1 - Week 3",
@@ -35,6 +28,13 @@
       "tournament": "LCP 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769761800,
+      "opponent": "GAM Esports",
+      "tournament": "LCP 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769243400,
@@ -98,14 +98,7 @@
       "tournament": "PCS 2025 Split 2 - Week 7",
       "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1747645200,
-      "opponent": "West Point Esports",
-      "tournament": "PCS 2025 Split 2 - Week 7",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-30T09:50:06Z"
+  "generated_utc": "2026-01-30T13:13:45Z"
 }
