@@ -9,6 +9,41 @@
   },
   "matches": [
     {
+      "timestamp": 1769823000,
+      "opponent": "Inferno Drive Tokyo",
+      "tournament": "LJL 2026 Winter Qualifier - Day 1 Game 1",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1_Game_1",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769826600,
+      "opponent": "Uwinks",
+      "tournament": "LJL 2026 Winter Qualifier - Day 1 Game 2",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1_Game_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769833800,
+      "opponent": "VelbeliKaizokudan",
+      "tournament": "LJL 2026 Winter Qualifier - Day 1 Game 4",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1_Game_4",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769909400,
+      "opponent": "Revolution Victory X",
+      "tournament": "LJL 2026 Winter Qualifier - Day 2 Game 2",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_2_Game_2",
+      "is_upcoming": true
+    },
+    {
+      "timestamp": 1769909400,
+      "opponent": "NOVEX",
+      "tournament": "LJL 2026 Winter Qualifier - Day 2 Game 3",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_2_Game_3",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1747551600,
       "opponent": "Yang Yang Gaming",
       "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
@@ -79,5 +114,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-30T04:46:58Z"
+  "generated_utc": "2026-01-30T07:01:03Z"
 }
