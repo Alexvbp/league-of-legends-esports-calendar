@@ -13,7 +13,7 @@
       "opponent": "Nongshim RedForce",
       "tournament": "LCK Cup 2026 - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769339580,
@@ -77,14 +77,7 @@
       "tournament": "Worlds 2025 - Knockout Stage",
       "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1761980400,
-      "opponent": "Gen.G Esports",
-      "tournament": "Worlds 2025 - Knockout Stage",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T06:51:48Z"
+  "generated_utc": "2026-01-31T09:36:24Z"
 }
