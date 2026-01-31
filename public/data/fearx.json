@@ -9,18 +9,18 @@
   },
   "matches": [
     {
-      "timestamp": 1769328000,
-      "opponent": "T1",
-      "tournament": "LCK Cup 2026 - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1769673600,
       "opponent": "SOOPers",
       "tournament": "LCK Cup 2026 - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
-      "is_upcoming": true
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769328000,
+      "opponent": "T1",
+      "tournament": "LCK Cup 2026 - Week 2",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_2",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769079600,
@@ -77,21 +77,7 @@
       "tournament": "ASI 2025 - Knockout Stage",
       "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1760181600,
-      "opponent": "Nongshim RedForce",
-      "tournament": "ASI 2025 - Knockout Stage",
-      "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025/Knockout_Stage#Knockout_Stage",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1760173200,
-      "opponent": "Weibo Gaming",
-      "tournament": "ASI 2025 - Knockout Stage",
-      "url": "https://liquipedia.net/leagueoflegends/Asia_Invitational/2025/Knockout_Stage#Knockout_Stage",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T09:36:24Z"
+  "generated_utc": "2026-01-31T13:04:29Z"
 }

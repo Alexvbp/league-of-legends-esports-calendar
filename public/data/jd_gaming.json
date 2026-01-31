@@ -9,13 +9,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769850000,
-      "opponent": "Anyone's Legend",
-      "tournament": "LPL 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1770116400,
       "opponent": "Invictus Gaming",
       "tournament": "LPL 2026 Split 1 - Week 4",
@@ -28,6 +21,13 @@
       "tournament": "LPL 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769850000,
+      "opponent": "Anyone's Legend",
+      "tournament": "LPL 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LPL/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769684400,
@@ -91,14 +91,7 @@
       "tournament": "Demacia Cup 2025 - Knockout Stage",
       "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1766826000,
-      "opponent": "EDward Gaming",
-      "tournament": "Demacia Cup 2025 - Knockout Stage",
-      "url": "https://liquipedia.net/leagueoflegends/Demacia_Cup/2025/Knockout_Stage#Knockout_Stage",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T09:36:24Z"
+  "generated_utc": "2026-01-31T13:04:29Z"
 }

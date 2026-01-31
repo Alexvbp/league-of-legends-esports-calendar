@@ -13,7 +13,7 @@
       "opponent": "T1",
       "tournament": "LCK Cup 2026 - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769253000,
@@ -77,14 +77,7 @@
       "tournament": "KeSPA Cup 2025 - Day 2",
       "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1765092600,
-      "opponent": "BRION",
-      "tournament": "KeSPA Cup 2025 - Day 2",
-      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T09:36:24Z"
+  "generated_utc": "2026-01-31T13:04:29Z"
 }

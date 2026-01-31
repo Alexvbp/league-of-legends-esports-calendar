@@ -9,24 +9,24 @@
   },
   "matches": [
     {
-      "timestamp": 1769823000,
-      "opponent": "CAG Osaka",
-      "tournament": "LJL 2026 Winter Qualifier - Day 1",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1",
+      "timestamp": 1769909400,
+      "opponent": "Inferno Drive Tokyo",
+      "tournament": "LJL 2026 Winter Qualifier - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_2",
       "is_upcoming": true
     },
     {
-      "timestamp": 1769826600,
-      "opponent": "UECeSportsPlusPlus",
-      "tournament": "LJL 2026 Winter Qualifier - Day 1",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1",
+      "timestamp": 1769909400,
+      "opponent": "Uwinks",
+      "tournament": "LJL 2026 Winter Qualifier - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_2",
       "is_upcoming": true
     },
     {
-      "timestamp": 1769830200,
-      "opponent": "New Meta",
-      "tournament": "LJL 2026 Winter Qualifier - Day 1",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1",
+      "timestamp": 1769909400,
+      "opponent": "VelbeliKaizokudan",
+      "tournament": "LJL 2026 Winter Qualifier - Day 2",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_2",
       "is_upcoming": true
     },
     {
@@ -34,14 +34,28 @@
       "opponent": "Rising Gaming",
       "tournament": "LJL 2026 Winter Qualifier - Day 1",
       "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
-      "timestamp": 1769909400,
-      "opponent": "Inferno Drive Tokyo",
-      "tournament": "LJL 2026 Winter Qualifier - Day 2",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_2",
-      "is_upcoming": true
+      "timestamp": 1769830200,
+      "opponent": "New Meta",
+      "tournament": "LJL 2026 Winter Qualifier - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769826600,
+      "opponent": "UECeSportsPlusPlus",
+      "tournament": "LJL 2026 Winter Qualifier - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769823000,
+      "opponent": "CAG Osaka",
+      "tournament": "LJL 2026 Winter Qualifier - Day 1",
+      "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_1",
+      "is_upcoming": false
     },
     {
       "timestamp": 1749117600,
@@ -84,35 +98,7 @@
       "tournament": "LJL 2025 Ignite - Round 1",
       "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Main_Stage#Round_1",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1747555200,
-      "opponent": "Yang Yang Gaming",
-      "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier/Round_Two#Group_A_-_Matches",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1747551600,
-      "opponent": "Dream in 24",
-      "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier/Round_Two#Group_A_-_Matches",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1747548000,
-      "opponent": "Radical Pop Gaming",
-      "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier/Round_Two#Group_A_-_Matches",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1747544400,
-      "opponent": "Vortex",
-      "tournament": "LJL 2025 Ignite - OQ - Round Two - Group A - Matches",
-      "url": "https://liquipedia.net/leagueoflegends/LJL/2025/Ignite/Open_Qualifier/Round_Two#Group_A_-_Matches",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T09:36:24Z"
+  "generated_utc": "2026-01-31T13:04:29Z"
 }
