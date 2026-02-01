@@ -70,13 +70,16 @@ def main() -> int:
                     print(f"  Using cached data (has matches) instead of empty scrape")
                     out_path = output_dir / f"{team.slug.lower()}.json"
                     out_path.write_text(cached, encoding="utf-8")
-                    team_manifest.append({
+                    manifest_team = {
                         "name": team.name,
                         "slug": team.slug,
                         "short_name": team.short_name,
                         "emoji": team.emoji,
                         "game": team.game,
-                    })
+                    }
+                    if team.logo_url:
+                        manifest_team["logo_url"] = team.logo_url
+                    team_manifest.append(manifest_team)
                     continue
 
             team_data = {
@@ -92,6 +95,10 @@ def main() -> int:
                 "generated_utc": generated_utc,
             }
 
+            # Add logo_url if available
+            if team.logo_url:
+                team_data["team"]["logo_url"] = team.logo_url
+
             json_str = json.dumps(team_data, indent=2, ensure_ascii=False)
 
             # Save to output
@@ -103,13 +110,16 @@ def main() -> int:
             save_json_cache(cache_dir, team.slug, json_str)
 
             # Add to manifest
-            team_manifest.append({
+            manifest_team = {
                 "name": team.name,
                 "slug": team.slug,
                 "short_name": team.short_name,
                 "emoji": team.emoji,
                 "game": team.game,
-            })
+            }
+            if team.logo_url:
+                manifest_team["logo_url"] = team.logo_url
+            team_manifest.append(manifest_team)
 
             for m in upcoming:
                 dt = datetime.fromtimestamp(m.timestamp, tz=timezone.utc)
@@ -128,13 +138,16 @@ def main() -> int:
                 out_path = output_dir / f"{team.slug.lower()}.json"
                 out_path.write_text(cached, encoding="utf-8")
                 # Still add to manifest
-                team_manifest.append({
+                manifest_team = {
                     "name": team.name,
                     "slug": team.slug,
                     "short_name": team.short_name,
                     "emoji": team.emoji,
                     "game": team.game,
-                })
+                }
+                if team.logo_url:
+                    manifest_team["logo_url"] = team.logo_url
+                team_manifest.append(manifest_team)
             else:
                 send_error_notification(
                     f"{error_msg}\n\nNo cached data available — team will be missing."
