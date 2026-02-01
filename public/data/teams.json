@@ -22,10 +22,10 @@
       "game": "leagueoflegends"
     },
     {
-      "name": "Bilibili Gaming",
-      "slug": "Bilibili_Gaming",
-      "short_name": "BLG",
-      "emoji": "🇨🇳",
+      "name": "CAG Osaka",
+      "slug": "CAG_Osaka",
+      "short_name": "CO",
+      "emoji": "🇯🇵",
       "game": "leagueoflegends"
     },
     {
@@ -47,13 +47,6 @@
       "slug": "Cloud9",
       "short_name": "C9",
       "emoji": "🇺🇸",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "CyberCore Esports",
-      "slug": "CyberCore_Esports",
-      "short_name": "CCE",
-      "emoji": "🇻🇳",
       "game": "leagueoflegends"
     },
     {
@@ -89,13 +82,6 @@
       "slug": "Dplus",
       "short_name": "DK",
       "emoji": "🇰🇷",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "EDward Gaming",
-      "slug": "EDward_Gaming",
-      "short_name": "EDG",
-      "emoji": "🇨🇳",
       "game": "leagueoflegends"
     },
     {
@@ -169,13 +155,6 @@
       "game": "leagueoflegends"
     },
     {
-      "name": "GenZ Gaming",
-      "slug": "GenZ_Gaming",
-      "short_name": "GNZ",
-      "emoji": "🇻🇳",
-      "game": "leagueoflegends"
-    },
-    {
       "name": "Ground Zero Gaming",
       "slug": "Ground_Zero_Gaming",
       "short_name": "GZG",
@@ -197,6 +176,13 @@
       "game": "leagueoflegends"
     },
     {
+      "name": "Inferno Drive Tokyo",
+      "slug": "Inferno_Drive_Tokyo",
+      "short_name": "IDT",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends"
+    },
+    {
       "name": "Infinity",
       "slug": "Infinity",
       "short_name": "INF",
@@ -204,24 +190,10 @@
       "game": "leagueoflegends"
     },
     {
-      "name": "Invictus Gaming",
-      "slug": "Invictus_Gaming",
-      "short_name": "IG",
-      "emoji": "🇨🇳",
-      "game": "leagueoflegends"
-    },
-    {
       "name": "Isurus Gaming",
       "slug": "Isurus_Gaming",
       "short_name": "ISU",
       "emoji": "🌎",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "JD Gaming",
-      "slug": "JD_Gaming",
-      "short_name": "JDG",
-      "emoji": "🇨🇳",
       "game": "leagueoflegends"
     },
     {
@@ -253,17 +225,10 @@
       "game": "leagueoflegends"
     },
     {
-      "name": "LGD Gaming",
-      "slug": "LGD_Gaming",
-      "short_name": "LGD",
-      "emoji": "🇨🇳",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "LNG Esports",
-      "slug": "LNG_Esports",
-      "short_name": "LNG",
-      "emoji": "🇨🇳",
+      "name": "L Guide Gaming",
+      "slug": "L_Guide_Gaming",
+      "short_name": "LGG",
+      "emoji": "🇯🇵",
       "game": "leagueoflegends"
     },
     {
@@ -323,31 +288,10 @@
       "game": "leagueoflegends"
     },
     {
-      "name": "Never Give Up",
-      "slug": "Never_Give_Up",
-      "short_name": "NGU",
-      "emoji": "🇻🇳",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "Ninjas in Pyjamas",
-      "slug": "Ninjas_in_Pyjamas",
-      "short_name": "NIP",
-      "emoji": "🇨🇳",
-      "game": "leagueoflegends"
-    },
-    {
       "name": "Nongshim RedForce",
       "slug": "Nongshim_RedForce",
       "short_name": "NS",
       "emoji": "🇰🇷",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "Oh My God",
-      "slug": "Oh_My_God",
-      "short_name": "OMG",
-      "emoji": "🇨🇳",
       "game": "leagueoflegends"
     },
     {
@@ -372,6 +316,13 @@
       "game": "leagueoflegends"
     },
     {
+      "name": "Rising Gaming",
+      "slug": "Rising_Gaming",
+      "short_name": "RG",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends"
+    },
+    {
       "name": "SK Gaming",
       "slug": "SK_Gaming",
       "short_name": "SK",
@@ -383,27 +334,6 @@
       "slug": "SOOPers",
       "short_name": "SP",
       "emoji": "🇰🇷",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "Saigon Dino",
-      "slug": "Saigon_Dino",
-      "short_name": "SGD",
-      "emoji": "🇻🇳",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "Saigon Secret",
-      "slug": "Saigon_Secret",
-      "short_name": "SS",
-      "emoji": "🇻🇳",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "Sengoku Gaming",
-      "slug": "Sengoku_Gaming",
-      "short_name": "SG",
-      "emoji": "🇯🇵",
       "game": "leagueoflegends"
     },
     {
@@ -435,13 +365,6 @@
       "game": "leagueoflegends"
     },
     {
-      "name": "Team Flash",
-      "slug": "Team_Flash",
-      "short_name": "FL",
-      "emoji": "🇻🇳",
-      "game": "leagueoflegends"
-    },
-    {
       "name": "Team Heretics",
       "slug": "Team_Heretics",
       "short_name": "TH",
@@ -463,27 +386,6 @@
       "game": "leagueoflegends"
     },
     {
-      "name": "Team WE",
-      "slug": "Team_WE",
-      "short_name": "WE",
-      "emoji": "🇨🇳",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "ThunderTalk Gaming",
-      "slug": "ThunderTalk_Gaming",
-      "short_name": "TT",
-      "emoji": "🇨🇳",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "Top Esports",
-      "slug": "Top_Esports",
-      "short_name": "TES",
-      "emoji": "🇨🇳",
-      "game": "leagueoflegends"
-    },
-    {
       "name": "Ultra Prime",
       "slug": "Ultra_Prime",
       "short_name": "UP",
@@ -498,24 +400,10 @@
       "game": "leagueoflegends"
     },
     {
-      "name": "Vikings Esports Academy",
-      "slug": "Vikings_Esports_Academy",
-      "short_name": "VEA",
-      "emoji": "🇻🇳",
-      "game": "leagueoflegends"
-    },
-    {
       "name": "Wangting",
       "slug": "Wangting",
       "short_name": "WAN",
       "emoji": "🌏",
-      "game": "leagueoflegends"
-    },
-    {
-      "name": "Weibo Gaming",
-      "slug": "Weibo_Gaming",
-      "short_name": "WBG",
-      "emoji": "🇨🇳",
       "game": "leagueoflegends"
     },
     {
@@ -524,14 +412,7 @@
       "short_name": "WPE",
       "emoji": "🌏",
       "game": "leagueoflegends"
-    },
-    {
-      "name": "Yang Yang Gaming",
-      "slug": "Yang_Yang_Gaming",
-      "short_name": "YYG",
-      "emoji": "🇯🇵",
-      "game": "leagueoflegends"
     }
   ],
-  "generated_utc": "2026-02-01T09:38:54Z"
+  "generated_utc": "2026-02-01T09:55:13Z"
 }
