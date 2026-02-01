@@ -165,7 +165,6 @@ function generateICS(teams: TeamData[]): string {
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
     `X-WR-CALNAME:${teamNames} Matches`,
-    "X-WR-TIMEZONE:UTC",
     "X-PUBLISHED-TTL:PT4H",
   ];
 
