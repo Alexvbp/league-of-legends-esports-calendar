@@ -64,14 +64,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install --no-cache-dir .
 
-      # Team discovery runs weekly (Monday 02:30 UTC), on push, or when
-      # manually triggered with refresh_teams=true. The 3-hourly match
-      # scrape reuses the existing teams.json.
+      # Team discovery runs weekly (Monday 02:30 UTC) or when manually
+      # triggered with refresh_teams=true. The 3-hourly match scrape and
+      # deploys reuse the existing teams.json.
       - name: Discover teams from leagues
         if: |
           github.event.inputs.refresh_teams == 'true' ||
-          github.event.schedule == '30 2 * * 1' ||
-          github.event_name == 'push'
+          github.event.schedule == '30 2 * * 1'
         run: python scrape_teams.py
 
       - name: Generate match data
