@@ -10,21 +10,7 @@
   },
   "matches": [
     {
-      "timestamp": 1769882400,
-      "opponent": "Fnatic",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769961600,
-      "opponent": "Natus Vincere",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1770066000,
+      "timestamp": 1770060600,
       "opponent": "Karmine Corp",
       "tournament": "LEC 2026 Versus - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
@@ -43,6 +29,20 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769960700,
+      "opponent": "Natus Vincere",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769881200,
+      "opponent": "Fnatic",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769445000,
@@ -99,21 +99,7 @@
       "tournament": "LEC 2025 Summer - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_4",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1755539700,
-      "opponent": "G2 Esports",
-      "tournament": "LEC 2025 Summer - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_3",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1754838000,
-      "opponent": "Fnatic",
-      "tournament": "LEC 2025 Summer - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_2",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T15:33:10Z"
+  "generated_utc": "2026-02-01T18:48:12Z"
 }

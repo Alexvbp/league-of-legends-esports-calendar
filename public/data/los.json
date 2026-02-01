@@ -10,18 +10,18 @@
   },
   "matches": [
     {
+      "timestamp": 1769961600,
+      "opponent": "RED Canids",
+      "tournament": "CBLOL Cup 2026 - Day 6",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
+      "is_upcoming": false
+    },
+    {
       "timestamp": 1769882400,
       "opponent": "PaiN Gaming",
       "tournament": "CBLOL Cup 2026 - Day 5",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769972400,
-      "opponent": "RED Canids",
-      "tournament": "CBLOL Cup 2026 - Day 6",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769371200,
@@ -78,21 +78,7 @@
       "tournament": "CD 2025 Split 2 - Playoffs",
       "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2/Playoffs#Playoffs",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1755043200,
-      "opponent": "E-Champ Gaming",
-      "tournament": "CD 2025 Split 2 - Week 4",
-      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2/Regular_Season#Week_4",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1754942400,
-      "opponent": "Alpha7 Esports",
-      "tournament": "CD 2025 Split 2 - Week 4",
-      "url": "https://liquipedia.net/leagueoflegends/Circuito_Desafiante/2025/Split_2/Regular_Season#Week_4",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T15:33:10Z"
+  "generated_utc": "2026-02-01T18:48:12Z"
 }
