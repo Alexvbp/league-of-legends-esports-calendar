@@ -14,7 +14,7 @@
       "opponent": "Gen.G Esports",
       "tournament": "LCK Cup 2026 - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769241600,
@@ -78,14 +78,7 @@
       "tournament": "KeSPA Cup 2025 - Day 2",
       "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_2",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1765017000,
-      "opponent": "FEARX",
-      "tournament": "KeSPA Cup 2025 - Day 1",
-      "url": "https://liquipedia.net/leagueoflegends/KeSPA_Cup/2025/Preliminary_Round#Day_1",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T11:12:34Z"
+  "generated_utc": "2026-02-01T13:06:59Z"
 }
