@@ -187,7 +187,11 @@ function generateVEvent(team: TeamInfo, match: MatchData): string[] {
     .replace(/\s+/g, "-")
     .replace(/_/g, "-")
     .toLowerCase();
-  const uid = `${team.slug.toLowerCase()}-${match.timestamp}-${opponentSlug}@esports-calendar`;
+
+  // Create canonical UID: sort teams alphabetically to avoid duplicates
+  // when both teams are selected in the same calendar
+  const teams = [team.slug.toLowerCase(), opponentSlug].sort();
+  const uid = `${teams[0]}-vs-${teams[1]}-${match.timestamp}@esports-calendar`;
 
   const summary = icsEscape(`${team.emoji} ${team.short_name} vs ${match.opponent}`);
   let description = icsEscape(`Tournament: ${match.tournament}`);

@@ -47,12 +47,15 @@ def _create_event(team: TeamConfig, match: Match) -> Event:
     if match.url:
         event.add("url", match.url)
 
-    # Stable UID based on timestamp + opponent + team
-    uid = (
-        f"{team.slug.lower()}-{match.timestamp}-"
-        f"{match.opponent.replace(' ', '-').replace('_', '-').lower()}"
-        f"@liquipedia.net"
-    )
+    # Stable UID based on timestamp + teams (sorted to avoid duplicates)
+    # When both teams are selected, this ensures the same UID is generated
+    def normalize_slug(name: str) -> str:
+        return name.replace(' ', '-').replace('_', '-').lower()
+
+    opponent_slug = normalize_slug(match.opponent)
+    team_slug = normalize_slug(team.slug)
+    teams = sorted([team_slug, opponent_slug])
+    uid = f"{teams[0]}-vs-{teams[1]}-{match.timestamp}@liquipedia.net"
     event.add("uid", uid)
 
     # Only add alarm for upcoming matches
