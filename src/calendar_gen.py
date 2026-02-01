@@ -17,7 +17,7 @@ def create_team_calendar(team: TeamConfig, matches: list[Match]) -> Calendar:
     cal.add("calscale", "GREGORIAN")
     cal.add("method", "PUBLISH")
     cal.add("x-wr-calname", f"{team.name} Matches")
-    cal.add("x-wr-timezone", "Europe/Amsterdam")
+    cal.add("x-wr-timezone", "UTC")
     # Refresh interval hint for calendar clients (4 hours)
     cal.add("x-published-ttl", "PT4H")
 
