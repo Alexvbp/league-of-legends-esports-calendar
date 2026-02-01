@@ -9,6 +9,13 @@
   },
   "matches": [
     {
+      "timestamp": 1770372000,
+      "opponent": "KT Rolster",
+      "tournament": "LCK Cup 2026 - Play-In",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Play-In#Play-In",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1769673600,
       "opponent": "FEARX",
       "tournament": "LCK Cup 2026 - Week 3",
@@ -79,5 +86,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:23:37Z"
+  "generated_utc": "2026-02-01T10:41:35Z"
 }
