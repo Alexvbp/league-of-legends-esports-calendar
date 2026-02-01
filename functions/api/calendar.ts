@@ -18,6 +18,7 @@ interface TeamInfo {
   emoji: string;
   game: string;
   liquipedia_url: string;
+  logo_url?: string;
 }
 
 interface MatchData {

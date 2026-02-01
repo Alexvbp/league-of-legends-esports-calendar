@@ -14,6 +14,7 @@ class TeamConfig:
     short_name: str
     emoji: str
     game: str
+    logo_url: str | None = None
 
     @property
     def liquipedia_url(self) -> str:

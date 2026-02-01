@@ -255,6 +255,34 @@ def _is_excluded(slug: str) -> bool:
     return False
 
 
+def fetch_team_logo_url(slug: str, game: str) -> str | None:
+    """Fetch team logo URL from the team's Liquipedia page.
+
+    Returns the full URL to the team's logo image, or None if not found.
+    """
+    url = f"https://liquipedia.net/{game}/{slug}"
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        # Look for the main team logo in the infobox-image div
+        infobox = soup.find("div", class_="infobox-image")
+        if infobox:
+            img = infobox.find("img")
+            if img and img.get("src"):
+                src = img["src"]
+                # Convert relative URL to absolute
+                if src.startswith("/"):
+                    src = "https://liquipedia.net" + src
+                return src
+
+        return None
+    except Exception as e:
+        print(f"      Warning: Could not fetch logo for {slug}: {e}")
+        return None
+
+
 def scrape_league(league: dict) -> list[dict]:
     """Scrape all active teams from a league's current tournament page.
 
@@ -322,6 +350,21 @@ def main() -> int:
         except Exception as e:
             print(f"    ERROR: {e}")
 
+    # Fetch logo URLs for all teams (with rate limiting)
+    print(f"\nFetching team logos for {len(all_teams)} teams...")
+    for i, (slug, team) in enumerate(all_teams.items(), 1):
+        print(f"  [{i}/{len(all_teams)}] {team['name']}...")
+        logo_url = fetch_team_logo_url(slug, team["game"])
+        if logo_url:
+            team["logo_url"] = logo_url
+            print(f"      ✓ Logo found")
+        else:
+            print(f"      ⚠ No logo found, will use emoji fallback")
+
+        # Rate limit: be respectful to Liquipedia
+        if i < len(all_teams):
+            time.sleep(REQUEST_DELAY)
+
     # Sort by name
     sorted_teams = sorted(all_teams.values(), key=lambda t: t["name"])
     result = {"teams": sorted_teams}
@@ -340,12 +383,15 @@ def main() -> int:
         with open(existing_path) as f:
             existing = json.load(f)
         existing_map = {t["slug"]: t for t in existing.get("teams", [])}
-        # Keep manual overrides (short_name, emoji) for existing teams
+        # Keep manual overrides (short_name, emoji, logo_url) for existing teams
         for t in sorted_teams:
             if t["slug"] in existing_map:
                 old = existing_map[t["slug"]]
                 t["short_name"] = old.get("short_name", t["short_name"])
                 t["emoji"] = old.get("emoji", t["emoji"])
+                # Only override logo_url if we didn't fetch a new one
+                if "logo_url" not in t and "logo_url" in old:
+                    t["logo_url"] = old["logo_url"]
 
     with open("teams.json", "w") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
