@@ -121,6 +121,9 @@
             width: 16px;
             height: 16px;
             object-fit: contain;
+            background: white;
+            border-radius: 2px;
+            padding: 1px;
         }
         .header-team-count {
             font-size: 0.72rem;
@@ -343,6 +346,9 @@
             height: 20px;
             object-fit: contain;
             flex-shrink: 0;
+            background: white;
+            border-radius: 3px;
+            padding: 2px;
         }
         .team-card .name { font-weight: 600; color: var(--text-primary); font-size: 0.8rem; }
 
@@ -385,6 +391,9 @@
             width: 16px;
             height: 16px;
             object-fit: contain;
+            background: white;
+            border-radius: 2px;
+            padding: 1px;
         }
         .clear-all-btn {
             display: inline-flex;
@@ -653,10 +662,14 @@
             object-fit: contain;
             vertical-align: middle;
             margin-right: 0.25rem;
+            background: white;
+            border-radius: 3px;
+            padding: 2px;
         }
         .hero-matchup .team-logo {
             width: 32px;
             height: 32px;
+            padding: 3px;
         }
 
         /* === Subscribe Bar === */
@@ -1529,7 +1542,7 @@ function renderHero(upcoming) {
 
     container.innerHTML = `<div class="hero-card">
         <div class="hero-label">Next Match</div>
-        <div class="hero-matchup">${teamIcon(next.team)} ${esc(next.team.short_name)} <span style="color:var(--text-muted);font-weight:400">vs</span> ${esc(next.opponent)}</div>
+        <div class="hero-matchup">${teamIcon(next.team)} ${esc(next.team.short_name)} <span style="color:var(--text-muted);font-weight:400">vs</span> ${opponentIcon(next.opponent)}${esc(next.opponent)}</div>
         <div class="hero-tournament">${esc(next.tournament)}</div>
         <div id="hero-countdown-wrap">
             ${diff > 0 ? renderCountdown(diff) : '<span class="hero-live">LIVE NOW</span>'}
@@ -1662,7 +1675,7 @@ function matchCardHTML(m, isUpcoming) {
             <div class="match-card-relative">${esc(relTime)}</div>
         </div>
         <div>
-            <div class="match-card-teams">${teamIcon(m.team)} ${esc(m.team.short_name)} <span class="vs">vs</span> ${esc(m.opponent)}</div>
+            <div class="match-card-teams">${teamIcon(m.team)} ${esc(m.team.short_name)} <span class="vs">vs</span> ${opponentIcon(m.opponent)}${esc(m.opponent)}</div>
             <div class="match-card-tournament">${esc(m.tournament)}</div>
         </div>
         <div class="match-card-meta">
@@ -1801,6 +1814,33 @@ function teamIcon(team) {
         return `<img src="${esc(proxyUrl)}" alt="${esc(team.short_name)}" class="team-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'"><span class="emoji" style="display:none">${esc(team.emoji)}</span>`;
     }
     return `<span class="emoji">${esc(team.emoji)}</span>`;
+}
+
+function findTeamByName(name) {
+    // Try exact match first
+    let team = allTeams.find(t => t.name === name);
+    if (team) return team;
+
+    // Try case-insensitive match
+    const lowerName = name.toLowerCase();
+    team = allTeams.find(t => t.name.toLowerCase() === lowerName);
+    if (team) return team;
+
+    // Try short name match
+    team = allTeams.find(t => t.short_name === name);
+    if (team) return team;
+
+    return null;
+}
+
+function opponentIcon(opponentName) {
+    const team = findTeamByName(opponentName);
+    if (team && team.logo_url) {
+        const proxyUrl = `/image-proxy?url=${encodeURIComponent(team.logo_url)}`;
+        return `<img src="${esc(proxyUrl)}" alt="${esc(opponentName)}" class="team-logo" onerror="this.style.display='none'">`;
+    }
+    // No logo found, return nothing (just show opponent name)
+    return '';
 }
 
 // =====================================================================
