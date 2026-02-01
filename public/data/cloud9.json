@@ -13,7 +13,7 @@
       "opponent": "LYON",
       "tournament": "LCS 2026 Lock-In - High (1-0)",
       "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#High_(1-0)",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769288400,
@@ -77,14 +77,7 @@
       "tournament": "LTA North 2025 Split 3 - Playoffs",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Elimination_Phase_-_Part_2#Playoffs",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1755374400,
-      "opponent": "Shopify Rebellion",
-      "tournament": "LTA North 2025 Split 3 - Week 4",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Elimination_Phase_-_Part_1#Week_4",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T21:29:36Z"
+  "generated_utc": "2026-02-01T03:19:35Z"
 }

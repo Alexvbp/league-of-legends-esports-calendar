@@ -16,14 +16,14 @@
       "is_upcoming": true
     },
     {
-      "timestamp": 1769909400,
+      "timestamp": 1769913000,
       "opponent": "Uwinks",
       "tournament": "LJL 2026 Winter Qualifier - Day 2",
       "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_2",
       "is_upcoming": true
     },
     {
-      "timestamp": 1769909400,
+      "timestamp": 1769920200,
       "opponent": "VelbeliKaizokudan",
       "tournament": "LJL 2026 Winter Qualifier - Day 2",
       "url": "https://liquipedia.net/leagueoflegends/LJL/2026/Winter_Series/Open_Qualifier#Day_2",
@@ -100,5 +100,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T21:29:36Z"
+  "generated_utc": "2026-02-01T03:19:35Z"
 }

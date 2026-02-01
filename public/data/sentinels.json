@@ -9,7 +9,7 @@
   },
   "matches": [
     {
-      "timestamp": 1769904000,
+      "timestamp": 1769901000,
       "opponent": "Dignitas",
       "tournament": "LCS 2026 Lock-In - Low (0-1)",
       "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Low_(0-1)",
@@ -86,5 +86,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T21:29:36Z"
+  "generated_utc": "2026-02-01T03:19:35Z"
 }

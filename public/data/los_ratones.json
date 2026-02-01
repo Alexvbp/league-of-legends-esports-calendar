@@ -9,21 +9,14 @@
   },
   "matches": [
     {
-      "timestamp": 1769893200,
-      "opponent": "Movistar KOI",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769979600,
+      "timestamp": 1769974200,
       "opponent": "G2 Esports",
       "tournament": "LEC 2026 Versus - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
       "is_upcoming": true
     },
     {
-      "timestamp": 1770055200,
+      "timestamp": 1770052500,
       "opponent": "Natus Vincere",
       "tournament": "LEC 2026 Versus - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
@@ -42,6 +35,13 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769891100,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769445000,
@@ -105,14 +105,7 @@
       "tournament": "EMEA Masters Summer",
       "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1760716800,
-      "opponent": "Galions",
-      "tournament": "EMEA Masters Summer",
-      "url": "https://liquipedia.net/leagueoflegends/EMEA_Masters/2025/Summer/Playoffs#Results",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-01-31T21:29:36Z"
+  "generated_utc": "2026-02-01T03:19:35Z"
 }
