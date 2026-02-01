@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
     <title>Esports Calendar</title>
     <style>
         /* === CSS Custom Properties === */
@@ -1795,7 +1796,9 @@ function esc(text) {
 
 function teamIcon(team) {
     if (team.logo_url) {
-        return `<img src="${esc(team.logo_url)}" alt="${esc(team.short_name)}" class="team-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'"><span class="emoji" style="display:none">${esc(team.emoji)}</span>`;
+        // Proxy Liquipedia images to bypass hotlink protection
+        const proxyUrl = `/image-proxy?url=${encodeURIComponent(team.logo_url)}`;
+        return `<img src="${esc(proxyUrl)}" alt="${esc(team.short_name)}" class="team-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'"><span class="emoji" style="display:none">${esc(team.emoji)}</span>`;
     }
     return `<span class="emoji">${esc(team.emoji)}</span>`;
 }
