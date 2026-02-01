@@ -5,7 +5,8 @@
     "short_name": "GX",
     "emoji": "🇪🇺",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/GIANTX"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/GIANTX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/8e/GIANTX_full_lightmode.png/600px-GIANTX_full_lightmode.png"
   },
   "matches": [
     {
@@ -114,5 +115,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

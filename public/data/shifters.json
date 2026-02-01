@@ -5,7 +5,8 @@
     "short_name": "SFT",
     "emoji": "🇪🇺",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Shifters"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Shifters",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/15/Shifters_full_allmode.png/600px-Shifters_full_allmode.png"
   },
   "matches": [
     {
@@ -114,5 +115,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

@@ -5,7 +5,8 @@
     "short_name": "NAVI",
     "emoji": "🇪🇺",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Natus_Vincere"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Natus_Vincere",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3f/Natus_Vincere_2021_lightmode.png/600px-Natus_Vincere_2021_lightmode.png"
   },
   "matches": [
     {
@@ -114,5 +115,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

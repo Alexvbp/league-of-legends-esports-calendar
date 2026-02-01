@@ -5,7 +5,8 @@
     "short_name": "NS",
     "emoji": "🇰🇷",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Nongshim_RedForce"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Nongshim_RedForce",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d8/NS_Redforce_allmode.png/600px-NS_Redforce_allmode.png"
   },
   "matches": [
     {
@@ -79,5 +80,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

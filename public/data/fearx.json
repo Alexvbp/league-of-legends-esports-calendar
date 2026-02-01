@@ -5,7 +5,8 @@
     "short_name": "FOX",
     "emoji": "🇰🇷",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/FEARX"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/FEARX",
+    "logo_url": "https://liquipedia.net/commons/images/a/a8/FEARX_2025_full_allmode.png"
   },
   "matches": [
     {
@@ -79,5 +80,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

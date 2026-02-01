@@ -5,7 +5,8 @@
     "short_name": "LR",
     "emoji": "🐀",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Los_Ratones"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Los_Ratones",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d0/Los_Ratones_lightmode.png/600px-Los_Ratones_lightmode.png"
   },
   "matches": [
     {
@@ -107,5 +108,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

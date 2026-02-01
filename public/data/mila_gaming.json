@@ -5,7 +5,8 @@
     "short_name": "MIL",
     "emoji": "🇻🇳",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Mila_Gaming"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Mila_Gaming",
+    "logo_url": "https://liquipedia.net/commons/images/e/e1/Mila_Gaming_allmode.png"
   },
   "matches": [
     {
@@ -72,5 +73,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

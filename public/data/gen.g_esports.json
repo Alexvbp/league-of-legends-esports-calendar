@@ -5,7 +5,8 @@
     "short_name": "GEN",
     "emoji": "🇰🇷",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Gen.G_Esports"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Gen.G_Esports",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/07/Gen.G_Esports_2026_allmode.png/600px-Gen.G_Esports_2026_allmode.png"
   },
   "matches": [
     {
@@ -86,5 +87,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

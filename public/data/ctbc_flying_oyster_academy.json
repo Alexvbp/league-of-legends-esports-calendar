@@ -5,7 +5,8 @@
     "short_name": "CFO",
     "emoji": "🌏",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/CTBC_Flying_Oyster_Academy"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/CTBC_Flying_Oyster_Academy",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/62/CFOA_logo_allmode.png/600px-CFOA_logo_allmode.png"
   },
   "matches": [
     {
@@ -79,5 +80,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

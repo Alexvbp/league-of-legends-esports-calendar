@@ -5,7 +5,8 @@
     "short_name": "FW7",
     "emoji": "🇧🇷",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Fluxo_W7M"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Fluxo_W7M",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fc/Fluxo_W7M_Dec_2025_lightmode.png/600px-Fluxo_W7M_Dec_2025_lightmode.png"
   },
   "matches": [
     {
@@ -93,5 +94,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

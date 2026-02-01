@@ -5,7 +5,8 @@
     "short_name": "KYS",
     "emoji": "🇧🇷",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Keyd_Stars"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Keyd_Stars",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ab/Keyd_Stars_2022_full_lightmode.png/600px-Keyd_Stars_2022_full_lightmode.png"
   },
   "matches": [
     {
@@ -93,5 +94,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

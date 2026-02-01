@@ -5,7 +5,8 @@
     "short_name": "PNG",
     "emoji": "🇧🇷",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/PaiN_Gaming"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/PaiN_Gaming",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/PaiN_Gaming_2017_lightmode.png/600px-PaiN_Gaming_2017_lightmode.png"
   },
   "matches": [
     {
@@ -93,5 +94,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

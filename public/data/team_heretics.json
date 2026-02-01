@@ -5,7 +5,8 @@
     "short_name": "TH",
     "emoji": "🇪🇺",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Heretics"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Heretics",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a9/Team_Heretics_2024_allmode.png/600px-Team_Heretics_2024_allmode.png"
   },
   "matches": [
     {
@@ -107,5 +108,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

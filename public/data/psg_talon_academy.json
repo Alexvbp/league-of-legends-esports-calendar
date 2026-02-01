@@ -5,7 +5,8 @@
     "short_name": "PTA",
     "emoji": "🌏",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/PSG_Talon_Academy"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/PSG_Talon_Academy",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/dd/PSG_Talon_2025_full_allmode.png/600px-PSG_Talon_2025_full_allmode.png"
   },
   "matches": [
     {
@@ -79,5 +80,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

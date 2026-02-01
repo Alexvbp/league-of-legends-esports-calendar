@@ -5,7 +5,8 @@
     "short_name": "C9",
     "emoji": "🇺🇸",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Cloud9"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Cloud9",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a2/Cloud9_2023_full_allmode.png/600px-Cloud9_2023_full_allmode.png"
   },
   "matches": [
     {
@@ -79,5 +80,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

@@ -5,7 +5,8 @@
     "short_name": "VIT",
     "emoji": "🇪🇺",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Vitality"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Vitality",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e4/Team_Vitality_2023_lightmode.png/600px-Team_Vitality_2023_lightmode.png"
   },
   "matches": [
     {
@@ -114,5 +115,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

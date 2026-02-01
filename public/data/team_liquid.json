@@ -5,7 +5,8 @@
     "short_name": "TL",
     "emoji": "🇺🇸",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Liquid"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/Team_Liquid",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f5/Team_Liquid_2024_full_lightmode.png/600px-Team_Liquid_2024_full_lightmode.png"
   },
   "matches": [
     {
@@ -86,5 +87,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }

@@ -5,7 +5,8 @@
     "short_name": "G2",
     "emoji": "🇪🇺",
     "game": "leagueoflegends",
-    "liquipedia_url": "https://liquipedia.net/leagueoflegends/G2_Esports"
+    "liquipedia_url": "https://liquipedia.net/leagueoflegends/G2_Esports",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/27/G2_Esports_2020_full_lightmode.png/600px-G2_Esports_2020_full_lightmode.png"
   },
   "matches": [
     {
@@ -114,5 +115,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T10:56:54Z"
+  "generated_utc": "2026-02-01T11:07:53Z"
 }
