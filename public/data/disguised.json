@@ -10,11 +10,18 @@
   },
   "matches": [
     {
+      "timestamp": 1770508800,
+      "opponent": "LYON",
+      "tournament": "LCS 2026 Lock-In - Round 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Round_3",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1769979600,
       "opponent": "FlyQuest",
       "tournament": "LCS 2026 Lock-In - High (1-0)",
       "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#High_(1-0)",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769296500,
@@ -78,14 +85,7 @@
       "tournament": "LTA North 2025 Split 3 - Week 1",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/North/Pick_%26_Play_Phase#Week_1",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1747604700,
-      "opponent": "100 Thieves",
-      "tournament": "LTA North 2025 Split 2 - Elimination Matches",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Play-In#Elimination_Matches",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-02T07:13:19Z"
+  "generated_utc": "2026-02-02T10:00:37Z"
 }

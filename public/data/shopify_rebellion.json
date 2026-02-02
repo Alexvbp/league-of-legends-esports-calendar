@@ -10,11 +10,18 @@
   },
   "matches": [
     {
+      "timestamp": 1770584400,
+      "opponent": "Dignitas",
+      "tournament": "LCS 2026 Lock-In - Round 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Round_3",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1769990400,
       "opponent": "Team Liquid",
       "tournament": "LCS 2026 Lock-In - Low (0-1)",
       "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Low_(0-1)",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769374800,
@@ -78,14 +85,7 @@
       "tournament": "LTA North 2025 Split 2",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Playoffs#Results",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1749412800,
-      "opponent": "Team Liquid",
-      "tournament": "LTA North 2025 Split 2",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_2/North/Playoffs#Results",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-02T07:13:19Z"
+  "generated_utc": "2026-02-02T10:00:37Z"
 }
