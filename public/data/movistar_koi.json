@@ -10,21 +10,7 @@
   },
   "matches": [
     {
-      "timestamp": 1769893200,
-      "opponent": "Los Ratones",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769972400,
-      "opponent": "SK Gaming",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1770062400,
+      "timestamp": 1770057900,
       "opponent": "Team Heretics",
       "tournament": "LEC 2026 Versus - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
@@ -43,6 +29,20 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769971500,
+      "opponent": "SK Gaming",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769891100,
+      "opponent": "Los Ratones",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769457900,
@@ -99,21 +99,7 @@
       "tournament": "Worlds 2025 - Low (1-2)",
       "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Low_(1-2)",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1760860800,
-      "opponent": "Fnatic",
-      "tournament": "Worlds 2025 - Low (0-2)",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Low_(0-2)",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1760597400,
-      "opponent": "G2 Esports",
-      "tournament": "Worlds 2025 - Low (0-1)",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Low_(0-1)",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T18:48:12Z"
+  "generated_utc": "2026-02-02T02:52:42Z"
 }

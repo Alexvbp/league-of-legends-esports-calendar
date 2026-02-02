@@ -10,10 +10,10 @@
   },
   "matches": [
     {
-      "timestamp": 1769886000,
-      "opponent": "LOUD",
-      "tournament": "CBLOL Cup 2026 - Day 5",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "timestamp": 1770076800,
+      "opponent": "Fluxo W7M",
+      "tournament": "CBLOL Cup 2026 - Play-In",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Play-In#Play-In",
       "is_upcoming": true
     },
     {
@@ -21,7 +21,14 @@
       "opponent": "PaiN Gaming",
       "tournament": "CBLOL Cup 2026 - Day 6",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
-      "is_upcoming": true
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769886000,
+      "opponent": "LOUD",
+      "tournament": "CBLOL Cup 2026 - Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769360400,
@@ -78,21 +85,7 @@
       "tournament": "LTA South Split 3 - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1754233200,
-      "opponent": "Keyd Stars",
-      "tournament": "LTA South Split 3 - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_2",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1753552800,
-      "opponent": "PaiN Gaming",
-      "tournament": "LTA South Split 3 - Week 1",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_1",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-01T18:48:12Z"
+  "generated_utc": "2026-02-02T02:52:42Z"
 }
