@@ -10,6 +10,13 @@
   },
   "matches": [
     {
+      "timestamp": 1770498000,
+      "opponent": "Sentinels",
+      "tournament": "LCS 2026 Lock-In - Round 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Swiss_Stage#Round_3",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1769990400,
       "opponent": "Shopify Rebellion",
       "tournament": "LCS 2026 Lock-In - Low (0-1)",
@@ -80,5 +87,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T02:48:37Z"
+  "generated_utc": "2026-02-03T04:54:00Z"
 }

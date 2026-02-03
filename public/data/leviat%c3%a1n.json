@@ -10,11 +10,18 @@
   },
   "matches": [
     {
+      "timestamp": 1770152400,
+      "opponent": "PaiN Gaming",
+      "tournament": "CBLOL Cup 2026 - Play-In",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Play-In#Play-In",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1770076800,
       "opponent": "Fluxo W7M",
       "tournament": "CBLOL Cup 2026 - Play-In",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Play-In#Play-In",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769968800,
@@ -78,14 +85,7 @@
       "tournament": "LTA South Split 3 - Week 5",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_1#Week_5",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1754838000,
-      "opponent": "Fluxo W7M",
-      "tournament": "LTA South Split 3 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T02:48:37Z"
+  "generated_utc": "2026-02-03T04:54:00Z"
 }

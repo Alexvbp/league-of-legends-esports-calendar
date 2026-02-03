@@ -14,7 +14,7 @@
       "opponent": "Leviatán",
       "tournament": "CBLOL Cup 2026 - Play-In",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Play-In#Play-In",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769972400,
@@ -78,14 +78,7 @@
       "tournament": "LTA South Split 3 - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1754157600,
-      "opponent": "Isurus Gaming",
-      "tournament": "LTA South Split 3 - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_2",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T02:48:37Z"
+  "generated_utc": "2026-02-03T04:54:00Z"
 }

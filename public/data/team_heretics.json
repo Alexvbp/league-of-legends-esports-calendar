@@ -10,13 +10,6 @@
   },
   "matches": [
     {
-      "timestamp": 1770057900,
-      "opponent": "Movistar KOI",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1770480000,
       "opponent": "Fnatic",
       "tournament": "LEC 2026 Versus - Week 4",
@@ -29,6 +22,13 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1770060600,
+      "opponent": "Movistar KOI",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769964600,
@@ -92,14 +92,7 @@
       "tournament": "LEC 2025 Summer - Playoffs",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1756140000,
-      "opponent": "Team BDS",
-      "tournament": "LEC 2025 Summer - Week 4",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_4",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T02:48:37Z"
+  "generated_utc": "2026-02-03T04:54:00Z"
 }

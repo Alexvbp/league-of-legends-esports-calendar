@@ -10,13 +10,6 @@
   },
   "matches": [
     {
-      "timestamp": 1770057900,
-      "opponent": "Team Heretics",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1770494400,
       "opponent": "Team Vitality",
       "tournament": "LEC 2026 Versus - Week 4",
@@ -29,6 +22,13 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1770060600,
+      "opponent": "Team Heretics",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769971500,
@@ -92,14 +92,7 @@
       "tournament": "Worlds 2025 - Round 5",
       "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Round_5",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1761206400,
-      "opponent": "Secret Whales",
-      "tournament": "Worlds 2025 - Low (1-2)",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Swiss_Stage#Low_(1-2)",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T02:48:37Z"
+  "generated_utc": "2026-02-03T04:54:00Z"
 }

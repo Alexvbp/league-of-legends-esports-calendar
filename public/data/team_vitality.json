@@ -10,27 +10,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769889600,
-      "opponent": "Karmine Corp",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769968800,
-      "opponent": "GIANTX",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1770058800,
-      "opponent": "G2 Esports",
-      "tournament": "LEC 2026 Versus - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1770494400,
       "opponent": "Movistar KOI",
       "tournament": "LEC 2026 Versus - Week 4",
@@ -43,6 +22,27 @@
       "tournament": "LEC 2026 Versus - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1770057000,
+      "opponent": "G2 Esports",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769968200,
+      "opponent": "GIANTX",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769887800,
+      "opponent": "Karmine Corp",
+      "tournament": "LEC 2026 Versus - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769448600,
@@ -92,28 +92,7 @@
       "tournament": "LEC 2025 Summer - Playoffs",
       "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1757084400,
-      "opponent": "Team Heretics",
-      "tournament": "LEC 2025 Summer - Playoffs",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Playoffs#Playoffs",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1756220400,
-      "opponent": "Movistar KOI",
-      "tournament": "LEC 2025 Summer - Week 4",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_4",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1755529200,
-      "opponent": "Karmine Corp",
-      "tournament": "LEC 2025 Summer - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LEC/2025/Summer/Group_Stage#Week_3",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T02:48:37Z"
+  "generated_utc": "2026-02-03T04:54:00Z"
 }

@@ -10,18 +10,18 @@
   },
   "matches": [
     {
-      "timestamp": 1769799600,
-      "opponent": "Leviatán",
-      "tournament": "CBLOL Cup 2026 - Day 5",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
-      "is_upcoming": true
-    },
-    {
-      "timestamp": 1769886000,
+      "timestamp": 1769972400,
       "opponent": "Fluxo W7M",
       "tournament": "CBLOL Cup 2026 - Day 6",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
-      "is_upcoming": true
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769886000,
+      "opponent": "Leviatán",
+      "tournament": "CBLOL Cup 2026 - Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769367600,
@@ -78,21 +78,7 @@
       "tournament": "LTA South Split 3 - Week 5",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_1#Week_5",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1754762400,
-      "opponent": "Isurus Gaming",
-      "tournament": "LTA South Split 3 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1754244000,
-      "opponent": "RED Canids",
-      "tournament": "LTA South Split 3 - Week 2",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_2",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T02:48:37Z"
+  "generated_utc": "2026-02-03T04:54:00Z"
 }
