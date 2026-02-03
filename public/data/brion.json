@@ -10,6 +10,13 @@
   },
   "matches": [
     {
+      "timestamp": 1770364800,
+      "opponent": "DRX",
+      "tournament": "LCK Cup 2026 - Play-In",
+      "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Play-In#Play-In",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1769587200,
       "opponent": "DRX",
       "tournament": "LCK Cup 2026 - Week 3",
@@ -80,5 +87,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T15:57:42Z"
+  "generated_utc": "2026-02-03T19:06:03Z"
 }
