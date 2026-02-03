@@ -10,18 +10,25 @@
   },
   "matches": [
     {
-      "timestamp": 1769796000,
-      "opponent": "LOS",
-      "tournament": "CBLOL Cup 2026 - Day 5",
-      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "timestamp": 1770066000,
+      "opponent": "Keyd Stars",
+      "tournament": "CBLOL Cup 2026 - Play-In",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Play-In#Play-In",
       "is_upcoming": true
     },
     {
-      "timestamp": 1769882400,
+      "timestamp": 1769968800,
       "opponent": "Leviatán",
       "tournament": "CBLOL Cup 2026 - Day 6",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_6",
-      "is_upcoming": true
+      "is_upcoming": false
+    },
+    {
+      "timestamp": 1769882400,
+      "opponent": "LOS",
+      "tournament": "CBLOL Cup 2026 - Day 5",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Regular_Season#Day_5",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769364000,
@@ -78,21 +85,7 @@
       "tournament": "LTA South Split 3 - Playoffs",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_2#Playoffs",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1755446400,
-      "opponent": "RED Canids",
-      "tournament": "LTA South Split 3 - Week 4",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_1#Week_4",
-      "is_upcoming": false
-    },
-    {
-      "timestamp": 1754848800,
-      "opponent": "RED Canids",
-      "tournament": "LTA South Split 3 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Pick_%26_Play_Phase#Week_3",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-02T15:43:54Z"
+  "generated_utc": "2026-02-03T02:48:37Z"
 }
