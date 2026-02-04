@@ -14,7 +14,7 @@
       "opponent": "Leviatán",
       "tournament": "CBLOL Cup 2026 - Play-In",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Play-In#Play-In",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1770066000,
@@ -78,14 +78,7 @@
       "tournament": "LTA 2025 Championship",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Championship#Results",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1757174400,
-      "opponent": "RED Canids",
-      "tournament": "LTA South Split 3 - Playoffs",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_2#Playoffs",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-03T21:42:47Z"
+  "generated_utc": "2026-02-04T04:46:57Z"
 }
