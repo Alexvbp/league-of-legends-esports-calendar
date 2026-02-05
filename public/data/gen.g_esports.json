@@ -14,7 +14,7 @@
       "opponent": "Hanwha Life Esports",
       "tournament": "LCK Cup 2026 - Week 3",
       "url": "https://liquipedia.net/leagueoflegends/LCK/2026/Cup/Group_Battle#Week_3",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1769253000,
@@ -78,14 +78,7 @@
       "tournament": "Worlds 2025 - Knockout Stage",
       "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1761634800,
-      "opponent": "Hanwha Life Esports",
-      "tournament": "Worlds 2025 - Knockout Stage",
-      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2025/Knockout_Stage#Knockout_Stage",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-05T07:00:15Z"
+  "generated_utc": "2026-02-05T13:00:30Z"
 }

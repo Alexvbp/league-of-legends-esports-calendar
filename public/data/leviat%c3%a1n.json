@@ -10,11 +10,18 @@
   },
   "matches": [
     {
+      "timestamp": 1770480000,
+      "opponent": "FURIA",
+      "tournament": "CBLOL Cup 2026 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Playoffs#Playoffs",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1770152400,
       "opponent": "PaiN Gaming",
       "tournament": "CBLOL Cup 2026 - Play-In",
       "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Play-In#Play-In",
-      "is_upcoming": true
+      "is_upcoming": false
     },
     {
       "timestamp": 1770076800,
@@ -78,14 +85,7 @@
       "tournament": "LTA South Split 3 - Playoffs",
       "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_2#Playoffs",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1756051200,
-      "opponent": "Isurus Gaming",
-      "tournament": "LTA South Split 3 - Week 5",
-      "url": "https://liquipedia.net/leagueoflegends/LTA/2025/Split_3/South/Elimination_Phase_-_Part_1#Week_5",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-05T07:00:15Z"
+  "generated_utc": "2026-02-05T13:00:30Z"
 }

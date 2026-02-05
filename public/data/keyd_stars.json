@@ -10,6 +10,13 @@
   },
   "matches": [
     {
+      "timestamp": 1770490800,
+      "opponent": "LOUD",
+      "tournament": "CBLOL Cup 2026 - Playoffs",
+      "url": "https://liquipedia.net/leagueoflegends/CBLOL/2026/Cup/Playoffs#Playoffs",
+      "is_upcoming": true
+    },
+    {
       "timestamp": 1770066000,
       "opponent": "PaiN Gaming",
       "tournament": "CBLOL Cup 2026 - Play-In",
@@ -80,5 +87,5 @@
       "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-05T07:00:15Z"
+  "generated_utc": "2026-02-05T13:00:30Z"
 }
