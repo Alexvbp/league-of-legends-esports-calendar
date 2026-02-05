@@ -16,6 +16,13 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Esports Calendar">
     <meta name="twitter:description" content="Track your favorite League of Legends teams and subscribe to their match schedules.">
+    <script>
+        (function() {
+            var t = localStorage.getItem('theme');
+            if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -31,6 +38,10 @@
         </div>
         <div class="header-team-strip" id="header-strip"></div>
         <span class="header-team-count" id="header-count"></span>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+            <svg class="theme-icon-dark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="theme-icon-light" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
     </header>
 
     <!-- Panel overlay (tablet/mobile) -->
@@ -82,7 +93,8 @@
             <!-- Recent Matches -->
             <div id="past-section" style="display:none">
                 <div class="section-header">
-                    Recent Matches <span class="spoiler-note">(spoiler-free)</span>
+                    Recent Matches
+                    <button class="spoiler-toggle" id="spoiler-toggle">Show scores</button>
                 </div>
                 <div id="tournament-filter-past" class="tournament-filter"></div>
                 <div id="past-container"></div>
@@ -140,6 +152,18 @@
                         <option value="60">1 hour before</option>
                         <option value="120">2 hours before</option>
                     </select>
+                </div>
+                <div class="notification-setting">
+                    <label>Browser notifications</label>
+                    <button class="notify-toggle-btn" id="notify-toggle-btn">Off</button>
+                    <span id="notify-minutes-wrap" style="display:none">
+                        <select id="notify-minutes-select" class="notify-minutes-select">
+                            <option value="5">5 min before</option>
+                            <option value="15" selected>15 min before</option>
+                            <option value="30">30 min before</option>
+                            <option value="60">1 hour before</option>
+                        </select>
+                    </span>
                 </div>
                 <div class="feed-links">
                     <a id="link-rss" href="#">RSS Feed</a>

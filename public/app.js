@@ -13,6 +13,14 @@ let activeRegionFilter = null;
 let countdownInterval = null;
 let mobileActiveTab = 'schedule';
 let reminderMinutes = parseInt(localStorage.getItem('reminderMinutes') || '30', 10);
+let hasScrolledToToday = false;
+let showSpoilers = localStorage.getItem('showSpoilers') === 'true';
+let revealedMatches = new Set();
+let notificationsEnabled = localStorage.getItem('notificationsEnabled') === 'true';
+let notificationMinutesBefore = parseInt(localStorage.getItem('notificationMinutesBefore') || '15', 10);
+let notifiedMatches = new Set();
+let lastRefreshTime = Date.now();
+const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
 
 // Emoji → region label mapping
 const EMOJI_REGIONS = {
@@ -42,6 +50,36 @@ const REGION_TO_LEAGUE = {
     'LATAM': 'LLA',
     'Japan': 'LJL',
 };
+
+// =====================================================================
+// Helpers
+// =====================================================================
+function getRelativeDayPrefix(date) {
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const target = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    const diffDays = Math.round((target - today) / 86400000);
+    if (diffDays === 0) return 'Today';
+    if (diffDays === 1) return 'Tomorrow';
+    if (diffDays === -1) return 'Yesterday';
+    return null;
+}
+
+function parseHashTeams() {
+    const hash = window.location.hash;
+    if (!hash || !hash.startsWith('#teams=')) return null;
+    const teamsStr = decodeURIComponent(hash.slice('#teams='.length));
+    if (!teamsStr) return null;
+    return teamsStr.split(',').map(s => s.trim()).filter(Boolean);
+}
+
+function updateHash() {
+    if (selectedSlugs.length === 0) {
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+    } else {
+        history.replaceState(null, '', '#teams=' + selectedSlugs.join(','));
+    }
+}
 
 // =====================================================================
 // Init
@@ -75,7 +113,14 @@ async function init() {
         document.getElementById('layout').style.display = '';
 
         const validSlugs = new Set(allTeams.map(t => t.slug));
-        selectedSlugs = selectedSlugs.filter(s => validSlugs.has(s));
+
+        // URL hash takes priority over localStorage
+        const hashTeams = parseHashTeams();
+        if (hashTeams && hashTeams.length > 0) {
+            selectedSlugs = hashTeams.filter(s => validSlugs.has(s));
+        } else {
+            selectedSlugs = selectedSlugs.filter(s => validSlugs.has(s));
+        }
 
         render();
 
@@ -84,6 +129,27 @@ async function init() {
             document.getElementById('footer-updated').textContent =
                 'Last updated: ' + d.toLocaleString();
         }
+
+        // Init notification and spoiler UI state
+        updateNotificationUI();
+        updateSpoilerToggle();
+
+        // Set notification minutes dropdown value
+        const notifySelect = document.getElementById('notify-minutes-select');
+        if (notifySelect) notifySelect.value = String(notificationMinutesBefore);
+
+        // Auto-refresh interval
+        setInterval(autoRefresh, REFRESH_INTERVAL_MS);
+
+        // Refresh on tab focus if interval elapsed
+        document.addEventListener('visibilitychange', function() {
+            if (document.visibilityState === 'visible' && Date.now() - lastRefreshTime >= REFRESH_INTERVAL_MS) {
+                autoRefresh();
+            }
+        });
+
+        // Notification check interval
+        setInterval(checkAndFireNotifications, 30000);
     } catch (e) {
         document.getElementById('loading').textContent =
             'Failed to load team data. Please try again later.';
@@ -550,10 +616,17 @@ function renderMatchSection(type, matches, isUpcoming) {
     let html = '';
     for (const [dayLabel, group] of Object.entries(dayGroups)) {
         const isToday = dayLabel === todayStr;
-        html += `<div class="day-group${isToday ? ' is-today' : ''}">
+        const relPrefix = getRelativeDayPrefix(group.date);
+        const dayClass = relPrefix === 'Today' ? ' is-today' :
+                         relPrefix === 'Tomorrow' ? ' is-tomorrow' :
+                         relPrefix === 'Yesterday' ? ' is-yesterday' : '';
+        const displayLabel = relPrefix ? relPrefix + ' \u00b7 ' + dayLabel : dayLabel;
+        const badgeHTML = relPrefix ? `<span class="today-badge">${esc(relPrefix).toUpperCase()}</span>` : '';
+
+        html += `<div class="day-group${dayClass}">
             <div class="day-header">
-                <span class="day-label">${esc(dayLabel)}</span>
-                ${isToday ? '<span class="today-badge">TODAY</span>' : ''}
+                <span class="day-label">${esc(displayLabel)}</span>
+                ${badgeHTML}
                 <span class="day-count">${group.matches.length} match${group.matches.length !== 1 ? 'es' : ''}</span>
             </div>
             <div class="match-cards">
@@ -563,6 +636,18 @@ function renderMatchSection(type, matches, isUpcoming) {
     }
 
     matchContainer.innerHTML = html;
+
+    // Scroll to today on initial load (upcoming section only)
+    if (type === 'upcoming' && !hasScrolledToToday) {
+        hasScrolledToToday = true;
+        requestAnimationFrame(function() {
+            const todayEl = matchContainer.querySelector('.is-today');
+            if (todayEl) {
+                const top = todayEl.getBoundingClientRect().top + window.scrollY - 76;
+                window.scrollTo({ top: top, behavior: 'smooth' });
+            }
+        });
+    }
 }
 
 function matchCardHTML(m, isUpcoming) {
@@ -590,6 +675,16 @@ function matchCardHTML(m, isUpcoming) {
     const linkAttr = m.url ? `data-url="${esc(m.url)}"` : '';
     const linkIcon = m.url ? '<span class="match-card-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>' : '';
 
+    let scoreHTML = '';
+    if (!isUpcoming && m.score) {
+        const matchId = m.team.slug + '-' + m.timestamp;
+        if (showSpoilers || revealedMatches.has(matchId)) {
+            scoreHTML = `<span class="match-score revealed">${esc(m.score)}</span>`;
+        } else {
+            scoreHTML = `<span class="match-score spoiler" data-match-id="${esc(matchId)}" data-score="${esc(m.score)}">Score: tap to reveal</span>`;
+        }
+    }
+
     return `<div class="match-card" ${linkAttr}>
         <div>
             <div class="match-card-time">${timeStr}</div>
@@ -597,7 +692,7 @@ function matchCardHTML(m, isUpcoming) {
         </div>
         <div>
             <div class="match-card-teams">${teamIcon(m.team)} ${esc(m.team.short_name)} <span class="vs">vs</span> ${opponentIcon(m.opponent)}${esc(m.opponent)}</div>
-            <div class="match-card-tournament">${esc(m.tournament)}</div>
+            <div class="match-card-tournament">${esc(m.tournament)}${scoreHTML ? ' ' + scoreHTML : ''}</div>
         </div>
         <div class="match-card-meta">
             ${badgeHTML}
@@ -700,6 +795,7 @@ function setRegionFilter(region) {
 
 function saveSelection() {
     localStorage.setItem('selectedTeams', JSON.stringify(selectedSlugs));
+    updateHash();
 }
 
 function setReminder(minutes) {
@@ -768,6 +864,119 @@ function opponentIcon(opponentName) {
     }
     // No logo found, return nothing (just show opponent name)
     return '';
+}
+
+// =====================================================================
+// Auto-refresh
+// =====================================================================
+function autoRefresh() {
+    if (document.visibilityState === 'hidden') return;
+    if (selectedSlugs.length === 0) return;
+    lastRefreshTime = Date.now();
+    teamDataCache = {};
+    loadAndRenderMatches();
+    showRefreshToast();
+}
+
+function showRefreshToast() {
+    let toast = document.getElementById('refresh-toast');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'refresh-toast';
+        toast.className = 'refresh-toast';
+        document.body.appendChild(toast);
+    }
+    toast.textContent = 'Match data refreshed';
+    toast.classList.add('visible');
+    setTimeout(function() { toast.classList.remove('visible'); }, 3000);
+}
+
+// =====================================================================
+// Spoiler toggle
+// =====================================================================
+function toggleSpoilers() {
+    showSpoilers = !showSpoilers;
+    localStorage.setItem('showSpoilers', String(showSpoilers));
+    revealedMatches.clear();
+    loadAndRenderMatches();
+    updateSpoilerToggle();
+}
+
+function updateSpoilerToggle() {
+    const btn = document.getElementById('spoiler-toggle');
+    if (btn) {
+        btn.textContent = showSpoilers ? 'Hide scores' : 'Show scores';
+    }
+}
+
+// =====================================================================
+// Browser notifications
+// =====================================================================
+function toggleNotifications() {
+    if (!notificationsEnabled) {
+        if (!('Notification' in window)) {
+            alert('Browser notifications are not supported.');
+            return;
+        }
+        Notification.requestPermission().then(function(perm) {
+            if (perm === 'granted') {
+                notificationsEnabled = true;
+                localStorage.setItem('notificationsEnabled', 'true');
+                updateNotificationUI();
+            }
+        });
+    } else {
+        notificationsEnabled = false;
+        localStorage.setItem('notificationsEnabled', 'false');
+        updateNotificationUI();
+    }
+}
+
+function setNotificationMinutes(minutes) {
+    notificationMinutesBefore = minutes;
+    localStorage.setItem('notificationMinutesBefore', String(minutes));
+}
+
+function updateNotificationUI() {
+    const btn = document.getElementById('notify-toggle-btn');
+    const minutesWrap = document.getElementById('notify-minutes-wrap');
+    if (btn) {
+        btn.textContent = notificationsEnabled ? 'On' : 'Off';
+        btn.classList.toggle('active', notificationsEnabled);
+    }
+    if (minutesWrap) {
+        minutesWrap.style.display = notificationsEnabled ? '' : 'none';
+    }
+}
+
+function checkAndFireNotifications() {
+    if (!notificationsEnabled || Notification.permission !== 'granted') return;
+    if (selectedSlugs.length === 0) return;
+
+    const now = Date.now();
+    const thresholdMs = notificationMinutesBefore * 60 * 1000;
+
+    for (const slug of selectedSlugs) {
+        const data = teamDataCache[slug];
+        if (!data) continue;
+        for (const m of data.matches) {
+            const matchStart = m.timestamp * 1000;
+            const diff = matchStart - now;
+            if (diff > 0 && diff <= thresholdMs) {
+                const matchId = slug + '-' + m.timestamp;
+                if (!notifiedMatches.has(matchId)) {
+                    notifiedMatches.add(matchId);
+                    const d = new Date(matchStart);
+                    const timeStr = d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
+                    new Notification('Match Starting Soon', {
+                        body: data.team.short_name + ' vs ' + m.opponent + ' at ' + timeStr + '\n' + m.tournament,
+                        icon: '/favicon.svg',
+                        tag: matchId,
+                    });
+                }
+            }
+        }
+    }
 }
 
 // =====================================================================
@@ -884,6 +1093,40 @@ document.addEventListener('click', function(e) {
         return;
     }
 
+    // Spoiler score reveal (before match card click)
+    const spoilerScore = e.target.closest('.match-score.spoiler');
+    if (spoilerScore) {
+        e.stopPropagation();
+        const matchId = spoilerScore.dataset.matchId;
+        revealedMatches.add(matchId);
+        spoilerScore.textContent = spoilerScore.dataset.score;
+        spoilerScore.classList.remove('spoiler');
+        spoilerScore.classList.add('revealed');
+        return;
+    }
+
+    // Spoiler toggle button
+    if (e.target.closest('#spoiler-toggle')) {
+        toggleSpoilers();
+        return;
+    }
+
+    // Theme toggle
+    if (e.target.closest('#theme-toggle')) {
+        const html = document.documentElement;
+        const current = html.getAttribute('data-theme');
+        const next = current === 'light' ? 'dark' : 'light';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        return;
+    }
+
+    // Notification toggle
+    if (e.target.closest('#notify-toggle-btn')) {
+        toggleNotifications();
+        return;
+    }
+
     // Match card click → open URL
     const matchCard = e.target.closest('.match-card');
     if (matchCard && matchCard.dataset.url) {
@@ -926,6 +1169,9 @@ document.addEventListener('input', function(e) {
 document.addEventListener('change', function(e) {
     if (e.target.id === 'reminder-select') {
         setReminder(parseInt(e.target.value, 10));
+    }
+    if (e.target.id === 'notify-minutes-select') {
+        setNotificationMinutes(parseInt(e.target.value, 10));
     }
 });
 

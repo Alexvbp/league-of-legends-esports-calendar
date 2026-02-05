@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 import pytest
@@ -66,15 +67,24 @@ class TestScraper:
         past = [m for m in matches if not m.is_upcoming]
         assert len(past) == 2
 
-    def test_past_match_has_no_score(self, matches: list[Match]) -> None:
-        """Past matches must not contain score information (spoiler-free)."""
+    def test_past_match_has_score(self, matches: list[Match]) -> None:
+        """Past matches may include a score when present in the table."""
         past = [m for m in matches if not m.is_upcoming]
         for m in past:
-            # Match object should not have a score field
-            assert not hasattr(m, "score")
+            # Score field exists (may be None if not in fixture)
+            assert hasattr(m, "score")
+            if m.score is not None:
+                # Validate score format: digits separated by : or -
+                assert re.match(r"^\d+\s*[:|\-]\s*\d+$", m.score), f"Bad score format: {m.score}"
             # Opponent and tournament are present
             assert m.opponent
             assert m.tournament
+
+    def test_upcoming_match_has_no_score(self, matches: list[Match]) -> None:
+        """Upcoming matches should have no score."""
+        upcoming = [m for m in matches if m.is_upcoming]
+        for m in upcoming:
+            assert m.score is None
 
     def test_past_match_details(self, matches: list[Match]) -> None:
         past = sorted([m for m in matches if not m.is_upcoming], key=lambda m: m.timestamp)

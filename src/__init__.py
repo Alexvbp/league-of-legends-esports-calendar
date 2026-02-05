@@ -31,3 +31,4 @@ class Match:
     url: str
     team: TeamConfig
     is_upcoming: bool
+    score: str | None = None

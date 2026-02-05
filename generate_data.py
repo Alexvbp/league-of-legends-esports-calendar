@@ -31,13 +31,16 @@ def load_teams(path: str = "teams.json") -> list[TeamConfig]:
 
 def match_to_dict(m: Match) -> dict:
     """Convert a Match to a JSON-serializable dict."""
-    return {
+    d = {
         "timestamp": m.timestamp,
         "opponent": m.opponent,
         "tournament": m.tournament,
         "url": m.url,
         "is_upcoming": m.is_upcoming,
     }
+    if m.score is not None:
+        d["score"] = m.score
+    return d
 
 
 def create_r2_client():

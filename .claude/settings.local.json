@@ -13,7 +13,10 @@
       "Bash(npm install:*)",
       "Bash(npx vitest:*)",
       "Bash(npm run typecheck:*)",
-      "Bash(npm test:*)"
+      "Bash(npm test:*)",
+      "Bash(/home/alexvbp/Documents/Projects/league-of-legends-esports-calendar/.venv/bin/pytest tests/test_scraper.py -v)",
+      "Bash(/home/alexvbp/Documents/Projects/league-of-legends-esports-calendar/.venv/bin/pip install beautifulsoup4 requests icalendar)",
+      "Bash(/home/alexvbp/Documents/Projects/league-of-legends-esports-calendar/.venv/bin/pip install requests icalendar)"
     ]
   }
 }

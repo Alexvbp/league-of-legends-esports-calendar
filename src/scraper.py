@@ -167,7 +167,7 @@ def _find_match_history_table(soup: BeautifulSoup) -> Tag | None:
 
 
 def _parse_results_table(table: Tag, team: TeamConfig) -> list[Match]:
-    """Parse a results wikitable into Match objects (no scores)."""
+    """Parse a results wikitable into Match objects."""
     matches: list[Match] = []
     headers: list[str] = []
 
@@ -179,6 +179,7 @@ def _parse_results_table(table: Tag, team: TeamConfig) -> list[Match]:
     date_idx = _find_col_index(headers, ["date"])
     tournament_idx = _find_col_index(headers, ["tournament", "event"])
     opponent_idx = _find_col_index(headers, ["opponent", "vs", "vs.", "vs. opponent"])
+    score_idx = _find_col_index(headers, ["score", "result"])
 
     rows = table.find_all("tr")[1:]  # Skip header row
     for row in rows:
@@ -214,6 +215,13 @@ def _parse_results_table(table: Tag, team: TeamConfig) -> list[Match]:
             else:
                 opponent = opponent_cell.get_text(strip=True) or "TBD"
 
+        # Extract score
+        score = None
+        if score_idx >= 0 and score_idx < len(cells):
+            score_text = cells[score_idx].get_text(strip=True)
+            if re.match(r"^\d+\s*[:|\-]\s*\d+$", score_text):
+                score = score_text
+
         # Skip if opponent is the tracked team itself
         if team.slug.replace("_", " ").lower() in opponent.lower():
             continue
@@ -225,6 +233,7 @@ def _parse_results_table(table: Tag, team: TeamConfig) -> list[Match]:
             url=tournament_url,
             team=team,
             is_upcoming=False,
+            score=score,
         ))
 
     return matches

@@ -21,6 +21,7 @@ interface TeamData {
     tournament: string;
     url: string;
     is_upcoming: boolean;
+    score?: string;
   }[];
   generated_utc: string;
 }
@@ -48,6 +49,7 @@ const TEAM_A: TeamData = {
       tournament: "LEC 2025 Spring",
       url: "https://liquipedia.net/leagueoflegends/LEC/2025",
       is_upcoming: false,
+      score: "2 : 1",
     },
   ],
   generated_utc: new Date().toISOString(),
@@ -201,6 +203,17 @@ describe("ICS generation", () => {
     const body = await resp.text();
 
     expect(body).toContain("TRANSP:TRANSPARENT");
+  });
+
+  it("includes score in description for completed matches", async () => {
+    const ctx = createMockContext(
+      "https://example.com/api/calendar?teams=Fnatic",
+      { fnatic: TEAM_A }
+    );
+    const resp = await onRequest(ctx);
+    const body = await resp.text();
+
+    expect(body).toContain("Score: 2 : 1");
   });
 });
 

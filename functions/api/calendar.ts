@@ -28,6 +28,7 @@ interface MatchData {
   tournament: string;
   url: string;
   is_upcoming: boolean;
+  score?: string;
 }
 
 interface TeamData {
@@ -233,6 +234,9 @@ function generateVEvent(team: TeamInfo, match: MatchData, reminderMinutes: numbe
     description += icsEscape(`\\n\\nMore info: ${match.url}`);
   }
   if (!match.is_upcoming) {
+    if (match.score) {
+      description += icsEscape(`\\n\\nScore: ${match.score}`);
+    }
     description += icsEscape("\\n\\n(Completed match)");
   }
 
