@@ -1493,6 +1493,7 @@ async function loadAndRenderMatches() {
 
     const allUpcoming = [];
     const allPast = [];
+    const now = Math.floor(Date.now() / 1000); // Current timestamp in seconds
 
     for (const slug of selectedSlugs) {
         let data = teamDataCache[slug];
@@ -1509,8 +1510,14 @@ async function loadAndRenderMatches() {
 
         for (const m of data.matches) {
             const entry = { ...m, team: data.team };
-            if (m.is_upcoming) allUpcoming.push(entry);
-            else allPast.push(entry);
+            // Dynamically determine if match is upcoming or past based on current time
+            // Consider match as past if it ended (timestamp + 2 hours)
+            const matchEndTime = m.timestamp + (2 * 60 * 60); // +2 hours
+            if (now < matchEndTime) {
+                allUpcoming.push(entry);
+            } else {
+                allPast.push(entry);
+            }
         }
     }
 
@@ -1539,28 +1546,52 @@ function renderHero(upcoming) {
     const d = new Date(next.timestamp * 1000);
     const now = Date.now();
     const diff = next.timestamp * 1000 - now;
+    const matchDuration = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
+    const timeSinceStart = now - next.timestamp * 1000;
+    const isLive = timeSinceStart >= 0 && timeSinceStart < matchDuration;
 
     container.innerHTML = `<div class="hero-card">
         <div class="hero-label">Next Match</div>
         <div class="hero-matchup">${teamIcon(next.team)} ${esc(next.team.short_name)} <span style="color:var(--text-muted);font-weight:400">vs</span> ${opponentIcon(next.opponent)}${esc(next.opponent)}</div>
         <div class="hero-tournament">${esc(next.tournament)}</div>
         <div id="hero-countdown-wrap">
-            ${diff > 0 ? renderCountdown(diff) : '<span class="hero-live">LIVE NOW</span>'}
+            ${isLive ? '<span class="hero-live">LIVE NOW</span>' : renderCountdown(Math.max(0, diff))}
         </div>
     </div>`;
 
     // Start countdown
     if (countdownInterval) clearInterval(countdownInterval);
-    if (diff > 0) {
+    if (!isLive) {
         countdownInterval = setInterval(function() {
-            const remaining = next.timestamp * 1000 - Date.now();
+            const currentNow = Date.now();
+            const remaining = next.timestamp * 1000 - currentNow;
+            const currentTimeSinceStart = currentNow - next.timestamp * 1000;
+            const currentIsLive = currentTimeSinceStart >= 0 && currentTimeSinceStart < matchDuration;
+
             const wrap = document.getElementById('hero-countdown-wrap');
             if (!wrap) { clearInterval(countdownInterval); return; }
-            if (remaining <= 0) {
+
+            if (currentIsLive) {
                 wrap.innerHTML = '<span class="hero-live">LIVE NOW</span>';
+                // Keep interval running to update when match ends
+            } else if (remaining <= 0 && currentTimeSinceStart >= matchDuration) {
+                // Match has ended, reload the matches to move it to past section
                 clearInterval(countdownInterval);
+                loadAndRenderMatches();
             } else {
-                wrap.innerHTML = renderCountdown(remaining);
+                wrap.innerHTML = renderCountdown(Math.max(0, remaining));
+            }
+        }, 1000);
+    } else {
+        // Match is currently live, keep checking for when it ends
+        countdownInterval = setInterval(function() {
+            const currentNow = Date.now();
+            const currentTimeSinceStart = currentNow - next.timestamp * 1000;
+
+            if (currentTimeSinceStart >= matchDuration) {
+                // Match has ended, reload the matches to move it to past section
+                clearInterval(countdownInterval);
+                loadAndRenderMatches();
             }
         }, 1000);
     }
@@ -1657,7 +1688,11 @@ function matchCardHTML(m, isUpcoming) {
 
     let badgeHTML = '';
     if (isUpcoming) {
-        if (diff <= 0 && diff > -3600000 * 3) {
+        const matchDuration = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
+        const timeSinceStart = now - m.timestamp * 1000;
+        const isLive = timeSinceStart >= 0 && timeSinceStart < matchDuration;
+
+        if (isLive) {
             badgeHTML = '<span class="match-badge match-badge-live">LIVE</span>';
         } else {
             badgeHTML = '<span class="match-badge match-badge-upcoming">Upcoming</span>';
