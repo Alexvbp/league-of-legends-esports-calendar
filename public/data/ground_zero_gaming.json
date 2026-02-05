@@ -10,13 +10,6 @@
   },
   "matches": [
     {
-      "timestamp": 1769934600,
-      "opponent": "DetonatioN FocusMe",
-      "tournament": "LCP 2026 Split 1 - Week 3",
-      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_3",
-      "is_upcoming": true
-    },
-    {
       "timestamp": 1770366600,
       "opponent": "CTBC Flying Oyster",
       "tournament": "LCP 2026 Split 1 - Week 4",
@@ -29,6 +22,13 @@
       "tournament": "LCP 2026 Split 1 - Week 4",
       "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_4",
       "is_upcoming": true
+    },
+    {
+      "timestamp": 1769934600,
+      "opponent": "DetonatioN FocusMe",
+      "tournament": "LCP 2026 Split 1 - Week 3",
+      "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1/Regular_Season#Week_3",
+      "is_upcoming": false
     },
     {
       "timestamp": 1769761800,
@@ -92,14 +92,7 @@
       "tournament": "PCS 2025 Split 2 - Week 8",
       "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_8",
       "is_upcoming": false
-    },
-    {
-      "timestamp": 1747825200,
-      "opponent": "Frank Esports",
-      "tournament": "PCS 2025 Split 2 - Week 7",
-      "url": "https://liquipedia.net/leagueoflegends/PCS/2025/Split_2/Group_Stage#Week_7",
-      "is_upcoming": false
     }
   ],
-  "generated_utc": "2026-02-05T13:00:30Z"
+  "generated_utc": "2026-02-05T18:45:55Z"
 }
