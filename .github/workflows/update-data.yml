@@ -65,7 +65,7 @@ jobs:
           pip install --no-cache-dir .
 
       # Team discovery runs weekly (Monday 02:30 UTC) or when manually
-      # triggered with refresh_teams=true. The 3-hourly match scrape and
+      # triggered with refresh_teams=true. The 6-hourly match scrape and
       # deploys reuse the existing teams.json.
       - name: Discover teams from leagues
         if: |
@@ -73,22 +73,22 @@ jobs:
           github.event.schedule == '30 2 * * 1'
         run: python scrape_teams.py
 
-      - name: Generate match data
+      - name: Generate match data and upload to R2
         env:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_API_TOKEN: ${{ secrets.PUSHOVER_API_TOKEN }}
-        run: python generate_data.py
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: python generate_data.py --r2
 
-      - name: Copy leagues.json to public
-        run: cp leagues.json public/data/leagues.json
-
-      - name: Commit and push data
+      - name: Commit teams.json if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add --force teams.json public/data/
-          git diff --cached --quiet && echo "No data changes" && exit 0
-          git commit -m "Update match data [skip ci]"
+          git add --force teams.json leagues.json
+          git diff --cached --quiet && echo "No config changes" && exit 0
+          git commit -m "Update team config [skip ci]"
           git push
 
   notify-failure:

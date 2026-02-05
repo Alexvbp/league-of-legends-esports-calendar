@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0b0b14"/>
+  <rect x="40" y="40" width="1120" height="550" rx="24" fill="#12121f" stroke="#1e1e36" stroke-width="2"/>
+  <!-- Calendar icon -->
+  <rect x="460" y="140" width="280" height="260" rx="24" fill="#1a1a2e" stroke="#7dd3fc" stroke-width="3"/>
+  <rect x="460" y="140" width="280" height="70" rx="24" fill="#7dd3fc"/>
+  <rect x="460" y="186" width="280" height="24" fill="#7dd3fc"/>
+  <rect x="510" y="120" width="16" height="40" rx="8" fill="#7dd3fc"/>
+  <rect x="674" y="120" width="16" height="40" rx="8" fill="#7dd3fc"/>
+  <circle cx="520" cy="280" r="14" fill="#7dd3fc"/>
+  <circle cx="600" cy="280" r="14" fill="#7dd3fc" opacity="0.6"/>
+  <circle cx="680" cy="280" r="14" fill="#7dd3fc" opacity="0.3"/>
+  <circle cx="520" cy="340" r="14" fill="#7dd3fc" opacity="0.3"/>
+  <circle cx="600" cy="340" r="14" fill="#7dd3fc" opacity="0.15"/>
+  <!-- Title -->
+  <text x="600" y="490" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#e8e8f0">Esports Calendar</text>
+  <text x="600" y="540" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9898b0">Track LoL matches &amp; subscribe to your calendar</text>
+</svg>

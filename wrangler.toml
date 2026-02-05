@@ -1,3 +1,7 @@
 name = "esports-calendar"
 compatibility_date = "2024-09-23"
 pages_build_output_dir = "public"
+
+[[r2_buckets]]
+binding = "DATA_BUCKET"
+bucket_name = "esports-calendar-data"

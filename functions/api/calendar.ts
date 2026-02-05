@@ -3,12 +3,13 @@
  *
  * GET /api/calendar?teams=Los_Ratones,Fnatic&format=ics|json|rss
  *
- * Reads per-team JSON data from static assets (public/data/{slug}.json)
+ * Reads per-team JSON data from R2 storage (with ASSETS fallback)
  * and merges them into a single ICS, JSON Feed, or Atom RSS response.
  */
 
 interface Env {
   ASSETS: Fetcher;
+  DATA_BUCKET: R2Bucket;
 }
 
 interface TeamInfo {
@@ -53,6 +54,22 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   const format = url.searchParams.get("format") || "ics";
   const tournamentFilter = url.searchParams.get("tournament") || "";
 
+  // Reminder: minutes before match (0 = no reminder, default = 30, max = 1440)
+  const reminderParam = url.searchParams.get("reminder");
+  let reminderMinutes = 30;
+  if (reminderParam !== null) {
+    const parsed = parseInt(reminderParam, 10);
+    if (isNaN(parsed) || parsed < 0 || parsed > 1440) {
+      return corsResponse(
+        new Response(
+          "Invalid 'reminder' parameter. Must be an integer between 0 and 1440.",
+          { status: 400 }
+        )
+      );
+    }
+    reminderMinutes = parsed;
+  }
+
   const slugs = teamsParam
     .split(",")
     .map((s) => s.trim())
@@ -76,14 +93,31 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     }
   }
 
-  // Load team data from static assets
+  // Load team data from R2 (with ASSETS fallback)
   const teamDataList: TeamData[] = [];
   for (const slug of slugs) {
     try {
-      const assetUrl = new URL(`/data/${slug.toLowerCase()}.json`, url.origin);
-      const resp = await context.env.ASSETS.fetch(assetUrl.toString());
-      if (resp.ok) {
-        const data = (await resp.json()) as TeamData;
+      const key = `${slug.toLowerCase()}.json`;
+      let data: TeamData | null = null;
+
+      // Try R2 first
+      if (context.env.DATA_BUCKET) {
+        const object = await context.env.DATA_BUCKET.get(key);
+        if (object) {
+          data = (await object.json()) as TeamData;
+        }
+      }
+
+      // Fall back to ASSETS
+      if (!data) {
+        const assetUrl = new URL(`/data/${key}`, url.origin);
+        const resp = await context.env.ASSETS.fetch(assetUrl.toString());
+        if (resp.ok) {
+          data = (await resp.json()) as TeamData;
+        }
+      }
+
+      if (data) {
         teamDataList.push(data);
       }
     } catch {
@@ -110,7 +144,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   switch (format) {
     case "ics":
       return corsResponse(
-        new Response(generateICS(teamDataList), {
+        new Response(generateICS(teamDataList, reminderMinutes), {
           headers: {
             "Content-Type": "text/calendar; charset=utf-8",
             "Cache-Control": "public, max-age=3600",
@@ -157,7 +191,7 @@ function corsResponse(response: Response): Response {
 
 // --- ICS generation (RFC 5545) ---
 
-function generateICS(teams: TeamData[]): string {
+function generateICS(teams: TeamData[], reminderMinutes: number): string {
   const teamNames = teams.map((t) => t.team.name).join(", ");
   const lines: string[] = [
     "BEGIN:VCALENDAR",
@@ -172,7 +206,7 @@ function generateICS(teams: TeamData[]): string {
   for (const teamData of teams) {
     const { team } = teamData;
     for (const match of teamData.matches) {
-      lines.push(...generateVEvent(team, match));
+      lines.push(...generateVEvent(team, match, reminderMinutes));
     }
   }
 
@@ -180,7 +214,7 @@ function generateICS(teams: TeamData[]): string {
   return lines.join("\r\n") + "\r\n";
 }
 
-function generateVEvent(team: TeamInfo, match: MatchData): string[] {
+function generateVEvent(team: TeamInfo, match: MatchData, reminderMinutes: number): string[] {
   const start = formatICSDate(match.timestamp);
   const end = formatICSDate(match.timestamp + 2 * 60 * 60); // +2 hours
   const opponentSlug = match.opponent
@@ -220,13 +254,13 @@ function generateVEvent(team: TeamInfo, match: MatchData): string[] {
     lines.push("TRANSP:TRANSPARENT");
   }
 
-  // Alarm for upcoming matches only
-  if (match.is_upcoming) {
+  // Alarm for upcoming matches only (when reminder > 0)
+  if (match.is_upcoming && reminderMinutes > 0) {
     lines.push(
       "BEGIN:VALARM",
       "ACTION:DISPLAY",
-      `DESCRIPTION:${icsEscape(`${team.name} vs ${match.opponent} starts in 30 minutes!`)}`,
-      "TRIGGER:-PT30M",
+      `DESCRIPTION:${icsEscape(`${team.name} vs ${match.opponent} starts in ${reminderMinutes} minutes!`)}`,
+      `TRIGGER:-PT${reminderMinutes}M`,
       "END:VALARM"
     );
   }

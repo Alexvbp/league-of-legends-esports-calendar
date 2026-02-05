@@ -53,6 +53,18 @@
       "region": "Japan",
       "game": "leagueoflegends",
       "url": "https://liquipedia.net/leagueoflegends/LJL"
+    },
+    {
+      "name": "LCO",
+      "region": "Oceania",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/LCO"
+    },
+    {
+      "name": "TCL",
+      "region": "Turkey",
+      "game": "leagueoflegends",
+      "url": "https://liquipedia.net/leagueoflegends/TCL"
     }
   ]
 }

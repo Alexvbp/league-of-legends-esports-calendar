@@ -9,7 +9,11 @@
       "Bash(pytest:*)",
       "Bash(python:*)",
       "Bash(source .venv/bin/activate:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(npm install:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm test:*)"
     ]
   }
 }
