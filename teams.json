@@ -9,12 +9,20 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/7/79/All_Knights_2020_allmode.png/600px-All_Knights_2020_allmode.png"
     },
     {
-      "name": "Apex Predator",
-      "slug": "Apex_Predator",
-      "short_name": "APX",
-      "emoji": "🇻🇳",
+      "name": "Antic Esports",
+      "slug": "Antic_Esports",
+      "short_name": "AE",
+      "emoji": "🎮",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/b/b7/Apex_Predator_lol_allmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/5/51/Antic_Esports_2023_full_allmode.png/600px-Antic_Esports_2023_full_allmode.png"
+    },
+    {
+      "name": "BBL Dark Passage",
+      "slug": "BBL_Dark_Passage",
+      "short_name": "BDP",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/9/9b/BBL_Dark_Passage_allmode.png/600px-BBL_Dark_Passage_allmode.png"
     },
     {
       "name": "BRION",
@@ -23,6 +31,30 @@
       "emoji": "🇰🇷",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/8/8c/BRION_2023_full_lightmode.png/600px-BRION_2023_full_lightmode.png"
+    },
+    {
+      "name": "Beşiktaş Esports",
+      "slug": "Be%C5%9Fikta%C5%9F_Esports",
+      "short_name": "BE",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/8/8f/Be%C5%9Fikta%C5%9F_Esports_2019_allmode.png/600px-Be%C5%9Fikta%C5%9F_Esports_2019_allmode.png"
+    },
+    {
+      "name": "Boostgate Esports",
+      "slug": "Boostgate_Esports",
+      "short_name": "BE",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/4/4f/Boostgate_Esports_full_allmode.png/600px-Boostgate_Esports_full_allmode.png"
+    },
+    {
+      "name": "Bushido Wildcats",
+      "slug": "Bushido_Wildcats",
+      "short_name": "BW",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/2/2c/Bushido_Wildcats_allmode.png/600px-Bushido_Wildcats_allmode.png"
     },
     {
       "name": "CAG Osaka",
@@ -65,6 +97,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/f/f7/DRX_2023_full_lightmode.png/600px-DRX_2023_full_lightmode.png"
     },
     {
+      "name": "Dark Passage",
+      "slug": "Dark_Passage",
+      "short_name": "DP",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/7/79/Dark_Passage_2023_full_lightmode.png/600px-Dark_Passage_2023_full_lightmode.png"
+    },
+    {
       "name": "Deep Cross Gaming",
       "slug": "Deep_Cross_Gaming",
       "short_name": "DCG",
@@ -79,6 +119,14 @@
       "emoji": "🇺🇸",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/3/3a/Dignitas_2021_full_lightmode.png/600px-Dignitas_2021_full_lightmode.png"
+    },
+    {
+      "name": "Dire Wolves",
+      "slug": "Dire_Wolves",
+      "short_name": "DW",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/e/ee/Dire_Wolves_2020_full_allmode.png"
     },
     {
       "name": "Disguised",
@@ -119,6 +167,14 @@
       "emoji": "🇧🇷",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/b/bd/FURIA_Esports_full_lightmode.png/600px-FURIA_Esports_full_lightmode.png"
+    },
+    {
+      "name": "FURY Global",
+      "slug": "FURY_Global",
+      "short_name": "FG",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/1/10/FURY_Global_allmode.png/600px-FURY_Global_allmode.png"
     },
     {
       "name": "Fluxo W7M",
@@ -201,6 +257,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/9/9f/Hanwha_Life_Esports_full_lightmode.png/600px-Hanwha_Life_Esports_full_lightmode.png"
     },
     {
+      "name": "ION Global Esports",
+      "slug": "ION_Global_Esports",
+      "short_name": "IGE",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/7/7c/ION_Global_Esports_allmode.png/600px-ION_Global_Esports_allmode.png"
+    },
+    {
       "name": "Inferno Drive Tokyo",
       "slug": "Inferno_Drive_Tokyo",
       "short_name": "IDT",
@@ -233,6 +297,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/8/81/Kt_Rolster_2026_full_lightmode.png/600px-Kt_Rolster_2026_full_lightmode.png"
     },
     {
+      "name": "Kanga Esports",
+      "slug": "Kanga_Esports",
+      "short_name": "KE",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/9/99/Kanga_Esports_2021_full_lightmode.png/600px-Kanga_Esports_2021_full_lightmode.png"
+    },
+    {
       "name": "Karmine Corp",
       "slug": "Karmine_Corp",
       "short_name": "KC",
@@ -263,6 +335,14 @@
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/0/03/L_Guide_Gaming_Allmode.png"
+    },
+    {
+      "name": "LGD Gaming",
+      "slug": "LGD_Gaming",
+      "short_name": "LGD",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/2/2f/LGD_Gaming_Dec_2019_allmode.png/600px-LGD_Gaming_Dec_2019_allmode.png"
     },
     {
       "name": "LOS",
@@ -305,12 +385,20 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/d/d0/Los_Ratones_lightmode.png/600px-Los_Ratones_lightmode.png"
     },
     {
-      "name": "Mila Gaming",
-      "slug": "Mila_Gaming",
-      "short_name": "MIL",
-      "emoji": "🇻🇳",
+      "name": "MAMMOTH Esports Club",
+      "slug": "MAMMOTH_Esports_Club",
+      "short_name": "MEC",
+      "emoji": "🎮",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/e/e1/Mila_Gaming_allmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/9/9c/Mammoth_Esports_Club_full_allmode.png/600px-Mammoth_Esports_Club_full_allmode.png"
+    },
+    {
+      "name": "Misa Esports",
+      "slug": "Misa_Esports",
+      "short_name": "ME",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/3/32/Misa_Esports_2023_full_allmode.png/600px-Misa_Esports_2023_full_allmode.png"
     },
     {
       "name": "Movistar KOI",
@@ -321,6 +409,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/6/6c/Movistar_KOI_2025_allmode.png/600px-Movistar_KOI_2025_allmode.png"
     },
     {
+      "name": "NOVEX",
+      "slug": "NOVEX",
+      "short_name": "NOV",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/1/18/NOVEX_lightmode.png"
+    },
+    {
       "name": "Natus Vincere",
       "slug": "Natus_Vincere",
       "short_name": "NAVI",
@@ -329,12 +425,28 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/3/3f/Natus_Vincere_2021_lightmode.png/600px-Natus_Vincere_2021_lightmode.png"
     },
     {
+      "name": "New Meta",
+      "slug": "New_Meta",
+      "short_name": "NM",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/f/f8/New_Meta_Allmode.png"
+    },
+    {
       "name": "Nongshim RedForce",
       "slug": "Nongshim_RedForce",
       "short_name": "NS",
       "emoji": "🇰🇷",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/d/d8/NS_Redforce_allmode.png/600px-NS_Redforce_allmode.png"
+    },
+    {
+      "name": "PCIFIC Esports",
+      "slug": "PCIFIC_Esports",
+      "short_name": "PE",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/f/f2/PCIFIC_Esports_allmode.png/600px-PCIFIC_Esports_allmode.png"
     },
     {
       "name": "PSG Talon Academy",
@@ -353,6 +465,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/PaiN_Gaming_2017_lightmode.png/600px-PaiN_Gaming_2017_lightmode.png"
     },
     {
+      "name": "Papara SuperMassive",
+      "slug": "Papara_SuperMassive",
+      "short_name": "PS",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/f/f3/Papara_SuperMassive_Aug_2023_full_lightmode.png/600px-Papara_SuperMassive_Aug_2023_full_lightmode.png"
+    },
+    {
       "name": "RED Canids",
       "slug": "RED_Canids",
       "short_name": "RED",
@@ -369,6 +489,14 @@
       "logo_url": "https://liquipedia.net/commons/images/e/e2/Rising_Gaming_allmode.png"
     },
     {
+      "name": "S2G Esports",
+      "slug": "S2G_Esports",
+      "short_name": "SE",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/f/f6/S2G_Esports_allmode.png"
+    },
+    {
       "name": "SK Gaming",
       "slug": "SK_Gaming",
       "short_name": "SK",
@@ -383,6 +511,14 @@
       "emoji": "🇰🇷",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/0/0e/DN_SOOPers_full_allmode.png/600px-DN_SOOPers_full_allmode.png"
+    },
+    {
+      "name": "SU Esports",
+      "slug": "SU_Esports",
+      "short_name": "SE",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/c/c0/SU_Esports_allmode.png/600px-SU_Esports_allmode.png"
     },
     {
       "name": "Sentinels",
@@ -417,6 +553,14 @@
       "logo_url": "https://liquipedia.net/commons/images/8/84/Six_Karma_2024_lightmode.png"
     },
     {
+      "name": "Team Bliss",
+      "slug": "Team_Bliss",
+      "short_name": "TB",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/6/6a/Team_Bliss_allmode.png/600px-Team_Bliss_allmode.png"
+    },
+    {
       "name": "Team Heretics",
       "slug": "Team_Heretics",
       "short_name": "TH",
@@ -433,6 +577,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/f/f5/Team_Liquid_2024_full_lightmode.png/600px-Team_Liquid_2024_full_lightmode.png"
     },
     {
+      "name": "Team Phoenix (Turkish team)",
+      "slug": "Team_Phoenix_(Turkish_team)",
+      "short_name": "TP(",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/7/7b/Valorant_Team_phoenix_allmode.png"
+    },
+    {
       "name": "Team Vitality",
       "slug": "Team_Vitality",
       "short_name": "VIT",
@@ -441,12 +593,28 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/e/e4/Team_Vitality_2023_lightmode.png/600px-Team_Vitality_2023_lightmode.png"
     },
     {
+      "name": "ULF Esports",
+      "slug": "ULF_Esports",
+      "short_name": "UE",
+      "emoji": "🎮",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/4/45/ULF_Esports_lightmode.png/600px-ULF_Esports_lightmode.png"
+    },
+    {
       "name": "Ultra Prime",
       "slug": "Ultra_Prime",
       "short_name": "UP",
       "emoji": "🇨🇳",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/4/40/Ultra_Prime_full_allmode.png/600px-Ultra_Prime_full_allmode.png"
+    },
+    {
+      "name": "Uwinks",
+      "slug": "Uwinks",
+      "short_name": "UWI",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/8/82/Uwinks_icon_allmode.png/600px-Uwinks_icon_allmode.png"
     },
     {
       "name": "V3 Esports",
