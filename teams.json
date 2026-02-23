@@ -86,7 +86,7 @@
       "short_name": "CLK",
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/0/0c/Clocks_LoL_lightmode.png/600px-Clocks_LoL_lightmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/e/ed/Clocks_allmode.png/600px-Clocks_allmode.png"
     },
     {
       "name": "Cloud9",
@@ -191,6 +191,14 @@
       "emoji": "🎮",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/1/10/FURY_Global_allmode.png/600px-FURY_Global_allmode.png"
+    },
+    {
+      "name": "Fast8",
+      "slug": "Fast8",
+      "short_name": "FAS",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/6/69/Fast8_allmode.png/600px-Fast8_allmode.png"
     },
     {
       "name": "Fluxo W7M",
@@ -305,12 +313,12 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/c/ce/Invictus_Gaming_full_lightmode.png/600px-Invictus_Gaming_full_lightmode.png"
     },
     {
-      "name": "Isurus Gaming",
-      "slug": "Isurus_Gaming",
-      "short_name": "ISU",
+      "name": "Isurus",
+      "slug": "Isurus",
+      "short_name": "ISG",
       "emoji": "🌎",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/0/0d/Isurus_Gaming_allmode.png/600px-Isurus_Gaming_allmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/0/09/Isurus_2025_allmode.png/600px-Isurus_2025_allmode.png"
     },
     {
       "name": "JD Gaming",
@@ -454,7 +462,7 @@
       "short_name": "NOV",
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/1/18/NOVEX_lightmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/1/18/NOVEX_lightmode.png/600px-NOVEX_lightmode.png"
     },
     {
       "name": "Natus Vincere",
@@ -470,7 +478,7 @@
       "short_name": "NM",
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/f/f8/New_Meta_Allmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/f/f8/New_Meta_Allmode.png/600px-New_Meta_Allmode.png"
     },
     {
       "name": "Ninjas in Pyjamas",
@@ -542,7 +550,7 @@
       "short_name": "RG",
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/e/e2/Rising_Gaming_allmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/e/e2/Rising_Gaming_allmode.png/600px-Rising_Gaming_allmode.png"
     },
     {
       "name": "S2G Esports",
