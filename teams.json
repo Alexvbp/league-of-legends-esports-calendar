@@ -86,7 +86,7 @@
       "short_name": "CLK",
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/e/ed/Clocks_allmode.png/600px-Clocks_allmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/e/ed/Clocks_allmode.png"
     },
     {
       "name": "Cloud9",
@@ -198,7 +198,7 @@
       "short_name": "FAS",
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/6/69/Fast8_allmode.png/600px-Fast8_allmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/d/d5/Fast8_full_lightmode.png/600px-Fast8_full_lightmode.png"
     },
     {
       "name": "Fluxo W7M",
@@ -294,7 +294,7 @@
       "short_name": "IDT",
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/d/de/Inferno_Drive_Tokyo_lightmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/d/de/Inferno_Drive_Tokyo_lightmode.png/600px-Inferno_Drive_Tokyo_lightmode.png"
     },
     {
       "name": "Infinity",
@@ -462,7 +462,7 @@
       "short_name": "NOV",
       "emoji": "🇯🇵",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/1/18/NOVEX_lightmode.png/600px-NOVEX_lightmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/1/18/NOVEX_lightmode.png"
     },
     {
       "name": "Natus Vincere",
