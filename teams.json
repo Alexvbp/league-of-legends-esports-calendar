@@ -681,6 +681,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/2/2e/Top_Esports_full_allmode.png/600px-Top_Esports_full_allmode.png"
     },
     {
+      "name": "Top Esports Challenger",
+      "slug": "Top_Esports_Challenger",
+      "short_name": "TEC",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/e/e0/Top_Esports_allmode.png/600px-Top_Esports_allmode.png"
+    },
+    {
       "name": "ULF Esports",
       "slug": "ULF_Esports",
       "short_name": "UE",
