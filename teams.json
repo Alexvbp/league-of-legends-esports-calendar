@@ -17,6 +17,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/5/51/Antic_Esports_2023_full_allmode.png/600px-Antic_Esports_2023_full_allmode.png"
     },
     {
+      "name": "Arneb",
+      "slug": "Arneb",
+      "short_name": "ARN",
+      "emoji": "🇯🇵",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/1/1a/Arneb_2024_lightmode.png/600px-Arneb_2024_lightmode.png"
+    },
+    {
       "name": "BBL Dark Passage",
       "slug": "BBL_Dark_Passage",
       "short_name": "BDP",
@@ -47,6 +55,14 @@
       "emoji": "🇨🇳",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/7/74/Bilibili_Gaming_2021_full_allmode.png/600px-Bilibili_Gaming_2021_full_allmode.png"
+    },
+    {
+      "name": "Bilibili Gaming Junior",
+      "slug": "Bilibili_Gaming_Junior",
+      "short_name": "BGJ",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/a/a2/Bilibili_Gaming_Junior_2022_allmode.png"
     },
     {
       "name": "Boostgate Esports",
