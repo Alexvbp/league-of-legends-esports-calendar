@@ -129,14 +129,6 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/7/79/Dark_Passage_2023_full_lightmode.png/600px-Dark_Passage_2023_full_lightmode.png"
     },
     {
-      "name": "Deep Cross Gaming",
-      "slug": "Deep_Cross_Gaming",
-      "short_name": "DCG",
-      "emoji": "🌏",
-      "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/4/4a/Deep_Cross_Gaming_full_lightmode.png/600px-Deep_Cross_Gaming_full_lightmode.png"
-    },
-    {
       "name": "Dignitas",
       "slug": "Dignitas",
       "short_name": "DIG",
@@ -281,12 +273,12 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/1/1c/Ground_Zero_Gaming_2019_allmode.png/600px-Ground_Zero_Gaming_2019_allmode.png"
     },
     {
-      "name": "HELL PIGS",
-      "slug": "HELL_PIGS",
-      "short_name": "HP",
+      "name": "Ground Zero Gaming Academy",
+      "slug": "Ground_Zero_Gaming_Academy",
+      "short_name": "GZG",
       "emoji": "🌏",
       "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/a/ab/HELL_PIGS_full_lightmode.png"
+      "logo_url": "https://liquipedia.net/commons/images/thumb/1/1c/Ground_Zero_Gaming_2019_allmode.png/600px-Ground_Zero_Gaming_2019_allmode.png"
     },
     {
       "name": "Hanwha Life Esports",
@@ -529,14 +521,6 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/f/f2/PCIFIC_Esports_allmode.png/600px-PCIFIC_Esports_allmode.png"
     },
     {
-      "name": "PSG Talon Academy",
-      "slug": "PSG_Talon_Academy",
-      "short_name": "PTA",
-      "emoji": "🌏",
-      "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/d/dd/PSG_Talon_2025_full_allmode.png/600px-PSG_Talon_2025_full_allmode.png"
-    },
-    {
       "name": "PaiN Gaming",
       "slug": "PaiN_Gaming",
       "short_name": "PNG",
@@ -751,14 +735,6 @@
       "emoji": "🇨🇳",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/4/48/Weibo_Gaming_full_lightmode.png/600px-Weibo_Gaming_full_lightmode.png"
-    },
-    {
-      "name": "West Point Esports",
-      "slug": "West_Point_Esports",
-      "short_name": "WPE",
-      "emoji": "🌏",
-      "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/9/9f/West_Point_Esports_allmode.png"
     }
   ]
 }
