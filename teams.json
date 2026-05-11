@@ -1,6 +1,14 @@
 {
   "teams": [
     {
+      "name": "9Gaming",
+      "slug": "9Gaming",
+      "short_name": "9GA",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/f/f7/9Gaming_Icon_allmode.png"
+    },
+    {
       "name": "All Knights",
       "slug": "All_Knights",
       "short_name": "AK",
@@ -111,6 +119,14 @@
       "emoji": "🇺🇸",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/a/a2/Cloud9_2023_full_allmode.png/600px-Cloud9_2023_full_allmode.png"
+    },
+    {
+      "name": "CyberCore Esports",
+      "slug": "CyberCore_Esports",
+      "short_name": "CCE",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/1/17/CyberCore_Esports_allmode.png"
     },
     {
       "name": "DRX",
@@ -449,6 +465,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/9/9c/Mammoth_Esports_Club_full_allmode.png/600px-Mammoth_Esports_Club_full_allmode.png"
     },
     {
+      "name": "MVK Academy",
+      "slug": "MVK_Academy",
+      "short_name": "MA",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/a/ad/MVK_Esports_allmode.png/600px-MVK_Esports_allmode.png"
+    },
+    {
       "name": "Misa Esports",
       "slug": "Misa_Esports",
       "short_name": "ME",
@@ -585,6 +609,22 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/c/c0/SU_Esports_allmode.png/600px-SU_Esports_allmode.png"
     },
     {
+      "name": "Saigon Dino",
+      "slug": "Saigon_Dino",
+      "short_name": "SGD",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/9/9a/Saigon_Dino_allmode.png/600px-Saigon_Dino_allmode.png"
+    },
+    {
+      "name": "Saigon Warriors",
+      "slug": "Saigon_Warriors",
+      "short_name": "SW",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/a/a2/Saigon_Warriors_lightmode.png"
+    },
+    {
       "name": "Sentinels",
       "slug": "Sentinels",
       "short_name": "SEN",
@@ -607,6 +647,14 @@
       "emoji": "🇺🇸",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/7/72/Shopify_Rebellion_text_2023_lightmode.png/600px-Shopify_Rebellion_text_2023_lightmode.png"
+    },
+    {
+      "name": "SillySilly Gaming",
+      "slug": "SillySilly_Gaming",
+      "short_name": "SG",
+      "emoji": "🌏",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/3/37/SillySilly_Gaming_allmode.png"
     },
     {
       "name": "Six Karma",
