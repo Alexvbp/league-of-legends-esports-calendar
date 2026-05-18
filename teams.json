@@ -417,6 +417,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/8/80/LNG_Esports_2024_allmode.png/600px-LNG_Esports_2024_allmode.png"
     },
     {
+      "name": "LNG Esports Academy",
+      "slug": "LNG_Esports_Academy",
+      "short_name": "LEA",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/2/29/LNG_Academy_allmode.png"
+    },
+    {
       "name": "LOS",
       "slug": "LOS",
       "short_name": "LOS",
