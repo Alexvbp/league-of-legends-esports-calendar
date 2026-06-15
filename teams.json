@@ -121,14 +121,6 @@
       "logo_url": "https://liquipedia.net/commons/images/1/17/CyberCore_Esports_allmode.png"
     },
     {
-      "name": "DRX",
-      "slug": "DRX",
-      "short_name": "DRX",
-      "emoji": "🇰🇷",
-      "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/a/a5/DRX_2026_full_lightmode.png/600px-DRX_2026_full_lightmode.png"
-    },
-    {
       "name": "Dark Passage",
       "slug": "Dark_Passage",
       "short_name": "DP",
@@ -183,14 +175,6 @@
       "emoji": "🌎",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/3/38/Estral_Esports_2020_allmode_full.png/600px-Estral_Esports_2020_allmode_full.png"
-    },
-    {
-      "name": "FEARX",
-      "slug": "FEARX",
-      "short_name": "FOX",
-      "emoji": "🇰🇷",
-      "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/a/a8/FEARX_2025_full_allmode.png"
     },
     {
       "name": "FURIA",
@@ -513,14 +497,6 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/4/42/Ninjas_in_Pyjamas_2021_full_lightmode.png/600px-Ninjas_in_Pyjamas_2021_full_lightmode.png"
     },
     {
-      "name": "Nongshim RedForce",
-      "slug": "Nongshim_RedForce",
-      "short_name": "NS",
-      "emoji": "🇰🇷",
-      "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/d/d8/NS_Redforce_allmode.png/600px-NS_Redforce_allmode.png"
-    },
-    {
       "name": "PCIFIC Esports",
       "slug": "PCIFIC_Esports",
       "short_name": "PE",
@@ -575,14 +551,6 @@
       "emoji": "🇪🇺",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/1/16/SK_Gaming_2022_full_lightmode.png/600px-SK_Gaming_2022_full_lightmode.png"
-    },
-    {
-      "name": "SOOPers",
-      "slug": "SOOPers",
-      "short_name": "SP",
-      "emoji": "🇰🇷",
-      "game": "leagueoflegends",
-      "logo_url": "https://liquipedia.net/commons/images/thumb/0/0e/DN_SOOPers_full_allmode.png/600px-DN_SOOPers_full_allmode.png"
     },
     {
       "name": "SU Esports",
