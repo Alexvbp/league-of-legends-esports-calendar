@@ -719,6 +719,14 @@
       "emoji": "🇨🇳",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/4/48/Weibo_Gaming_full_lightmode.png/600px-Weibo_Gaming_full_lightmode.png"
+    },
+    {
+      "name": "ZEN Esport",
+      "slug": "ZEN_Esport",
+      "short_name": "ZE",
+      "emoji": "🇻🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/5/59/Saigon_ZEN_Esport_allmode.png/600px-Saigon_ZEN_Esport_allmode.png"
     }
   ]
 }
