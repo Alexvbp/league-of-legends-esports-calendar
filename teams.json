@@ -65,6 +65,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/7/74/Bilibili_Gaming_2021_full_allmode.png/600px-Bilibili_Gaming_2021_full_allmode.png"
     },
     {
+      "name": "Bilibili Gaming Junior",
+      "slug": "Bilibili_Gaming_Junior",
+      "short_name": "BGJ",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/a/a2/Bilibili_Gaming_Junior_2022_allmode.png"
+    },
+    {
       "name": "Boostgate Esports",
       "slug": "Boostgate_Esports",
       "short_name": "BE",
@@ -497,6 +505,14 @@
       "logo_url": "https://liquipedia.net/commons/images/thumb/4/42/Ninjas_in_Pyjamas_2021_full_lightmode.png/600px-Ninjas_in_Pyjamas_2021_full_lightmode.png"
     },
     {
+      "name": "Oh My God",
+      "slug": "Oh_My_God",
+      "short_name": "OMG",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/b/bb/Oh_My_God_2022_full_allmode.png/600px-Oh_My_God_2022_full_allmode.png"
+    },
+    {
       "name": "PCIFIC Esports",
       "slug": "PCIFIC_Esports",
       "short_name": "PE",
@@ -687,6 +703,14 @@
       "emoji": "🎮",
       "game": "leagueoflegends",
       "logo_url": "https://liquipedia.net/commons/images/thumb/4/45/ULF_Esports_lightmode.png/600px-ULF_Esports_lightmode.png"
+    },
+    {
+      "name": "Ultra Prime",
+      "slug": "Ultra_Prime",
+      "short_name": "UP",
+      "emoji": "🇨🇳",
+      "game": "leagueoflegends",
+      "logo_url": "https://liquipedia.net/commons/images/thumb/4/40/Ultra_Prime_full_allmode.png/600px-Ultra_Prime_full_allmode.png"
     },
     {
       "name": "Uwinks",
